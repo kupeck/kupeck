@@ -9,5 +9,5 @@ if (i % 4 == 0) {isit += 1;}
 if (i % 5 == 0) {isit += 1;}
 if (i % 6 == 0) {isit += 1;}
 if (i % 7 == 0) {isit += 1;}
-if (isit == 6) {console.log("Number: " + i + " Score: " + isit + "MATCH!!")} else {console.log("Number: " + i + " Score: " + isit + "Not a match")}
+if (isit == 6) {console.log("Number: " + i + " Score: " + isit + " MATCH!!")} else {console.log("Number: " + i + " Score: " + isit + " Not a match")}
 }
