@@ -3,11 +3,11 @@ var i = 0;
 while (isit < 6) {
 isit = 0;
 i += 1;
-if (i % 18 == 0) {isit += 1;}
-if (i % 155 == 0) {isit += 1;}
-if (i % 25 == 0) {isit += 1;}
-if (i % 412 == 0) {isit += 1;}
-if (i % 117 == 0) {isit += 1;}
-if (i % 183 == 0) {isit += 1;}
+if (i % 2 == 0) {isit += 1;}
+if (i % 3 == 0) {isit += 1;}
+if (i % 4 == 0) {isit += 1;}
+if (i % 5 == 0) {isit += 1;}
+if (i % 6 == 0) {isit += 1;}
+if (i % 7 == 0) {isit += 1;}
 if (isit == 6) {console.log("Number: " + i + " Score: " + isit + "MATCH!!")} else {console.log("Number: " + i + " Score: " + isit + "Not a match")}
 }
