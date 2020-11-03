@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+table {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    table-layout: fixed;
+    width: 1000px;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+td {
+    text-align: center;
+}
+button {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    padding: 5px 5px;
+}
+button:active {
+    color: rgba(255,255,2555,1);
+    border-color: rgba(0,0,0,1);
+    background-color: rgba(255,255,255,1);
+}
+.blu {
+    background-color: #C9DAF8;
+}
+.VzVo {
+    background-color: #0f0;
+}
+.TH {
+    background-color: #ff0;
+}
+.PZ {
+    color: #f00;
+}
