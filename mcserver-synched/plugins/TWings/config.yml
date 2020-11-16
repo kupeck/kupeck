@@ -1,0 +1,12 @@
+Prefix: '#4169E1TWings'
+Menu:
+  Title: '%prefix% #800000M E N U'
+  ChooseMSG: '%prefix% #800000you have equipped %WingName%!'
+  RemoveMSG: '%prefix% #800000you have unequipped %WingName%!'
+  Symbol: â�¹
+  pageName: '#4169E1Page'
+  pageNumber: '&a&l%page%'
+  creator: '&c&lCreator:&f %creator%'
+  Size: 54
+ShowWithPerms: false
+UpdateRateTicks: 3
