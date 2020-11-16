@@ -1,0 +1,47 @@
+20-11-16 21:22:19 [INFO] Logger started.
+20-11-16 21:22:19 [INFO] Logging system initialized.
+20-11-16 21:22:19 [INFO] Detected Minecraft version: 1.16.4
+20-11-16 21:22:23 [WARNING] The Minecraft version seems to be more recent than the one Compat-CB-Reflect has been built with - this might work, but there could be incompatibilities.
+20-11-16 21:22:23 [INFO] McAccess set to: 1.4.5-1.12.2|? / CB-Reflect
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.5 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.8 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.9 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.10 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.11 blocks.
+20-11-16 21:22:23 [INFO] Added block-info for Minecraft 1.12 blocks.
+20-11-16 21:22:24 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+20-11-16 21:22:24 [INFO] Packet level access: ProtocolLib is not available.
+20-11-16 21:22:24 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+20-11-16 21:22:24 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+20-11-16 21:22:31 [INFO] Post-enable running...
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.cbreflect.MCAccessCBReflect
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.cbreflect.BlockCacheCBReflect
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook: fr.neatmonster.nocheatplus.compat.cbreflect.reflect.ReflectEntityLastPositionAndLook
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+20-11-16 21:22:31 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+20-11-16 21:22:31 [INFO] Added hook: AllViolations(NCP) [1.0].
+20-11-16 21:22:31 [INFO] Post-enable finished.
+20-11-16 21:22:31 [INFO] ---- Version information ----
+#### Server ####
+git-Paper-267 ~MC: 1.16.4~
+  detected: 1.16.4
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.5-1.12.2|? / CB-Reflect
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+20-11-16 21:24:37 [INFO] Removed hook: AllViolations(NCP) [1.0].
+20-11-16 21:24:37 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 0 | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 923 (923/0) |
+20-11-16 21:24:37 [INFO] [GenericInstanceRegistry] Registry cleared.
