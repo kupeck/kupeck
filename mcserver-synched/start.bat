@@ -69,7 +69,7 @@ goto :start
 :start
 cls
 echo +-------------------------------------------+
-java -Xmx6144M -Xms3072M -jar "%_jarname%".jar -nogui
+java -Xmx"%_Xmx%"M -Xms"%_Xms%"M -jar "%_jarname%".jar -nogui
 echo +-------------------------------------------+
 timeout /T 120
 :vyber
