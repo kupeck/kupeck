@@ -76,6 +76,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
     should-remove-dragon: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
