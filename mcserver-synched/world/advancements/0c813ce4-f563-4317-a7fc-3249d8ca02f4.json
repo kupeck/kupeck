@@ -447,7 +447,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle": "2020-10-29 23:30:22 +0100",
-      "minecraft:jungle_hills": "2020-10-29 23:27:50 +0100"
+      "minecraft:jungle_hills": "2020-10-29 23:27:50 +0100",
+      "minecraft:river": "2020-11-17 23:29:08 +0100",
+      "minecraft:snowy_taiga": "2020-11-17 23:29:10 +0100",
+      "minecraft:plains": "2020-11-17 23:13:54 +0100"
     },
     "done": false
   },
@@ -466,6 +469,18 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2020-11-10 13:40:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2020-11-17 23:22:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2020-11-17 23:22:47 +0100"
     },
     "done": true
   },
@@ -658,6 +673,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2020-11-17 18:22:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2020-11-17 23:22:47 +0100"
     },
     "done": true
   },

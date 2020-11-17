@@ -1,0 +1,11 @@
+portals:
+  Survival:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: kupec
+    location: 134.0,64.0,85.0:138.0,67.0,85.0
+    world: world
+    destination: survival
