@@ -82,7 +82,7 @@ timeout /T 120
 cls
 echo +-------------------------------------------+
 echo I                                           I
-echo I   1 = Close window                        I
+echo I   1 = End program                         I
 echo I   2 = Start the server again              I
 echo I   3 = New setup                           I
 echo I                                           I
@@ -104,7 +104,7 @@ echo I   your computer                           I
 echo I                                           I
 echo +-------------------------------------------+
 timeout /T 10
-exit
+goto :exit
 
 :restart
 cls
@@ -135,3 +135,5 @@ echo I                                           I
 echo +-------------------------------------------+
 timeout /T 1
 goto :start
+
+:exit
