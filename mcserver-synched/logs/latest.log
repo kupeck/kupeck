@@ -1,266 +1,434 @@
-[00:12:08] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[00:12:08] [Worker-Main-3/INFO]: Loaded 7 recipes
-[00:12:10] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[00:12:10] [Server thread/INFO]: Loading properties
-[00:12:10] [Server thread/INFO]: This server is running Paper version git-Paper-282 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[00:12:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:12:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:12:10] [Server thread/INFO]: Debug logging is disabled
-[00:12:10] [Server thread/INFO]: Default game type: SURVIVAL
-[00:12:10] [Server thread/INFO]: Generating keypair
-[00:12:10] [Server thread/INFO]: Starting Minecraft server on *:33247
-[00:12:10] [Server thread/INFO]: Using default channel type
-[00:12:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
-[00:12:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4f63fac1]
-[00:12:15] [Server thread/INFO]: [TWings] Loading TWings v1.5.0
-[00:12:15] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
-[00:12:15] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, injecting!
-[00:12:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[00:12:15] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[00:12:15] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[00:12:15] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[00:12:15] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.3-SNAPSHOT
-[00:12:15] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
-[00:12:15] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
-[00:12:15] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.2
-[00:12:15] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
-[00:12:15] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
-[00:12:15] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
-[00:12:15] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
-[00:12:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:12:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
-[00:12:15] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[00:12:15] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[00:12:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:12:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:12:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[00:12:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
-[00:12:17] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:12:17] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:12:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
-[00:12:17] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
-[00:12:17] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
-[00:12:17] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
-[00:12:17] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
-[00:12:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
-[00:12:17] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.2
-[00:12:17] [Server thread/INFO]: Preparing level "world"
-[00:12:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[00:12:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:12:17] [Server thread/INFO]: View Distance: 10
-[00:12:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:12:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:12:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:12:17] [Server thread/INFO]: Mob Spawn Range: 8
-[00:12:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:12:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:12:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:12:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:12:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:12:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:12:17] [Server thread/INFO]: Max TNT Explosions: 100
-[00:12:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:12:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:12:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:12:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:12:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[00:12:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:12:18] [Server thread/INFO]: View Distance: 10
-[00:12:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:12:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:12:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:12:18] [Server thread/INFO]: Mob Spawn Range: 8
-[00:12:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:12:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:12:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:12:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:12:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:12:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Max TNT Explosions: 100
-[00:12:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:12:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:12:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:12:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[00:12:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:12:18] [Server thread/INFO]: View Distance: 10
-[00:12:18] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:12:18] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:12:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:12:18] [Server thread/INFO]: Mob Spawn Range: 8
-[00:12:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:12:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:12:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:12:18] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:12:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:12:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:12:18] [Server thread/INFO]: Max TNT Explosions: 100
-[00:12:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:12:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:12:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:12:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:12:18] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[00:12:18] [Server thread/INFO]: Preparing spawn area: 0%
-[00:12:18] [Server thread/INFO]: Time elapsed: 458 ms
-[00:12:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:12:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[00:12:19] [Server thread/INFO]: Preparing spawn area: 0%
-[00:12:19] [Server thread/INFO]: Time elapsed: 211 ms
-[00:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:12:19] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[00:12:19] [Server thread/INFO]: Time elapsed: 51 ms
-[00:12:19] [Server thread/INFO]: [TWings] Enabling TWings v1.5.0
-[00:12:19] [Server thread/INFO]: Getting content for URl : https://www.spigotmc.org/resources/82088/
-[00:12:22] [Server thread/INFO]: [PixelStrace's Twings] Plugin is uptodate!
-[00:12:22] [Server thread/INFO]: [PixelStrace's Twings] Thanks for downloading and using my plugin!
-[00:12:22] [Server thread/INFO]: [PixelStrace's Twings] Enabled!
-[00:12:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
-[00:12:22] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.3-SNAPSHOT
-[00:12:22] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[00:12:22] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[00:12:22] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
-[00:12:22] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[00:12:22] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[00:12:22] [Server thread/INFO]: -------- World Settings For [survival] --------
-[00:12:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:12:22] [Server thread/INFO]: View Distance: 10
-[00:12:22] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:12:22] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:12:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:12:22] [Server thread/INFO]: Mob Spawn Range: 8
-[00:12:22] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:12:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:12:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:12:22] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:12:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[00:12:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:12:22] [Server thread/INFO]: Max TNT Explosions: 100
-[00:12:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:12:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:12:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:12:22] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
-[00:12:22] [Server thread/INFO]: Loaded 0 spawn chunks for world survival
-[00:12:22] [Server thread/INFO]: Preparing spawn area: 0%
-[00:12:22] [Server thread/INFO]: Time elapsed: 215 ms
-[00:12:22] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[00:12:23] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[00:12:23] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
-[00:12:23] [Server thread/INFO]: [Multiverse-Portals] 1 - Portals(s) loaded
-[00:12:23] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[00:12:23] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
-[00:12:23] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
-[00:12:23] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
-[00:12:23] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
-[00:12:23] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
-[00:12:23] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
-[00:12:23] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
-[00:12:23] [Server thread/INFO]: Starting GS4 status listener
-[00:12:23] [Server thread/INFO]: Thread Query Listener started
-[00:12:23] [Query Listener #1/INFO]: Query running on 0.0.0.0:33247
-[00:12:23] [Server thread/INFO]: Running delayed init tasks
-[00:12:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
-[00:12:23] [Server thread/INFO]: [ViaVersion] Shutting down mapping loader executor!
-[00:12:23] [Server thread/INFO]: Done (13.898s)! For help, type "help"
-[00:12:23] [Server thread/INFO]: Timings Reset
-[00:26:36] [User Authenticator #1/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
-[00:26:36] [Server thread/INFO]: kupec joined the game
-[00:26:36] [Server thread/INFO]: kupec[/26.102.57.185:52684] logged in with entity id 328 at ([world]132.25128185447804, 64.0, 89.43253805293081)
-[00:26:38] [Server thread/INFO]: kupec lost connection: Disconnected
-[00:26:38] [Server thread/INFO]: kupec left the game
-[00:46:13] [Server thread/INFO]: [Server] server is closing
-[00:46:43] [Server thread/INFO]: [Server] cya
-[00:46:49] [Server thread/INFO]: Saving the game (this may take a moment!)
-[00:46:49] [Server thread/INFO]: Saved the game
-[00:46:51] [Server thread/INFO]: Stopping the server
-[00:46:51] [Server thread/INFO]: Stopping server
-[00:46:51] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[00:46:51] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[00:46:51] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
-[00:46:51] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
-[00:46:51] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
-[00:46:51] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[00:46:51] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
-[00:46:51] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[00:46:51] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
-[00:46:51] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
-[00:46:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
-[00:46:51] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[00:46:51] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
-[00:46:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
-[00:46:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:46:51] [Server thread/INFO]: Saving players
-[00:46:51] [Server thread/INFO]: Saving worlds
-[00:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[00:46:51] [Server thread/INFO]: Flushing Chunk IO
-[00:46:51] [Server thread/INFO]: Closing Thread Pool
-[00:46:51] [Server thread/INFO]: Closing Server
+[01:27:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:27:20] [main/INFO]: Found new data pack file/VanillaTweaks_c415081.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/afk display v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/anti enderman grief v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/armor statues v2.8.1.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/armored elytra v1.0.3.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/back v1.2.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/cauldron concrete v2.0.3.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/coordinates hud v1.2.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/count mob deaths v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/custom nether portals v2.3.2.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/double shulker shells v1.3.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/durability ping v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/fast leaf decay v2.0.3.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/graves v2.8.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/homes v1.4.1.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/more mob heads v2.8.1.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/multiplayer sleep v2.5.2.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/nether portal coords v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/player head drops v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/redstone rotation wrench v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/silence mobs v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/spawn v2.3.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/spectator conduit power v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/spectator night vision v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/terracotta rotation wrench v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/tpa v2.3.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/track raw statistics v1.4.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/track statistics v1.1.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/treasure gems v1.2.0.zip, loading it automatically
+[01:27:20] [main/INFO]: Found new data pack file/villager death messages v1.2.1.zip, loading it automatically
+[01:27:21] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c415081.zip, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, back v1.2.0.zip, cauldron concrete v2.0.3.zip, coordinates hud v1.2.0.zip, count mob deaths v1.1.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.0.zip, homes v1.4.1.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, redstone rotation wrench v1.1.0.zip, silence mobs v1.1.0.zip, spawn v2.3.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.0.zip, tpa v2.3.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager death messages v1.2.1.zip
+[01:27:23] [Worker-Main-5/INFO]: Loaded 7 recipes
+[01:27:23] [Worker-Main-5/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:27:23] [Worker-Main-5/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[01:27:24] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[01:27:24] [Server thread/INFO]: Loading properties
+[01:27:24] [Server thread/INFO]: This server is running Paper version git-Paper-282 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[01:27:24] [Server thread/INFO]: Debug logging is disabled
+[01:27:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:27:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:27:24] [Server thread/INFO]: Default game type: SURVIVAL
+[01:27:24] [Server thread/INFO]: Generating keypair
+[01:27:24] [Server thread/INFO]: Starting Minecraft server on *:33247
+[01:27:24] [Server thread/INFO]: Using default channel type
+[01:27:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
+[01:27:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3839608a]
+[01:27:29] [Server thread/INFO]: [TWings] Loading TWings v1.5.0
+[01:27:29] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
+[01:27:29] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, injecting!
+[01:27:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[01:27:30] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[01:27:30] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[01:27:30] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[01:27:30] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.3-SNAPSHOT
+[01:27:30] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[01:27:30] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[01:27:30] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.2
+[01:27:30] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[01:27:30] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
+[01:27:30] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
+[01:27:30] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[01:27:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:27:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
+[01:27:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:27:30] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[01:27:30] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[01:27:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:27:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[01:27:32] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[01:27:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:27:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:27:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[01:27:32] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[01:27:32] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[01:27:32] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[01:27:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[01:27:32] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[01:27:32] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.2
+[01:27:33] [Server thread/INFO]: Preparing level "world"
+[01:27:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:27:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:27:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:27:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:27:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:27:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:27:33] [Server thread/INFO]: View Distance: 10
+[01:27:33] [Server thread/INFO]: Mob Spawn Range: 8
+[01:27:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:27:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:27:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:27:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:27:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:27:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:27:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:27:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:27:33] [Server thread/INFO]: Max TNT Explosions: 100
+[01:27:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:27:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:27:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:27:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:27:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:27:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:27:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:27:34] [Server thread/INFO]: View Distance: 10
+[01:27:34] [Server thread/INFO]: Mob Spawn Range: 8
+[01:27:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:27:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:27:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:27:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:27:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:27:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:27:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:27:34] [Server thread/INFO]: Max TNT Explosions: 100
+[01:27:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:27:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:27:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:27:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:27:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:27:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:27:34] [Server thread/INFO]: View Distance: 10
+[01:27:34] [Server thread/INFO]: Mob Spawn Range: 8
+[01:27:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:27:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:27:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:27:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:27:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:27:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:27:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:27:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:27:34] [Server thread/INFO]: Max TNT Explosions: 100
+[01:27:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:27:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[01:27:34] [Server thread/INFO]: Preparing spawn area: 0%
+[01:27:34] [Server thread/INFO]: Time elapsed: 448 ms
+[01:27:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:27:34] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[01:27:34] [Server thread/INFO]: Time elapsed: 199 ms
+[01:27:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:27:35] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[01:27:35] [Server thread/INFO]: Time elapsed: 300 ms
+[01:27:35] [Server thread/INFO]: [TWings] Enabling TWings v1.5.0
+[01:27:35] [Server thread/INFO]: Getting content for URl : https://www.spigotmc.org/resources/82088/
+[01:27:38] [Server thread/INFO]: [PixelStrace's Twings] Plugin is uptodate!
+[01:27:38] [Server thread/INFO]: [PixelStrace's Twings] Thanks for downloading and using my plugin!
+[01:27:38] [Server thread/INFO]: [PixelStrace's Twings] Enabled!
+[01:27:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
+[01:27:38] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[01:27:38] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[01:27:38] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[01:27:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[01:27:39] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:27:39] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:27:40] [Server thread/INFO]: -------- World Settings For [survival] --------
+[01:27:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:27:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:27:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:27:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:27:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:27:40] [Server thread/INFO]: View Distance: 10
+[01:27:40] [Server thread/INFO]: Mob Spawn Range: 8
+[01:27:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:27:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:27:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:27:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:27:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:27:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:27:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:27:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:27:40] [Server thread/INFO]: Max TNT Explosions: 100
+[01:27:40] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[01:27:40] [Server thread/INFO]: Loaded 0 spawn chunks for world survival
+[01:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[01:27:40] [Server thread/INFO]: Time elapsed: 218 ms
+[01:27:40] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:27:40] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:27:40] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[01:27:40] [Server thread/INFO]: [Multiverse-Portals] 1 - Portals(s) loaded
+[01:27:41] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[01:27:41] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[01:27:41] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
+[01:27:41] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
+[01:27:41] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
+[01:27:41] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
+[01:27:41] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[01:27:41] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[01:27:41] [Server thread/INFO]: Starting GS4 status listener
+[01:27:41] [Server thread/INFO]: Thread Query Listener started
+[01:27:41] [Query Listener #1/INFO]: Query running on 0.0.0.0:33247
+[01:27:41] [Server thread/INFO]: Running delayed init tasks
+[01:27:41] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[01:27:41] [Server thread/INFO]: [ViaVersion] Shutting down mapping loader executor!
+[01:27:41] [Server thread/INFO]: Done (16.930s)! For help, type "help"
+[01:27:41] [Server thread/INFO]: Timings Reset
+[01:27:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6124ms or 122 ticks behind
+[01:28:00] [User Authenticator #1/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
+[01:28:00] [Server thread/INFO]: kupec joined the game
+[01:28:00] [Server thread/INFO]: kupec[/26.102.57.185:58448] logged in with entity id 329 at ([survival]180.27229781403906, 64.0, 32.327889206143546)
+[01:28:57] [Server thread/INFO]: kupec issued server command: /sethome
+[01:29:01] [Server thread/INFO]: kupec issued server command: /trigger sethome
+[01:29:01] [Server thread/INFO]: [kupec: Triggered [Set Home]]
+[01:29:07] [Server thread/INFO]: kupec issued server command: /home
+[01:29:11] [Server thread/INFO]: kupec issued server command: /trigger home
+[01:29:11] [Server thread/INFO]: [kupec: Triggered [Home]]
+[01:32:13] [Server thread/INFO]: kupec issued server command: /trigger spawn
+[01:32:13] [Server thread/INFO]: [kupec: Triggered [Spawn]]
+[01:32:58] [Server thread/INFO]: kupec issued server command: /trigger home
+[01:32:58] [Server thread/INFO]: [kupec: Triggered [Home]]
+[01:34:02] [Server thread/INFO]: kupec issued server command: /scoreboard objectives setdisplay list
+[01:34:02] [Server thread/INFO]: [kupec: Cleared any objectives in display slot list]
+[01:34:36] [Server thread/INFO]: kupec issued server command: /scoreboard objectives setdisplay list hc_playTick
+[01:34:36] [Server thread/INFO]: [kupec: Set display slot list to show objective Play Ticks]
+[01:34:49] [Server thread/INFO]: kupec issued server command: /scoreboard objectives setdisplay list ts_Deaths
+[01:34:49] [Server thread/INFO]: [kupec: Set display slot list to show objective Deaths]
+[01:35:57] [Server thread/INFO]: kupec has made the advancement [Stone Age]
+[01:36:19] [Server thread/INFO]: kupec has made the advancement [Getting an Upgrade]
+[01:37:59] [Server thread/INFO]: kupec issued server command: /trigger duraPing
+[01:37:59] [Server thread/INFO]: [kupec: Triggered [Durability Ping]]
+[01:38:13] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 12
+[01:38:13] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 12)]
+[01:38:18] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 16
+[01:38:18] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 16)]
+[01:38:21] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 12
+[01:38:21] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 12)]
+[01:38:22] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 13
+[01:38:22] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 13)]
+[01:38:24] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 12
+[01:38:24] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 12)]
+[01:38:28] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 3
+[01:38:28] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 3)]
+[01:38:32] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 4
+[01:38:32] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 4)]
+[01:38:34] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 5
+[01:38:34] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 5)]
+[01:38:36] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 6
+[01:38:36] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 6)]
+[01:38:43] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 3
+[01:38:43] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 3)]
+[01:38:45] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 13
+[01:38:45] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 13)]
+[01:38:48] [Server thread/INFO]: kupec issued server command: /trigger duraPing set 2
+[01:38:48] [Server thread/INFO]: [kupec: Triggered [Durability Ping] (set value to 2)]
+[01:41:46] [Server thread/INFO]: kupec issued server command: /trigger home
+[01:41:46] [Server thread/INFO]: [kupec: Triggered [Home]]
+[01:42:37] [Server thread/INFO]: kupec has made the advancement [Acquire Hardware]
+[01:42:43] [Server thread/INFO]: kupec has made the advancement [Isn't It Iron Pick]
+[01:43:41] [Server thread/INFO]: kupec issued server command: /trigger home
+[01:43:41] [Server thread/INFO]: [kupec: Triggered [Home]]
+[01:45:33] [Server thread/INFO]: kupec issued server command: /trigger as_trigger
+[01:45:33] [Server thread/INFO]: [kupec: Triggered [as_trigger]]
+[01:45:38] [Server thread/INFO]: kupec issued server command: /trigger as_help
+[01:45:38] [Server thread/INFO]: [kupec: Triggered [as_help]]
+[01:46:48] [Server thread/INFO]: kupec has made the advancement [Suit Up]
+[01:47:42] [Server thread/INFO]: kupec issued server command: /trigger cusNetPor
+[01:47:42] [Server thread/INFO]: [kupec: Triggered [Custom Nether Portals]]
+[01:48:02] [Server thread/INFO]: kupec issued server command: /trigger grave
+[01:48:02] [Server thread/INFO]: [kupec: Triggered [Locate Last Grave]]
+[01:48:10] [Server thread/INFO]: kupec issued server command: /trigger night_vision
+[01:48:10] [Server thread/INFO]: [kupec: Triggered [toggle night vision for spectator]]
+[01:48:19] [Server thread/INFO]: kupec issued server command: /trigger namehome
+[01:48:19] [Server thread/INFO]: [kupec: Triggered [Name Home]]
+[01:48:50] [Server thread/INFO]: kupec issued server command: /trigger if_invisible
+[01:48:50] [Server thread/INFO]: [kupec: Triggered [if_invisible]]
+[01:49:46] [Server thread/INFO]: kupec issued server command: /trigger homes
+[01:49:46] [Server thread/INFO]: [kupec: Triggered [Homes]]
+[01:49:54] [Server thread/INFO]: kupec issued server command: /trigger md_help
+[01:49:54] [Server thread/INFO]: [kupec: Triggered [count mob deaths config]]
+[01:50:19] [Server thread/INFO]: kupec issued server command: /trigger nc_inOverworld
+[01:50:19] [Server thread/INFO]: [kupec: Triggered [Get portal coords for the Nether]]
+[01:52:07] [Server thread/INFO]: kupec issued server command: /trigger ch_toggle
+[01:52:07] [Server thread/INFO]: [kupec: Triggered [toggle coordinates hud]]
+[01:52:28] [Server thread/INFO]: kupec issued server command: /trigger ch_toggle
+[01:52:28] [Server thread/INFO]: [kupec: Triggered [toggle coordinates hud]]
+[01:54:01] [Server thread/INFO]: kupec issued server command: /trigger home
+[01:54:01] [Server thread/INFO]: [kupec: Triggered [Home]]
+[01:54:07] [Server thread/INFO]: kupec issued server command: /save-all
+[01:54:07] [Server thread/INFO]: [kupec: Saved the game]
+[01:54:20] [Server thread/INFO]: kupec issued server command: /fcp start 2000 survival 0 0
+[01:54:20] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 63001 [0.0%]
+[01:54:20] [Server thread/INFO]: [survival] Fetching Coordinates: 63001 of 63001 [100.0%]
+[01:54:20] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 18432 [0.0%]
+[01:54:20] [Server thread/INFO]: [survival] Fetching world chunks: 18432 of 18432 [100.0%]
+[01:54:20] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 63001 [0.0%] with [0.0 Chunks/s]
+[01:54:26] [Server thread/INFO]: [survival] Filtering pre-generated: 3059 of 63001 [4.85%] with [605.62 Chunks/s]
+[01:54:31] [Server thread/INFO]: [survival] Filtering pre-generated: 4962 of 63001 [7.87%] with [376.9 Chunks/s]
+[01:54:36] [Server thread/INFO]: [survival] Filtering pre-generated: 6705 of 63001 [10.64%] with [345.21 Chunks/s]
+[01:54:36] [Server thread/INFO]: [survival] Filtering pre-generated: 63001 of 63001 [100.0%] with [80422.85 Chunks/s]
+[01:54:36] [Server thread/INFO]: [survival] Generating Chunks: 0 of 59032 [0.0%] with [0.0 Chunks/s]
+[01:54:41] [Server thread/INFO]: [FCP] Current task was canceled. Proceed with next one if present.
+[01:54:55] [Server thread/INFO]: Unknown Command, please type /help
+[01:55:02] [Server thread/INFO]: kupec issued server command: /fcp start 500 survival 0 0
+[01:55:02] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 3969 [0.0%]
+[01:55:03] [Server thread/INFO]: [survival] Fetching Coordinates: 3969 of 3969 [100.0%]
+[01:55:03] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 18432 [0.0%]
+[01:55:03] [Server thread/INFO]: [survival] Fetching world chunks: 18432 of 18432 [100.0%]
+[01:55:03] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 3969 [0.0%] with [0.0 Chunks/s]
+[01:55:03] [Server thread/INFO]: [survival] Filtering pre-generated: 3969 of 3969 [100.0%] with [81000.0 Chunks/s]
+[01:55:03] [Server thread/INFO]: [survival] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[01:55:03] [Server thread/INFO]: [survival] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[01:55:15] [Server thread/INFO]: kupec issued server command: /fcp start 750 survival 0 0
+[01:55:15] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 8649 [0.0%]
+[01:55:15] [Server thread/INFO]: [survival] Fetching Coordinates: 8649 of 8649 [99.99%]
+[01:55:15] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 18432 [0.0%]
+[01:55:15] [Server thread/INFO]: [survival] Fetching world chunks: 18432 of 18432 [100.0%]
+[01:55:15] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 8649 [0.0%] with [0.0 Chunks/s]
+[01:55:15] [Server thread/INFO]: [survival] Filtering pre-generated: 8649 of 8649 [99.99%] with [172980.0 Chunks/s]
+[01:55:16] [Server thread/INFO]: [survival] Generating Chunks: 0 of 4625 [0.0%] with [0.0 Chunks/s]
+[01:55:21] [Server thread/INFO]: [survival] Generating Chunks: 56 of 4625 [1.21%] with [11.11 Chunks/s]
+[01:55:25] [Server thread/INFO]: kupec issued server command: /fcp cancel
+[01:55:35] [Server thread/INFO]: kupec issued server command: /fcp start 600 survival 0 0
+[01:55:35] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 5625 [0.0%]
+[01:55:35] [Server thread/INFO]: [survival] Fetching Coordinates: 5625 of 5625 [100.0%]
+[01:55:35] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 18432 [0.0%]
+[01:55:35] [Server thread/INFO]: [survival] Fetching world chunks: 18432 of 18432 [100.0%]
+[01:55:35] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 5625 [0.0%] with [0.0 Chunks/s]
+[01:55:35] [Server thread/INFO]: [survival] Filtering pre-generated: 5625 of 5625 [100.0%] with [112500.0 Chunks/s]
+[01:55:35] [Server thread/INFO]: [survival] Generating Chunks: 0 of 1479 [0.0%] with [0.0 Chunks/s]
+[01:55:40] [Server thread/INFO]: [survival] Generating Chunks: 61 of 1479 [4.12%] with [12.19 Chunks/s]
+[01:55:45] [Server thread/INFO]: [survival] Generating Chunks: 145 of 1479 [9.8%] with [16.71 Chunks/s]
+[01:55:50] [Server thread/INFO]: [survival] Generating Chunks: 234 of 1479 [15.82%] with [17.66 Chunks/s]
+[01:55:51] [Server thread/INFO]: kupec issued server command: /save-all
+[01:55:51] [Server thread/INFO]: [kupec: Saved the game]
+[01:55:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[01:55:55] [Server thread/INFO]: [survival] Generating Chunks: 300 of 1479 [20.28%] with [13.12 Chunks/s]
+[01:55:57] [Server thread/INFO]: kupec lost connection: Disconnected
+[01:55:57] [Server thread/INFO]: kupec left the game
+[01:56:00] [Server thread/INFO]: [survival] Generating Chunks: 381 of 1479 [25.76%] with [16.17 Chunks/s]
+[01:56:05] [Server thread/INFO]: [survival] Generating Chunks: 499 of 1479 [33.73%] with [23.46 Chunks/s]
+[01:56:10] [Server thread/INFO]: [survival] Generating Chunks: 588 of 1479 [39.75%] with [17.63 Chunks/s]
+[01:56:15] [Server thread/INFO]: [survival] Generating Chunks: 698 of 1479 [47.19%] with [21.9 Chunks/s]
+[01:56:20] [Server thread/INFO]: [survival] Generating Chunks: 826 of 1479 [55.84%] with [25.39 Chunks/s]
+[01:56:25] [Server thread/INFO]: [survival] Generating Chunks: 937 of 1479 [63.35%] with [22.17 Chunks/s]
+[01:56:30] [Server thread/INFO]: [survival] Generating Chunks: 1065 of 1479 [72.0%] with [25.42 Chunks/s]
+[01:56:35] [Server thread/INFO]: [survival] Generating Chunks: 1183 of 1479 [79.98%] with [23.3 Chunks/s]
+[01:56:40] [Server thread/INFO]: [survival] Generating Chunks: 1301 of 1479 [87.96%] with [23.48 Chunks/s]
+[01:56:45] [Server thread/INFO]: [survival] Generating Chunks: 1414 of 1479 [95.6%] with [22.46 Chunks/s]
+[01:56:49] [Server thread/INFO]: [survival] Generating Chunks: 1479 of 1479 [100.0%] with [20.08 Chunks/s]
+[02:17:57] [Server thread/INFO]: Saving the game (this may take a moment!)
+[02:17:57] [Server thread/INFO]: Saved the game
+[02:17:59] [Server thread/INFO]: Stopping the server
+[02:17:59] [Server thread/INFO]: Stopping server
+[02:17:59] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[02:17:59] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[02:17:59] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
+[02:17:59] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[02:17:59] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
+[02:17:59] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[02:17:59] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
+[02:17:59] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[02:17:59] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[02:17:59] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[02:17:59] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
+[02:17:59] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[02:17:59] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
+[02:17:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[02:17:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:17:59] [Server thread/INFO]: Saving players
+[02:18:00] [Server thread/INFO]: Saving worlds
+[02:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[02:18:00] [Server thread/INFO]: Flushing Chunk IO
+[02:18:00] [Server thread/INFO]: Closing Thread Pool
+[02:18:00] [Server thread/INFO]: Closing Server
