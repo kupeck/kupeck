@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/slabs/bread": {
+    "criteria": {
+      "has_item": "2020-11-18 20:28:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2020-11-18 01:35:57 +0100"
@@ -176,6 +182,12 @@
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2020-11-10 13:40:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-11-18 20:28:37 +0100"
     },
     "done": true
   },
@@ -372,6 +384,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2020-11-18 23:53:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
     "criteria": {
       "has_smooth_quartz": "2020-11-10 12:57:49 +0100"
@@ -381,6 +399,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2020-11-10 10:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2020-11-18 20:41:20 +0100"
     },
     "done": true
   },
@@ -432,10 +456,12 @@
       "cooked_mutton": "2020-11-18 12:16:13 +0100",
       "cooked_beef": "2020-11-18 01:44:25 +0100",
       "beef": "2020-11-18 01:42:30 +0100",
+      "tropical_fish": "2020-11-18 22:55:36 +0100",
       "cooked_cod": "2020-11-18 09:57:56 +0100",
       "rotten_flesh": "2020-11-11 16:16:39 +0100",
       "salmon": "2020-11-18 09:41:32 +0100",
-      "cod": "2020-11-18 01:30:45 +0100"
+      "cod": "2020-11-18 01:30:45 +0100",
+      "cooked_salmon": "2020-11-18 20:32:51 +0100"
     },
     "done": false
   },
@@ -498,6 +524,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2020-11-18 01:35:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2020-11-18 22:54:37 +0100"
     },
     "done": true
   },
@@ -564,6 +596,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2020-11-18 01:31:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-11-18 20:28:37 +0100"
     },
     "done": true
   },
@@ -813,6 +851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2020-11-18 22:54:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2020-11-09 22:35:17 +0100"
@@ -974,6 +1018,7 @@
       "minecraft:skeleton": "2020-11-18 09:42:15 +0100",
       "minecraft:spider": "2020-11-18 01:19:41 +0100",
       "minecraft:creeper": "2020-11-18 14:21:32 +0100",
+      "minecraft:witch": "2020-11-18 20:00:47 +0100",
       "minecraft:zombie": "2020-11-11 16:16:34 +0100",
       "minecraft:drowned": "2020-11-18 14:14:48 +0100"
     },
@@ -1031,6 +1076,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2020-11-18 01:31:57 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:classic_fishing_loot": {
+    "criteria": {
+      "tick": "2020-11-18 20:37:10 +0100"
     },
     "done": true
   },
@@ -1214,6 +1265,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/slabs/smooth_stone_slab": {
+    "criteria": {
+      "has_block": "2020-11-18 20:26:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2020-11-18 01:31:58 +0100"
@@ -1325,6 +1382,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2020-11-18 09:58:41 +0100"
+    },
+    "done": true
+  },
+  "dropper_to_dispenser:recipes/building_blocks/dropper_to_dispenser/dispenser": {
+    "criteria": {
+      "has_bow": "2020-11-18 23:53:05 +0100"
     },
     "done": true
   },
@@ -1848,6 +1911,7 @@
       "minecraft:snowy_beach": "2020-11-18 01:20:13 +0100",
       "minecraft:river": "2020-11-17 23:29:08 +0100",
       "minecraft:snowy_taiga": "2020-11-17 23:29:10 +0100",
+      "minecraft:swamp": "2020-11-18 17:27:02 +0100",
       "minecraft:snowy_taiga_hills": "2020-11-18 01:53:24 +0100",
       "minecraft:savanna": "2020-11-18 12:43:47 +0100",
       "minecraft:plains": "2020-11-17 23:13:54 +0100"
@@ -1893,6 +1957,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2020-11-18 01:35:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2020-11-18 20:33:36 +0100"
     },
     "done": true
   },
@@ -2022,9 +2092,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2020-11-18 16:44:51 +0100"
+    },
+    "done": true
+  },
   "vanillatweaks:multiplayer_sleep": {
     "criteria": {
       "tick": "2020-11-18 01:28:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2020-11-18 22:54:37 +0100"
     },
     "done": true
   },
