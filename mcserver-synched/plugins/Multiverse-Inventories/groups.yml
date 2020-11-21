@@ -9,11 +9,11 @@ groups:
 
     worlds:
 
-    - world
-
     - world_the_end
 
     - world_nether
+
+    - survival
 
     shares:
 
