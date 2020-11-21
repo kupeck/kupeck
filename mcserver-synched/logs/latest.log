@@ -1,45 +1,770 @@
-[00:09:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[00:39:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[01:09:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[01:18:53] [Server thread/INFO]: Saving the game (this may take a moment!)
-[01:18:53] [Server thread/INFO]: Saved the game
-[01:18:56] [Server thread/INFO]: Stopping the server
-[01:18:56] [Server thread/INFO]: Stopping server
-[01:18:56] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[01:18:56] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[01:18:56] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[01:18:56] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
-[01:18:56] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
-[01:18:56] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
-[01:18:56] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
-[01:18:56] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.3
-[01:18:56] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[01:18:57] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.3
-[01:18:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[01:18:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
-[01:18:57] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.2.1
-[01:18:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
-[01:18:58] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[01:18:58] [Server thread/INFO]: [LagMeter] Disabling LagMeter v1.17.0
-[01:18:58] [Server thread/INFO]: [LagMeter] Disabled!
-[01:18:58] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
-[01:18:58] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
-[01:18:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
-[01:18:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:18:58] [Server thread/INFO]: Saving players
-[01:18:58] [Server thread/INFO]: Saving worlds
-[01:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[01:18:58] [Server thread/INFO]: Flushing Chunk IO
-[01:18:58] [Server thread/INFO]: Closing Thread Pool
-[01:18:58] [Server thread/INFO]: Closing Server
+[18:01:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:01:51] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c415081.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, cauldron concrete v2.0.3.zip, coordinates hud v1.2.0.zip, count mob deaths v1.1.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, redstone rotation wrench v1.1.0.zip, silence mobs v1.1.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager death messages v1.2.1.zip, back v1.2.0.zip, homes v1.4.1.zip, spawn v2.3.0.zip, tpa v2.3.0.zip, classic fishing loot v1.1.0.zip, wandering trades v1.4.0.zip
+[18:01:54] [Worker-Main-2/INFO]: Loaded 7 recipes
+[18:01:54] [Worker-Main-2/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[18:01:54] [Worker-Main-2/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[18:01:55] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[18:01:55] [Server thread/INFO]: Loading properties
+[18:01:55] [Server thread/INFO]: This server is running Paper version git-Paper-282 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[18:01:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:01:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:01:56] [Server thread/INFO]: Debug logging is disabled
+[18:01:56] [Server thread/INFO]: Default game type: SURVIVAL
+[18:01:56] [Server thread/INFO]: Generating keypair
+[18:01:56] [Server thread/INFO]: Starting Minecraft server on *:33247
+[18:01:56] [Server thread/INFO]: Using default channel type
+[18:02:00] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:02:06] [Server thread/WARN]: Legacy plugin LagMeter v1.17.0 does not specify an api-version.
+[18:02:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
+[18:02:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1abd80ae]
+[18:02:07] [Server thread/INFO]: [TWings] Loading TWings v1.5.0
+[18:02:07] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.3-SNAPSHOT
+[18:02:07] [Server thread/INFO]: [LagMeter] Loading LagMeter v1.17.0
+[18:02:07] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
+[18:02:07] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, injecting!
+[18:02:07] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:02:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:02:08] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:02:08] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.2.1
+[18:02:08] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[18:02:08] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[18:02:08] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.3
+[18:02:08] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.2
+[18:02:08] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
+[18:02:08] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
+[18:02:08] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[18:02:08] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[18:02:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:02:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
+[18:02:08] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:02:08] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:02:08] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:02:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:02:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[18:02:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:02:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[18:02:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:02:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:02:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[18:02:10] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[18:02:10] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[18:02:10] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[18:02:10] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[18:02:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[18:02:10] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.2
+[18:02:10] [Server thread/INFO]: Preparing level "world"
+[18:02:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:02:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:10] [Server thread/INFO]: View Distance: 16
+[18:02:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:02:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:02:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:10] [Server thread/INFO]: Mob Spawn Range: 8
+[18:02:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:02:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:02:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:10] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:02:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:02:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:11] [Server thread/INFO]: View Distance: 16
+[18:02:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:02:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:02:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:11] [Server thread/INFO]: Mob Spawn Range: 8
+[18:02:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:02:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:11] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:02:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:11] [Server thread/INFO]: View Distance: 16
+[18:02:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:02:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:02:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:11] [Server thread/INFO]: Mob Spawn Range: 8
+[18:02:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:02:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:02:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:11] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:02:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[18:02:12] [Server thread/INFO]: Preparing spawn area: 0%
+[18:02:12] [Server thread/INFO]: Time elapsed: 356 ms
+[18:02:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:02:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[18:02:12] [Server thread/INFO]: Time elapsed: 129 ms
+[18:02:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:02:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[18:02:12] [Server thread/INFO]: Time elapsed: 70 ms
+[18:02:12] [Server thread/INFO]: [TWings] Enabling TWings v1.5.0
+[18:02:12] [Server thread/INFO]: Getting content for URl : https://www.spigotmc.org/resources/82088/
+[18:02:17] [Server thread/INFO]: [PixelStrace's Twings] Plugin is uptodate!
+[18:02:17] [Server thread/INFO]: [PixelStrace's Twings] Thanks for downloading and using my plugin!
+[18:02:17] [Server thread/INFO]: [PixelStrace's Twings] Enabled!
+[18:02:17] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[18:02:17] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[18:02:17] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[18:02:17] [Server thread/INFO]: [LagMeter] Enabling LagMeter v1.17.0*
+[18:02:17] [Server thread/INFO]: [LagMeter] Not using logs folder.
+[18:02:17] [Server thread/INFO]: [LagMeter] Enabled! Polling every 40 server ticks. Logging to C:\Users\adama\OneDrive\Dokumenty\GitHub\kupeck\mcserver-synched\plugins\LagMeter\lag.log.
+[18:02:17] [Server thread/INFO]: [LagMeter] Chunks loaded:
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world": 2.
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
+[18:02:17] [Server thread/INFO]: [LagMeter] Total chunks loaded: 2
+[18:02:17] [Server thread/INFO]: [LagMeter] Entities:
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world": 0.
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
+[18:02:17] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
+[18:02:17] [Server thread/INFO]: [LagMeter] Total entities: 0
+[18:02:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
+[18:02:17] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.2.1
+[18:02:18] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
+[18:02:18] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
+[18:02:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[18:02:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:02:18] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:02:18] [Server thread/INFO]: -------- World Settings For [survival] --------
+[18:02:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:18] [Server thread/INFO]: View Distance: 16
+[18:02:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:02:18] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:02:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:18] [Server thread/INFO]: Mob Spawn Range: 8
+[18:02:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:02:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:02:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:18] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[18:02:18] [Server thread/INFO]: Loaded 0 spawn chunks for world survival
+[18:02:18] [Server thread/INFO]: Preparing spawn area: 0%
+[18:02:18] [Server thread/INFO]: Time elapsed: 270 ms
+[18:02:18] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[18:02:19] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:02:19] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.3
+[18:02:19] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[18:02:19] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[18:02:19] [Server thread/INFO]: --------------------
+[18:02:19] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[18:02:19] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:02:19] [Server thread/INFO]: --------------------
+[18:02:19] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
+[18:02:19] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
+[18:02:19] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
+[18:02:19] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
+[18:02:19] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[18:02:19] [Server thread/INFO]: [Multiverse-Portals] 1 - Portals(s) loaded
+[18:02:19] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[18:02:19] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[18:02:19] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[18:02:19] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[18:02:19] [Server thread/INFO]: Starting GS4 status listener
+[18:02:19] [Server thread/INFO]: Thread Query Listener started
+[18:02:19] [Query Listener #1/INFO]: Query running on 0.0.0.0:33247
+[18:02:19] [Server thread/INFO]: Running delayed init tasks
+[18:02:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[18:02:19] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[18:02:19] [Server thread/INFO]: [ViaVersion] Shutting down mapping loader executor!
+[18:02:19] [Server thread/INFO]: Done (24.281s)! For help, type "help"
+[18:02:19] [Server thread/INFO]: Timings Reset
+[18:02:20] [Craft Scheduler Thread - 3/INFO]: [TabTPS] You are running the latest version of TabTPS! :)
+[18:02:20] [Server thread/ERROR]: Overwrote an existing entity EntityArmorStand['Armor Stand'/7, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[world]', x=22068880.50, y=1000.00, z=-4185487.50, cx=1379305, cz=-261593, tl=3744005, v=true, d=false] with EntityArmorStand['Armor Stand'/1, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[world]', x=22068880.50, y=1000.00, z=-4185487.50, cx=1379305, cz=-261593, tl=0, v=false, d=false]
+[18:02:20] [Thread-26/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[18:02:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@f1635ad[id=<null>,name=kupec,properties={},legacy=false] (/26.102.57.185:51930) lost connection: Disconnected
+[18:04:16] [User Authenticator #1/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
+[18:04:17] [Server thread/INFO]: [Admin] kupec joined the game
+[18:04:17] [Server thread/INFO]: kupec[/26.102.57.185:52286] logged in with entity id 200 at ([world_nether]-1510.699999988079, 96.0, 309.3737947260834)
+[18:07:44] [Server thread/INFO]: kupec issued server command: /trigger spawn
+[18:07:44] [Server thread/INFO]: [[Admin] kupec: Triggered [Spawn]]
+[18:13:41] [Server thread/INFO]: kupec issued server command: /trigger home
+[18:13:41] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[18:15:33] [Server thread/INFO]: kupec issued server command: //wand
+[18:15:43] [Server thread/INFO]: kupec issued server command: //set portal
+[18:15:48] [Server thread/INFO]: kupec issued server command: //set nether_portal
+[18:16:34] [Server thread/INFO]: kupec issued server command: /trigger spawn
+[18:16:34] [Server thread/INFO]: [[Admin] kupec: Triggered [Spawn]]
+[18:18:06] [Server thread/INFO]: kupec issued server command: /trigger home
+[18:18:06] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[18:20:15] [Server thread/INFO]: kupec issued server command: /trigger spawn
+[18:20:15] [Server thread/INFO]: [[Admin] kupec: Triggered [Spawn]]
+[18:20:30] [Server thread/INFO]: kupec issued server command: /trigger nc_inOverworld
+[18:20:30] [Server thread/INFO]: [[Admin] kupec: Triggered [Get portal coords for the Nether]]
+[18:20:38] [Server thread/INFO]: kupec issued server command: /trigger nc_inNether
+[18:20:38] [Server thread/INFO]: [[Admin] kupec: Triggered [Get portal coords for the Overworld]]
+[18:20:54] [Server thread/INFO]: kupec issued server command: /trigger nc_inOverworld
+[18:20:54] [Server thread/INFO]: [[Admin] kupec: Triggered [Get portal coords for the Nether]]
+[18:21:57] [Server thread/INFO]: kupec issued server command: /setblock ~ ~ ~ fire
+[18:21:57] [Server thread/INFO]: [[Admin] kupec: Changed the block at 28, 54, -25]
+[18:22:24] [Server thread/INFO]: kupec issued server command: /trigger home
+[18:22:24] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[18:32:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:38:08] [Server thread/INFO]: kupec issued server command: /tabtps toggle actionbar
+[18:39:25] [Server thread/INFO]: kupec issued server command: /trigger home
+[18:39:25] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[18:43:26] [Server thread/INFO]: kupec issued server command: /fcp start 500 world_nether 0 0
+[18:43:26] [Server thread/INFO]: [world_nether] Fetching Coordinates: 0 of 3969 [0.0%]
+[18:43:26] [Server thread/INFO]: [world_nether] Fetching Coordinates: 3969 of 3969 [100.0%]
+[18:43:26] [Server thread/INFO]: [world_nether] Fetching world chunks: 0 of 27648 [0.0%]
+[18:43:26] [Server thread/INFO]: [world_nether] Fetching world chunks: 27648 of 27648 [100.0%]
+[18:43:26] [Server thread/INFO]: [world_nether] Filtering pre-generated: 0 of 3969 [0.0%] with [0.0 Chunks/s]
+[18:43:31] [Server thread/INFO]: [world_nether] Filtering pre-generated: 3770 of 3969 [94.98%] with [746.68 Chunks/s]
+[18:43:31] [Server thread/INFO]: [world_nether] Filtering pre-generated: 3969 of 3969 [100.0%] with [441.24 Chunks/s]
+[18:43:31] [Server thread/INFO]: [world_nether] Generating Chunks: 0 of 384 [0.0%] with [0.0 Chunks/s]
+[18:43:36] [Server thread/INFO]: [world_nether] Generating Chunks: 150 of 384 [39.06%] with [29.69 Chunks/s]
+[18:43:42] [Server thread/INFO]: [world_nether] Generating Chunks: 279 of 384 [72.65%] with [25.05 Chunks/s]
+[18:43:46] [Server thread/INFO]: [world_nether] Generating Chunks: 384 of 384 [100.0%] with [24.88 Chunks/s]
+[18:44:34] [Server thread/INFO]: [Admin] kupec has made the advancement [A Terrible Fortress]
+[18:46:22] [Server thread/INFO]: [Admin] kupec has made the advancement [Into Fire]
+[18:48:23] [Server thread/INFO]: [Admin] kupec withered away
+[18:53:42] [Server thread/INFO]: kupec issued server command: /tabtps toggle actionbar
+[18:53:47] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world_nether 0 0
+[18:53:47] [Server thread/INFO]: [world_nether] Fetching Coordinates: 0 of 15625 [0.0%]
+[18:53:47] [Server thread/INFO]: [world_nether] Fetching Coordinates: 15625 of 15625 [100.0%]
+[18:53:47] [Server thread/INFO]: [world_nether] Fetching world chunks: 0 of 28672 [0.0%]
+[18:53:47] [Server thread/INFO]: [world_nether] Fetching world chunks: 28672 of 28672 [100.0%]
+[18:53:47] [Server thread/INFO]: [world_nether] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[18:53:50] [Server thread/INFO]: kupec issued server command: /tabtps toggle actionbar
+[18:53:52] [Server thread/INFO]: [world_nether] Filtering pre-generated: 7339 of 15625 [46.96%] with [1453.55 Chunks/s]
+[18:53:57] [Server thread/INFO]: [world_nether] Filtering pre-generated: 13051 of 15625 [83.52%] with [1142.17 Chunks/s]
+[18:54:00] [Server thread/INFO]: [world_nether] Filtering pre-generated: 15625 of 15625 [100.0%] with [1144.0 Chunks/s]
+[18:54:00] [Server thread/INFO]: [world_nether] Generating Chunks: 0 of 8843 [0.0%] with [0.0 Chunks/s]
+[18:54:05] [Server thread/INFO]: [world_nether] Generating Chunks: 82 of 8843 [0.92%] with [16.27 Chunks/s]
+[18:54:10] [Server thread/INFO]: [world_nether] Generating Chunks: 152 of 8843 [1.71%] with [13.84 Chunks/s]
+[18:54:15] [Server thread/INFO]: [world_nether] Generating Chunks: 237 of 8843 [2.68%] with [16.86 Chunks/s]
+[18:54:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[18:54:20] [Server thread/INFO]: [world_nether] Generating Chunks: 316 of 8843 [3.57%] with [15.47 Chunks/s]
+[18:54:25] [Server thread/INFO]: [world_nether] Generating Chunks: 407 of 8843 [4.6%] with [18.14 Chunks/s]
+[18:54:30] [Server thread/INFO]: [world_nether] Generating Chunks: 499 of 8843 [5.64%] with [18.06 Chunks/s]
+[18:54:35] [Server thread/INFO]: [world_nether] Generating Chunks: 599 of 8843 [6.77%] with [19.87 Chunks/s]
+[18:54:40] [Server thread/INFO]: [world_nether] Generating Chunks: 697 of 8843 [7.88%] with [19.51 Chunks/s]
+[18:54:45] [Server thread/INFO]: [world_nether] Generating Chunks: 804 of 8843 [9.09%] with [21.23 Chunks/s]
+[18:54:50] [Server thread/INFO]: [world_nether] Generating Chunks: 914 of 8843 [10.33%] with [21.79 Chunks/s]
+[18:54:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5907ms or 118 ticks behind
+[18:54:55] [Server thread/INFO]: [world_nether] Generating Chunks: 1015 of 8843 [11.47%] with [20.07 Chunks/s]
+[18:55:00] [Server thread/INFO]: [world_nether] Generating Chunks: 1131 of 8843 [12.78%] with [22.91 Chunks/s]
+[18:55:05] [Server thread/INFO]: [world_nether] Generating Chunks: 1245 of 8843 [14.07%] with [22.5 Chunks/s]
+[18:55:10] [Server thread/INFO]: [world_nether] Generating Chunks: 1366 of 8843 [15.44%] with [23.95 Chunks/s]
+[18:55:15] [Server thread/INFO]: [world_nether] Generating Chunks: 1480 of 8843 [16.73%] with [22.68 Chunks/s]
+[18:55:20] [Server thread/INFO]: [world_nether] Generating Chunks: 1586 of 8843 [17.93%] with [21.04 Chunks/s]
+[18:55:25] [Server thread/INFO]: [world_nether] Generating Chunks: 1699 of 8843 [19.21%] with [22.42 Chunks/s]
+[18:55:30] [Server thread/INFO]: [world_nether] Generating Chunks: 1806 of 8843 [20.42%] with [21.39 Chunks/s]
+[18:55:35] [Server thread/INFO]: [world_nether] Generating Chunks: 1923 of 8843 [21.74%] with [23.17 Chunks/s]
+[18:55:40] [Server thread/INFO]: [world_nether] Generating Chunks: 2044 of 8843 [23.11%] with [24.15 Chunks/s]
+[18:55:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[18:55:45] [Server thread/INFO]: [world_nether] Generating Chunks: 2166 of 8843 [24.49%] with [24.17 Chunks/s]
+[18:55:50] [Server thread/INFO]: [world_nether] Generating Chunks: 2277 of 8843 [25.74%] with [22.14 Chunks/s]
+[18:55:56] [Server thread/INFO]: [world_nether] Generating Chunks: 2403 of 8843 [27.17%] with [24.99 Chunks/s]
+[18:56:01] [Server thread/INFO]: [world_nether] Generating Chunks: 2520 of 8843 [28.49%] with [23.39 Chunks/s]
+[18:56:06] [Server thread/INFO]: [world_nether] Generating Chunks: 2648 of 8843 [29.94%] with [25.57 Chunks/s]
+[18:56:11] [Server thread/INFO]: [world_nether] Generating Chunks: 2770 of 8843 [31.32%] with [24.3 Chunks/s]
+[18:56:16] [Server thread/INFO]: [world_nether] Generating Chunks: 2884 of 8843 [32.61%] with [22.74 Chunks/s]
+[18:56:21] [Server thread/INFO]: [world_nether] Generating Chunks: 2997 of 8843 [33.89%] with [22.34 Chunks/s]
+[18:56:26] [Server thread/INFO]: [world_nether] Generating Chunks: 3113 of 8843 [35.2%] with [23.06 Chunks/s]
+[18:56:31] [Server thread/INFO]: [world_nether] Generating Chunks: 3225 of 8843 [36.46%] with [22.23 Chunks/s]
+[18:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[18:56:36] [Server thread/INFO]: [world_nether] Generating Chunks: 3343 of 8843 [37.8%] with [23.43 Chunks/s]
+[18:56:41] [Server thread/INFO]: [world_nether] Generating Chunks: 3454 of 8843 [39.05%] with [22.17 Chunks/s]
+[18:56:46] [Server thread/INFO]: [world_nether] Generating Chunks: 3575 of 8843 [40.42%] with [24.18 Chunks/s]
+[18:56:51] [Server thread/INFO]: [world_nether] Generating Chunks: 3694 of 8843 [41.77%] with [23.71 Chunks/s]
+[18:56:56] [Server thread/INFO]: [world_nether] Generating Chunks: 3820 of 8843 [43.19%] with [25.18 Chunks/s]
+[18:57:01] [Server thread/INFO]: [world_nether] Generating Chunks: 3922 of 8843 [44.35%] with [20.35 Chunks/s]
+[18:57:06] [Server thread/INFO]: [world_nether] Generating Chunks: 4036 of 8843 [45.64%] with [22.64 Chunks/s]
+[18:57:11] [Server thread/INFO]: [world_nether] Generating Chunks: 4148 of 8843 [46.9%] with [22.26 Chunks/s]
+[18:57:16] [Server thread/INFO]: [world_nether] Generating Chunks: 4273 of 8843 [48.32%] with [24.8 Chunks/s]
+[18:57:21] [Server thread/INFO]: [world_nether] Generating Chunks: 4388 of 8843 [49.62%] with [22.89 Chunks/s]
+[18:57:26] [Server thread/INFO]: [world_nether] Generating Chunks: 4514 of 8843 [51.04%] with [25.14 Chunks/s]
+[18:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[18:57:31] [Server thread/INFO]: [world_nether] Generating Chunks: 4632 of 8843 [52.38%] with [23.26 Chunks/s]
+[18:57:36] [Server thread/INFO]: [world_nether] Generating Chunks: 4736 of 8843 [53.55%] with [20.46 Chunks/s]
+[18:57:41] [Server thread/INFO]: [world_nether] Generating Chunks: 4840 of 8843 [54.73%] with [20.61 Chunks/s]
+[18:57:46] [Server thread/INFO]: [world_nether] Generating Chunks: 4929 of 8843 [55.73%] with [17.67 Chunks/s]
+[18:57:51] [Server thread/INFO]: [world_nether] Generating Chunks: 5037 of 8843 [56.96%] with [21.45 Chunks/s]
+[18:57:56] [Server thread/INFO]: [world_nether] Generating Chunks: 5147 of 8843 [58.2%] with [21.94 Chunks/s]
+[18:58:01] [Server thread/INFO]: [world_nether] Generating Chunks: 5266 of 8843 [59.54%] with [23.7 Chunks/s]
+[18:58:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[18:58:06] [Server thread/INFO]: [world_nether] Generating Chunks: 5372 of 8843 [60.74%] with [21.15 Chunks/s]
+[18:58:11] [Server thread/INFO]: [world_nether] Generating Chunks: 5494 of 8843 [62.12%] with [24.19 Chunks/s]
+[18:58:16] [Server thread/INFO]: [world_nether] Generating Chunks: 5619 of 8843 [63.54%] with [24.7 Chunks/s]
+[18:58:18] [Server thread/INFO]: kupec issued server command: /fcp start 500 world 0 0
+[18:58:21] [Server thread/INFO]: [world_nether] Generating Chunks: 5725 of 8843 [64.74%] with [20.94 Chunks/s]
+[18:58:26] [Server thread/INFO]: [world_nether] Generating Chunks: 5835 of 8843 [65.98%] with [21.94 Chunks/s]
+[18:58:31] [Server thread/INFO]: [world_nether] Generating Chunks: 5956 of 8843 [67.35%] with [24.14 Chunks/s]
+[18:58:33] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world_the_end 0 0
+[18:58:36] [Server thread/INFO]: [world_nether] Generating Chunks: 6056 of 8843 [68.48%] with [19.88 Chunks/s]
+[18:58:41] [Server thread/INFO]: [world_nether] Generating Chunks: 6141 of 8843 [69.44%] with [16.88 Chunks/s]
+[18:58:47] [Server thread/INFO]: [world_nether] Generating Chunks: 6256 of 8843 [70.74%] with [22.79 Chunks/s]
+[18:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[18:58:52] [Server thread/INFO]: [world_nether] Generating Chunks: 6354 of 8843 [71.85%] with [19.51 Chunks/s]
+[18:58:57] [Server thread/INFO]: [world_nether] Generating Chunks: 6455 of 8843 [72.99%] with [20.17 Chunks/s]
+[18:59:02] [Server thread/INFO]: [world_nether] Generating Chunks: 6561 of 8843 [74.19%] with [21.04 Chunks/s]
+[18:59:07] [Server thread/INFO]: [world_nether] Generating Chunks: 6670 of 8843 [75.42%] with [21.61 Chunks/s]
+[18:59:12] [Server thread/INFO]: [world_nether] Generating Chunks: 6769 of 8843 [76.54%] with [19.61 Chunks/s]
+[18:59:17] [Server thread/INFO]: [world_nether] Generating Chunks: 6872 of 8843 [77.71%] with [20.4 Chunks/s]
+[18:59:22] [Server thread/INFO]: [world_nether] Generating Chunks: 6957 of 8843 [78.67%] with [16.87 Chunks/s]
+[18:59:27] [Server thread/INFO]: [world_nether] Generating Chunks: 7059 of 8843 [79.82%] with [20.27 Chunks/s]
+[18:59:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[18:59:32] [Server thread/INFO]: [world_nether] Generating Chunks: 7145 of 8843 [80.79%] with [17.08 Chunks/s]
+[18:59:37] [Server thread/INFO]: [world_nether] Generating Chunks: 7225 of 8843 [81.7%] with [15.94 Chunks/s]
+[18:59:42] [Server thread/INFO]: [world_nether] Generating Chunks: 7317 of 8843 [82.74%] with [18.31 Chunks/s]
+[18:59:47] [Server thread/INFO]: [world_nether] Generating Chunks: 7429 of 8843 [84.0%] with [22.35 Chunks/s]
+[18:59:52] [Server thread/INFO]: [world_nether] Generating Chunks: 7527 of 8843 [85.11%] with [19.54 Chunks/s]
+[18:59:57] [Server thread/INFO]: [world_nether] Generating Chunks: 7648 of 8843 [86.48%] with [24.04 Chunks/s]
+[19:00:02] [Server thread/INFO]: [world_nether] Generating Chunks: 7780 of 8843 [87.97%] with [26.29 Chunks/s]
+[19:00:07] [Server thread/INFO]: [world_nether] Generating Chunks: 7897 of 8843 [89.3%] with [23.25 Chunks/s]
+[19:00:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[19:00:12] [Server thread/INFO]: [world_nether] Generating Chunks: 8020 of 8843 [90.69%] with [24.5 Chunks/s]
+[19:00:17] [Server thread/INFO]: [world_nether] Generating Chunks: 8152 of 8843 [92.18%] with [26.2 Chunks/s]
+[19:00:22] [Server thread/INFO]: [world_nether] Generating Chunks: 8260 of 8843 [93.4%] with [21.56 Chunks/s]
+[19:00:27] [Server thread/INFO]: [world_nether] Generating Chunks: 8375 of 8843 [94.7%] with [22.86 Chunks/s]
+[19:00:32] [Server thread/INFO]: [world_nether] Generating Chunks: 8471 of 8843 [95.79%] with [18.99 Chunks/s]
+[19:00:37] [Server thread/INFO]: [world_nether] Generating Chunks: 8555 of 8843 [96.74%] with [16.69 Chunks/s]
+[19:00:42] [Server thread/INFO]: [world_nether] Generating Chunks: 8638 of 8843 [97.68%] with [16.47 Chunks/s]
+[19:00:44] [Server thread/INFO]: kupec issued server command: /trigger home
+[19:00:44] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[19:00:47] [Server thread/INFO]: [world_nether] Generating Chunks: 8714 of 8843 [98.54%] with [15.1 Chunks/s]
+[19:00:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5602ms or 112 ticks behind
+[19:00:52] [Server thread/INFO]: [world_nether] Generating Chunks: 8804 of 8843 [99.55%] with [17.78 Chunks/s]
+[19:00:55] [Server thread/INFO]: [world_nether] Generating Chunks: 8843 of 8843 [100.0%] with [16.85 Chunks/s]
+[19:00:55] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:00:55] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:00:55] [Server thread/INFO]: [world_the_end] Fetching world chunks: 0 of 4096 [0.0%]
+[19:00:55] [Server thread/INFO]: [world_the_end] Fetching world chunks: 4096 of 4096 [100.0%]
+[19:00:55] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:00:55] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 15625 of 15625 [100.0%] with [195312.5 Chunks/s]
+[19:00:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 0 of 15097 [0.0%] with [0.0 Chunks/s]
+[19:01:00] [Server thread/INFO]: [world_the_end] Generating Chunks: 504 of 15097 [3.33%] with [100.77 Chunks/s]
+[19:01:05] [Server thread/INFO]: [world_the_end] Generating Chunks: 901 of 15097 [5.96%] with [78.89 Chunks/s]
+[19:01:10] [Server thread/INFO]: [world_the_end] Generating Chunks: 1269 of 15097 [8.4%] with [73.13 Chunks/s]
+[19:01:15] [Server thread/INFO]: [world_the_end] Generating Chunks: 1599 of 15097 [10.59%] with [65.35 Chunks/s]
+[19:01:20] [Server thread/INFO]: [world_the_end] Generating Chunks: 1881 of 15097 [12.45%] with [55.91 Chunks/s]
+[19:01:25] [Server thread/INFO]: [world_the_end] Generating Chunks: 2162 of 15097 [14.32%] with [56.06 Chunks/s]
+[19:01:30] [Server thread/INFO]: [world_the_end] Generating Chunks: 2476 of 15097 [16.4%] with [62.3 Chunks/s]
+[19:01:35] [Server thread/INFO]: [world_the_end] Generating Chunks: 2764 of 15097 [18.3%] with [57.48 Chunks/s]
+[19:01:40] [Server thread/INFO]: [world_the_end] Generating Chunks: 3025 of 15097 [20.03%] with [51.98 Chunks/s]
+[19:01:45] [Server thread/INFO]: [world_the_end] Generating Chunks: 3312 of 15097 [21.93%] with [57.33 Chunks/s]
+[19:01:50] [Server thread/INFO]: [world_the_end] Generating Chunks: 3553 of 15097 [23.53%] with [47.98 Chunks/s]
+[19:01:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 3834 of 15097 [25.39%] with [56.11 Chunks/s]
+[19:02:00] [Server thread/INFO]: [world_the_end] Generating Chunks: 4145 of 15097 [27.45%] with [62.06 Chunks/s]
+[19:02:05] [Server thread/INFO]: [world_the_end] Generating Chunks: 4470 of 15097 [29.6%] with [64.81 Chunks/s]
+[19:02:10] [Server thread/INFO]: [world_the_end] Generating Chunks: 4784 of 15097 [31.68%] with [62.69 Chunks/s]
+[19:02:15] [Server thread/INFO]: [world_the_end] Generating Chunks: 5097 of 15097 [33.76%] with [62.12 Chunks/s]
+[19:02:20] [Server thread/INFO]: [world_the_end] Generating Chunks: 5401 of 15097 [35.77%] with [59.85 Chunks/s]
+[19:02:25] [Server thread/INFO]: [world_the_end] Generating Chunks: 5717 of 15097 [37.86%] with [62.61 Chunks/s]
+[19:02:30] [Server thread/INFO]: [world_the_end] Generating Chunks: 6014 of 15097 [39.83%] with [58.92 Chunks/s]
+[19:02:35] [Server thread/INFO]: [world_the_end] Generating Chunks: 6285 of 15097 [41.63%] with [53.8 Chunks/s]
+[19:02:40] [Server thread/INFO]: [world_the_end] Generating Chunks: 6579 of 15097 [43.57%] with [58.74 Chunks/s]
+[19:02:45] [Server thread/INFO]: [world_the_end] Generating Chunks: 6838 of 15097 [45.29%] with [51.77 Chunks/s]
+[19:02:50] [Server thread/INFO]: [world_the_end] Generating Chunks: 7079 of 15097 [46.89%] with [48.0 Chunks/s]
+[19:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5060ms or 101 ticks behind
+[19:02:56] [Server thread/INFO]: [world_the_end] Generating Chunks: 7304 of 15097 [48.38%] with [43.07 Chunks/s]
+[19:03:01] [Server thread/INFO]: [world_the_end] Generating Chunks: 7514 of 15097 [49.77%] with [42.0 Chunks/s]
+[19:03:06] [Server thread/INFO]: [world_the_end] Generating Chunks: 7736 of 15097 [51.24%] with [44.24 Chunks/s]
+[19:03:11] [Server thread/INFO]: [world_the_end] Generating Chunks: 7936 of 15097 [52.56%] with [38.05 Chunks/s]
+[19:03:16] [Server thread/INFO]: [world_the_end] Generating Chunks: 8158 of 15097 [54.03%] with [44.09 Chunks/s]
+[19:03:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:03:21] [Server thread/INFO]: [world_the_end] Generating Chunks: 8338 of 15097 [55.22%] with [35.78 Chunks/s]
+[19:03:26] [Server thread/INFO]: [world_the_end] Generating Chunks: 8502 of 15097 [56.31%] with [32.67 Chunks/s]
+[19:03:31] [Server thread/INFO]: [world_the_end] Generating Chunks: 8689 of 15097 [57.55%] with [36.23 Chunks/s]
+[19:03:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6524ms or 130 ticks behind
+[19:03:36] [Server thread/INFO]: [world_the_end] Generating Chunks: 8875 of 15097 [58.78%] with [36.89 Chunks/s]
+[19:03:41] [Server thread/INFO]: [world_the_end] Generating Chunks: 9047 of 15097 [59.92%] with [34.38 Chunks/s]
+[19:03:46] [Server thread/INFO]: [world_the_end] Generating Chunks: 9175 of 15097 [60.77%] with [24.75 Chunks/s]
+[19:03:51] [Server thread/INFO]: [world_the_end] Generating Chunks: 9353 of 15097 [61.95%] with [35.56 Chunks/s]
+[19:03:57] [Server thread/INFO]: [world_the_end] Generating Chunks: 9472 of 15097 [62.74%] with [22.8 Chunks/s]
+[19:04:02] [Server thread/INFO]: [world_the_end] Generating Chunks: 9636 of 15097 [63.82%] with [32.67 Chunks/s]
+[19:04:07] [Server thread/INFO]: [world_the_end] Generating Chunks: 9773 of 15097 [64.73%] with [27.27 Chunks/s]
+[19:04:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7475ms or 149 ticks behind
+[19:04:12] [Server thread/INFO]: [world_the_end] Generating Chunks: 9888 of 15097 [65.49%] with [22.84 Chunks/s]
+[19:04:17] [Server thread/INFO]: [world_the_end] Generating Chunks: 10061 of 15097 [66.64%] with [34.3 Chunks/s]
+[19:04:22] [Server thread/INFO]: [world_the_end] Generating Chunks: 10184 of 15097 [67.45%] with [24.25 Chunks/s]
+[19:04:27] [Server thread/INFO]: [world_the_end] Generating Chunks: 10301 of 15097 [68.23%] with [23.4 Chunks/s]
+[19:04:32] [Server thread/INFO]: [world_the_end] Generating Chunks: 10457 of 15097 [69.26%] with [31.13 Chunks/s]
+[19:04:37] [Server thread/INFO]: [world_the_end] Generating Chunks: 10590 of 15097 [70.14%] with [26.35 Chunks/s]
+[19:04:42] [Server thread/INFO]: [world_the_end] Generating Chunks: 10705 of 15097 [70.9%] with [22.83 Chunks/s]
+[19:04:47] [Server thread/INFO]: [world_the_end] Generating Chunks: 10815 of 15097 [71.63%] with [21.29 Chunks/s]
+[19:04:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7994ms or 159 ticks behind
+[19:04:52] [Server thread/INFO]: [world_the_end] Generating Chunks: 10936 of 15097 [72.43%] with [24.11 Chunks/s]
+[19:04:57] [Server thread/INFO]: [world_the_end] Generating Chunks: 11043 of 15097 [73.14%] with [21.02 Chunks/s]
+[19:05:02] [Server thread/INFO]: [world_the_end] Generating Chunks: 11136 of 15097 [73.76%] with [17.42 Chunks/s]
+[19:05:08] [Server thread/INFO]: [world_the_end] Generating Chunks: 11244 of 15097 [74.47%] with [20.02 Chunks/s]
+[19:05:13] [Server thread/INFO]: [world_the_end] Generating Chunks: 11357 of 15097 [75.22%] with [22.5 Chunks/s]
+[19:05:18] [Server thread/INFO]: [world_the_end] Generating Chunks: 11463 of 15097 [75.92%] with [20.55 Chunks/s]
+[19:05:23] [Server thread/INFO]: [world_the_end] Generating Chunks: 11572 of 15097 [76.65%] with [20.35 Chunks/s]
+[19:05:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10600ms or 212 ticks behind
+[19:05:28] [Server thread/INFO]: [world_the_end] Generating Chunks: 11667 of 15097 [77.28%] with [18.79 Chunks/s]
+[19:05:33] [Server thread/INFO]: [world_the_end] Generating Chunks: 11761 of 15097 [77.9%] with [18.78 Chunks/s]
+[19:05:38] [Server thread/INFO]: [world_the_end] Generating Chunks: 11844 of 15097 [78.45%] with [16.52 Chunks/s]
+[19:05:43] [Server thread/INFO]: [world_the_end] Generating Chunks: 11925 of 15097 [78.98%] with [16.08 Chunks/s]
+[19:05:48] [Server thread/INFO]: [world_the_end] Generating Chunks: 12018 of 15097 [79.6%] with [18.54 Chunks/s]
+[19:05:54] [Server thread/INFO]: [world_the_end] Generating Chunks: 12121 of 15097 [80.28%] with [20.5 Chunks/s]
+[19:05:59] [Server thread/INFO]: [world_the_end] Generating Chunks: 12218 of 15097 [80.92%] with [19.37 Chunks/s]
+[19:06:04] [Server thread/INFO]: [world_the_end] Generating Chunks: 12300 of 15097 [81.47%] with [16.39 Chunks/s]
+[19:06:09] [Server thread/INFO]: [world_the_end] Generating Chunks: 12367 of 15097 [81.91%] with [13.35 Chunks/s]
+[19:06:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12938ms or 258 ticks behind
+[19:06:14] [Server thread/INFO]: [world_the_end] Generating Chunks: 12455 of 15097 [82.49%] with [17.35 Chunks/s]
+[19:06:19] [Server thread/INFO]: [world_the_end] Generating Chunks: 12524 of 15097 [82.95%] with [13.72 Chunks/s]
+[19:06:24] [Server thread/INFO]: [world_the_end] Generating Chunks: 12583 of 15097 [83.34%] with [11.26 Chunks/s]
+[19:06:29] [Server thread/INFO]: [world_the_end] Generating Chunks: 12664 of 15097 [83.88%] with [16.16 Chunks/s]
+[19:06:34] [Server thread/INFO]: [world_the_end] Generating Chunks: 12723 of 15097 [84.27%] with [11.41 Chunks/s]
+[19:06:39] [Server thread/INFO]: [world_the_end] Generating Chunks: 12809 of 15097 [84.84%] with [17.0 Chunks/s]
+[19:06:44] [Server thread/INFO]: [world_the_end] Generating Chunks: 12878 of 15097 [85.3%] with [13.77 Chunks/s]
+[19:06:49] [Server thread/INFO]: [world_the_end] Generating Chunks: 12938 of 15097 [85.69%] with [11.82 Chunks/s]
+[19:06:54] [Server thread/INFO]: [world_the_end] Generating Chunks: 13023 of 15097 [86.26%] with [16.89 Chunks/s]
+[19:06:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17535ms or 350 ticks behind
+[19:06:59] [Server thread/INFO]: [world_the_end] Generating Chunks: 13068 of 15097 [86.56%] with [8.92 Chunks/s]
+[19:07:04] [Server thread/INFO]: [world_the_end] Generating Chunks: 13154 of 15097 [87.12%] with [16.79 Chunks/s]
+[19:07:09] [Server thread/INFO]: [world_the_end] Generating Chunks: 13215 of 15097 [87.53%] with [12.18 Chunks/s]
+[19:07:14] [Server thread/INFO]: [world_the_end] Generating Chunks: 13280 of 15097 [87.96%] with [13.0 Chunks/s]
+[19:07:19] [Server thread/INFO]: [world_the_end] Generating Chunks: 13364 of 15097 [88.52%] with [16.59 Chunks/s]
+[19:07:24] [Server thread/INFO]: [world_the_end] Generating Chunks: 13415 of 15097 [88.85%] with [10.18 Chunks/s]
+[19:07:29] [Server thread/INFO]: [world_the_end] Generating Chunks: 13499 of 15097 [89.41%] with [16.72 Chunks/s]
+[19:07:35] [Server thread/INFO]: [world_the_end] Generating Chunks: 13555 of 15097 [89.78%] with [11.11 Chunks/s]
+[19:07:40] [Server thread/INFO]: [world_the_end] Generating Chunks: 13626 of 15097 [90.25%] with [14.08 Chunks/s]
+[19:07:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15982ms or 319 ticks behind
+[19:07:45] [Server thread/INFO]: [world_the_end] Generating Chunks: 13702 of 15097 [90.75%] with [15.18 Chunks/s]
+[19:07:50] [Server thread/INFO]: [world_the_end] Generating Chunks: 13763 of 15097 [91.16%] with [12.09 Chunks/s]
+[19:07:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 13843 of 15097 [91.69%] with [15.96 Chunks/s]
+[19:08:00] [Server thread/INFO]: [world_the_end] Generating Chunks: 13891 of 15097 [92.01%] with [9.57 Chunks/s]
+[19:08:05] [Server thread/INFO]: [world_the_end] Generating Chunks: 13974 of 15097 [92.56%] with [16.34 Chunks/s]
+[19:08:10] [Server thread/INFO]: [world_the_end] Generating Chunks: 14031 of 15097 [92.93%] with [11.33 Chunks/s]
+[19:08:15] [Server thread/INFO]: [world_the_end] Generating Chunks: 14113 of 15097 [93.48%] with [15.7 Chunks/s]
+[19:08:20] [Server thread/INFO]: [world_the_end] Generating Chunks: 14193 of 15097 [94.01%] with [15.83 Chunks/s]
+[19:08:25] [Server thread/INFO]: [world_the_end] Generating Chunks: 14244 of 15097 [94.34%] with [10.07 Chunks/s]
+[19:08:30] [Server thread/INFO]: [world_the_end] Generating Chunks: 14322 of 15097 [94.86%] with [15.53 Chunks/s]
+[19:08:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16723ms or 334 ticks behind
+[19:08:35] [Server thread/INFO]: [world_the_end] Generating Chunks: 14379 of 15097 [95.24%] with [11.34 Chunks/s]
+[19:08:40] [Server thread/INFO]: [world_the_end] Generating Chunks: 14454 of 15097 [95.74%] with [14.77 Chunks/s]
+[19:08:45] [Server thread/INFO]: [world_the_end] Generating Chunks: 14509 of 15097 [96.1%] with [10.96 Chunks/s]
+[19:08:50] [Server thread/INFO]: [world_the_end] Generating Chunks: 14585 of 15097 [96.6%] with [15.17 Chunks/s]
+[19:08:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 14648 of 15097 [97.02%] with [12.53 Chunks/s]
+[19:09:00] [Server thread/INFO]: [world_the_end] Generating Chunks: 14719 of 15097 [97.49%] with [14.0 Chunks/s]
+[19:09:05] [Server thread/INFO]: [world_the_end] Generating Chunks: 14779 of 15097 [97.89%] with [11.96 Chunks/s]
+[19:09:10] [Server thread/INFO]: [world_the_end] Generating Chunks: 14847 of 15097 [98.34%] with [13.53 Chunks/s]
+[19:09:15] [Server thread/INFO]: [world_the_end] Generating Chunks: 14905 of 15097 [98.72%] with [11.48 Chunks/s]
+[19:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16913ms or 338 ticks behind
+[19:09:21] [Server thread/INFO]: [world_the_end] Generating Chunks: 14972 of 15097 [99.17%] with [12.68 Chunks/s]
+[19:09:26] [Server thread/INFO]: [world_the_end] Generating Chunks: 15042 of 15097 [99.63%] with [13.89 Chunks/s]
+[19:09:30] [Server thread/INFO]: [world_the_end] Generating Chunks: 15097 of 15097 [100.0%] with [12.82 Chunks/s]
+[19:09:30] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 3969 [0.0%]
+[19:09:30] [Server thread/INFO]: [world] Fetching Coordinates: 3969 of 3969 [100.0%]
+[19:09:30] [Server thread/INFO]: [world] Fetching world chunks: 0 of 19456 [0.0%]
+[19:09:30] [Server thread/INFO]: [world] Fetching world chunks: 19456 of 19456 [100.0%]
+[19:09:30] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 3969 [0.0%] with [0.0 Chunks/s]
+[19:09:35] [Server thread/INFO]: [world] Filtering pre-generated: 2724 of 3969 [68.63%] with [540.79 Chunks/s]
+[19:09:38] [Server thread/INFO]: [world] Filtering pre-generated: 3969 of 3969 [100.0%] with [371.08 Chunks/s]
+[19:09:38] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:09:39] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:10:09] [Server thread/INFO]: kupec issued server command: /fcp start 750 world 0 0
+[19:10:09] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 8649 [0.0%]
+[19:10:09] [Server thread/INFO]: [world] Fetching Coordinates: 8649 of 8649 [99.99%]
+[19:10:09] [Server thread/INFO]: [world] Fetching world chunks: 0 of 19456 [0.0%]
+[19:10:09] [Server thread/INFO]: [world] Fetching world chunks: 19456 of 19456 [100.0%]
+[19:10:09] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 8649 [0.0%] with [0.0 Chunks/s]
+[19:10:14] [Server thread/INFO]: [world] Filtering pre-generated: 5451 of 8649 [63.02%] with [1079.19 Chunks/s]
+[19:10:19] [Server thread/INFO]: [world] Filtering pre-generated: 7017 of 8649 [81.13%] with [310.16 Chunks/s]
+[19:10:24] [Server thread/INFO]: [world] Filtering pre-generated: 8536 of 8649 [98.69%] with [300.85 Chunks/s]
+[19:10:24] [Server thread/INFO]: [world] Filtering pre-generated: 8649 of 8649 [99.99%] with [281.79 Chunks/s]
+[19:10:24] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:10:24] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:10:33] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world 0 0
+[19:10:33] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:10:33] [Server thread/INFO]: [world] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:10:33] [Server thread/INFO]: [world] Fetching world chunks: 0 of 19456 [0.0%]
+[19:10:33] [Server thread/INFO]: [world] Fetching world chunks: 19456 of 19456 [100.0%]
+[19:10:33] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:10:38] [Server thread/INFO]: [world] Filtering pre-generated: 10145 of 15625 [64.92%] with [2008.91 Chunks/s]
+[19:10:43] [Server thread/INFO]: [world] Filtering pre-generated: 11755 of 15625 [75.23%] with [318.81 Chunks/s]
+[19:10:48] [Server thread/INFO]: [world] Filtering pre-generated: 13459 of 15625 [86.13%] with [337.49 Chunks/s]
+[19:10:52] [Server thread/INFO]: [world] Filtering pre-generated: 15625 of 15625 [100.0%] with [593.26 Chunks/s]
+[19:10:52] [Server thread/INFO]: [world] Generating Chunks: 0 of 5424 [0.0%] with [0.0 Chunks/s]
+[19:10:57] [Server thread/INFO]: [world] Generating Chunks: 52 of 5424 [0.95%] with [10.24 Chunks/s]
+[19:11:02] [Server thread/INFO]: [world] Generating Chunks: 106 of 5424 [1.95%] with [10.79 Chunks/s]
+[19:11:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[19:11:07] [Server thread/INFO]: [world] Generating Chunks: 179 of 5424 [3.3%] with [14.57 Chunks/s]
+[19:11:12] [Server thread/INFO]: [world] Generating Chunks: 254 of 5424 [4.68%] with [14.96 Chunks/s]
+[19:11:17] [Server thread/INFO]: [world] Generating Chunks: 324 of 5424 [5.97%] with [13.9 Chunks/s]
+[19:11:22] [Server thread/INFO]: [world] Generating Chunks: 398 of 5424 [7.33%] with [14.71 Chunks/s]
+[19:11:27] [Server thread/INFO]: [world] Generating Chunks: 474 of 5424 [8.73%] with [15.03 Chunks/s]
+[19:11:32] [Server thread/INFO]: [world] Generating Chunks: 559 of 5424 [10.3%] with [16.76 Chunks/s]
+[19:11:37] [Server thread/INFO]: [world] Generating Chunks: 640 of 5424 [11.79%] with [16.07 Chunks/s]
+[19:11:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9552ms or 191 ticks behind
+[19:11:42] [Server thread/INFO]: [world] Generating Chunks: 718 of 5424 [13.23%] with [15.5 Chunks/s]
+[19:11:47] [Server thread/INFO]: [world] Generating Chunks: 793 of 5424 [14.62%] with [14.94 Chunks/s]
+[19:11:52] [Server thread/INFO]: [world] Generating Chunks: 871 of 5424 [16.05%] with [15.44 Chunks/s]
+[19:11:57] [Server thread/INFO]: [world] Generating Chunks: 953 of 5424 [17.57%] with [16.36 Chunks/s]
+[19:12:02] [Server thread/INFO]: [world] Generating Chunks: 1035 of 5424 [19.08%] with [16.26 Chunks/s]
+[19:12:07] [Server thread/INFO]: [world] Generating Chunks: 1116 of 5424 [20.57%] with [16.09 Chunks/s]
+[19:12:12] [Server thread/INFO]: [world] Generating Chunks: 1196 of 5424 [22.05%] with [15.96 Chunks/s]
+[19:12:17] [Server thread/INFO]: [world] Generating Chunks: 1278 of 5424 [23.56%] with [16.3 Chunks/s]
+[19:12:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7840ms or 156 ticks behind
+[19:12:22] [Server thread/INFO]: [world] Generating Chunks: 1356 of 5424 [25.0%] with [15.55 Chunks/s]
+[19:12:27] [Server thread/INFO]: [world] Generating Chunks: 1437 of 5424 [26.49%] with [16.12 Chunks/s]
+[19:12:32] [Server thread/INFO]: [world] Generating Chunks: 1519 of 5424 [28.0%] with [16.26 Chunks/s]
+[19:12:37] [Server thread/INFO]: [world] Generating Chunks: 1597 of 5424 [29.44%] with [15.55 Chunks/s]
+[19:12:42] [Server thread/INFO]: [world] Generating Chunks: 1667 of 5424 [30.73%] with [13.82 Chunks/s]
+[19:12:47] [Server thread/INFO]: [world] Generating Chunks: 1742 of 5424 [32.11%] with [14.91 Chunks/s]
+[19:12:52] [Server thread/INFO]: [world] Generating Chunks: 1818 of 5424 [33.51%] with [15.11 Chunks/s]
+[19:12:57] [Server thread/INFO]: [world] Generating Chunks: 1891 of 5424 [34.86%] with [14.48 Chunks/s]
+[19:12:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9454ms or 189 ticks behind
+[19:13:02] [Server thread/INFO]: [world] Generating Chunks: 1964 of 5424 [36.2%] with [14.56 Chunks/s]
+[19:13:08] [Server thread/INFO]: [world] Generating Chunks: 2037 of 5424 [37.55%] with [14.52 Chunks/s]
+[19:13:13] [Server thread/INFO]: [world] Generating Chunks: 2107 of 5424 [38.84%] with [13.82 Chunks/s]
+[19:13:18] [Server thread/INFO]: [world] Generating Chunks: 2181 of 5424 [40.21%] with [14.79 Chunks/s]
+[19:13:23] [Server thread/INFO]: [world] Generating Chunks: 2250 of 5424 [41.48%] with [13.72 Chunks/s]
+[19:13:28] [Server thread/INFO]: [world] Generating Chunks: 2326 of 5424 [42.88%] with [14.89 Chunks/s]
+[19:13:33] [Server thread/INFO]: [world] Generating Chunks: 2406 of 5424 [44.35%] with [15.88 Chunks/s]
+[19:13:38] [Server thread/INFO]: [world] Generating Chunks: 2481 of 5424 [45.74%] with [14.95 Chunks/s]
+[19:13:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11542ms or 230 ticks behind
+[19:13:43] [Server thread/INFO]: [world] Generating Chunks: 2556 of 5424 [47.12%] with [14.93 Chunks/s]
+[19:13:48] [Server thread/INFO]: [world] Generating Chunks: 2631 of 5424 [48.5%] with [14.95 Chunks/s]
+[19:13:53] [Server thread/INFO]: [world] Generating Chunks: 2699 of 5424 [49.76%] with [13.54 Chunks/s]
+[19:13:58] [Server thread/INFO]: [world] Generating Chunks: 2778 of 5424 [51.21%] with [15.6 Chunks/s]
+[19:14:03] [Server thread/INFO]: [world] Generating Chunks: 2841 of 5424 [52.37%] with [12.51 Chunks/s]
+[19:14:08] [Server thread/INFO]: [world] Generating Chunks: 2912 of 5424 [53.68%] with [14.11 Chunks/s]
+[19:14:13] [Server thread/INFO]: [world] Generating Chunks: 2984 of 5424 [55.01%] with [14.3 Chunks/s]
+[19:14:18] [Server thread/INFO]: [world] Generating Chunks: 3068 of 5424 [56.56%] with [16.74 Chunks/s]
+[19:14:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10961ms or 219 ticks behind
+[19:14:23] [Server thread/INFO]: [world] Generating Chunks: 3146 of 5424 [58.0%] with [15.45 Chunks/s]
+[19:14:28] [Server thread/INFO]: [world] Generating Chunks: 3226 of 5424 [59.47%] with [15.81 Chunks/s]
+[19:14:33] [Server thread/INFO]: [world] Generating Chunks: 3306 of 5424 [60.95%] with [15.87 Chunks/s]
+[19:14:38] [Server thread/INFO]: [world] Generating Chunks: 3387 of 5424 [62.44%] with [16.03 Chunks/s]
+[19:14:43] [Server thread/INFO]: [world] Generating Chunks: 3463 of 5424 [63.84%] with [15.05 Chunks/s]
+[19:14:48] [Server thread/INFO]: [world] Generating Chunks: 3545 of 5424 [65.35%] with [16.29 Chunks/s]
+[19:14:53] [Server thread/INFO]: [world] Generating Chunks: 3624 of 5424 [66.81%] with [15.79 Chunks/s]
+[19:14:58] [Server thread/INFO]: [world] Generating Chunks: 3706 of 5424 [68.32%] with [16.26 Chunks/s]
+[19:15:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7935ms or 158 ticks behind
+[19:15:03] [Server thread/INFO]: [world] Generating Chunks: 3790 of 5424 [69.87%] with [16.74 Chunks/s]
+[19:15:08] [Server thread/INFO]: [world] Generating Chunks: 3871 of 5424 [71.36%] with [16.17 Chunks/s]
+[19:15:13] [Server thread/INFO]: [world] Generating Chunks: 3948 of 5424 [72.78%] with [15.22 Chunks/s]
+[19:15:18] [Server thread/INFO]: [world] Generating Chunks: 4024 of 5424 [74.18%] with [15.13 Chunks/s]
+[19:15:23] [Server thread/INFO]: [world] Generating Chunks: 4103 of 5424 [75.64%] with [15.74 Chunks/s]
+[19:15:28] [Server thread/INFO]: [world] Generating Chunks: 4184 of 5424 [77.13%] with [16.06 Chunks/s]
+[19:15:33] [Server thread/INFO]: [world] Generating Chunks: 4266 of 5424 [78.65%] with [16.39 Chunks/s]
+[19:15:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7853ms or 157 ticks behind
+[19:15:39] [Server thread/INFO]: [world] Generating Chunks: 4346 of 5424 [80.12%] with [15.82 Chunks/s]
+[19:15:44] [Server thread/INFO]: [world] Generating Chunks: 4423 of 5424 [81.54%] with [15.15 Chunks/s]
+[19:15:49] [Server thread/INFO]: [world] Generating Chunks: 4500 of 5424 [82.96%] with [15.31 Chunks/s]
+[19:15:54] [Server thread/INFO]: [world] Generating Chunks: 4561 of 5424 [84.08%] with [12.05 Chunks/s]
+[19:15:59] [Server thread/INFO]: [world] Generating Chunks: 4635 of 5424 [85.45%] with [14.62 Chunks/s]
+[19:16:04] [Server thread/INFO]: [world] Generating Chunks: 4697 of 5424 [86.59%] with [12.36 Chunks/s]
+[19:16:09] [Server thread/INFO]: [world] Generating Chunks: 4774 of 5424 [88.01%] with [15.22 Chunks/s]
+[19:16:14] [Server thread/INFO]: [world] Generating Chunks: 4851 of 5424 [89.43%] with [15.39 Chunks/s]
+[19:16:19] [Server thread/INFO]: [world] Generating Chunks: 4923 of 5424 [90.76%] with [14.33 Chunks/s]
+[19:16:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12004ms or 240 ticks behind
+[19:16:24] [Server thread/INFO]: [world] Generating Chunks: 4995 of 5424 [92.09%] with [14.28 Chunks/s]
+[19:16:29] [Server thread/INFO]: [world] Generating Chunks: 5055 of 5424 [93.19%] with [11.98 Chunks/s]
+[19:16:34] [Server thread/INFO]: [world] Generating Chunks: 5130 of 5424 [94.57%] with [14.86 Chunks/s]
+[19:16:39] [Server thread/INFO]: [world] Generating Chunks: 5202 of 5424 [95.9%] with [14.33 Chunks/s]
+[19:16:44] [Server thread/INFO]: [world] Generating Chunks: 5279 of 5424 [97.32%] with [15.31 Chunks/s]
+[19:16:49] [Server thread/INFO]: [world] Generating Chunks: 5357 of 5424 [98.76%] with [15.46 Chunks/s]
+[19:16:54] [Server thread/INFO]: [world] Generating Chunks: 5424 of 5424 [100.0%] with [14.49 Chunks/s]
+[19:16:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5752ms or 115 ticks behind
+[19:19:40] [Server thread/INFO]: kupec lost connection: Disconnected
+[19:19:40] [Server thread/INFO]: kupec left the game
+[19:19:46] [User Authenticator #2/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
+[19:19:47] [Server thread/INFO]: [Admin] kupec joined the game
+[19:19:47] [Server thread/INFO]: kupec[/26.102.57.185:59037] logged in with entity id 19965 at ([survival]137.70192080080395, 63.0, -12.859337720926614)
+[19:25:02] [Server thread/INFO]: kupec issued server command: /tabtps toggle actionbar
+[19:30:09] [Server thread/INFO]: kupec issued server command: /co rollback time:30s radius:20
+[19:30:48] [Server thread/INFO]: kupec lost connection: Disconnected
+[19:30:48] [Server thread/INFO]: kupec left the game
+[19:30:58] [User Authenticator #3/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
+[19:30:58] [Server thread/INFO]: [Admin] kupec joined the game
+[19:30:58] [Server thread/INFO]: kupec[/26.102.57.185:59927] logged in with entity id 21854 at ([survival]175.11897407642863, 63.0, 24.869766439780513)
+[19:36:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:37:52] [Server thread/INFO]: kupec issued server command: /trigger home
+[19:37:52] [Server thread/INFO]: [[Admin] kupec: Triggered [Home]]
+[19:48:34] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world 0 0
+[19:48:34] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:48:34] [Server thread/INFO]: [world] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:48:34] [Server thread/INFO]: [world] Fetching world chunks: 0 of 39936 [0.0%]
+[19:48:34] [Server thread/INFO]: [world] Fetching world chunks: 39936 of 39936 [100.0%]
+[19:48:34] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:48:34] [Server thread/INFO]: [world] Filtering pre-generated: 15625 of 15625 [100.0%] with [306372.54 Chunks/s]
+[19:48:34] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:48:34] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:48:37] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world_the_end
+[19:48:37] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:48:37] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:48:37] [Server thread/INFO]: [world_the_end] Fetching world chunks: 0 of 36864 [0.0%]
+[19:48:37] [Server thread/INFO]: [world_the_end] Fetching world chunks: 36864 of 36864 [100.0%]
+[19:48:37] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:48:38] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 15625 of 15625 [100.0%] with [103476.82 Chunks/s]
+[19:48:38] [Server thread/INFO]: [world_the_end] Generating Chunks: 0 of 1489 [0.0%] with [0.0 Chunks/s]
+[19:48:43] [Server thread/INFO]: [world_the_end] Generating Chunks: 57 of 1489 [3.82%] with [11.33 Chunks/s]
+[19:48:44] [Server thread/INFO]: kupec issued server command: /fcp cancel
+[19:48:45] [Server thread/INFO]: kupec issued server command: /fcp cancel
+[19:48:47] [Server thread/INFO]: kupec issued server command: /fcp cancel
+[19:48:49] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world 0 0
+[19:48:49] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:48:49] [Server thread/INFO]: [world] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:48:49] [Server thread/INFO]: [world] Fetching world chunks: 0 of 39936 [0.0%]
+[19:48:49] [Server thread/INFO]: [world] Fetching world chunks: 39936 of 39936 [100.0%]
+[19:48:50] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:48:50] [Server thread/INFO]: [world] Filtering pre-generated: 15625 of 15625 [100.0%] with [300480.76 Chunks/s]
+[19:48:50] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:48:50] [Server thread/INFO]: [world] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:48:54] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world_the_end 0 0
+[19:48:54] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:48:54] [Server thread/INFO]: [world_the_end] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:48:54] [Server thread/INFO]: [world_the_end] Fetching world chunks: 0 of 36864 [0.0%]
+[19:48:55] [Server thread/INFO]: [world_the_end] Fetching world chunks: 36864 of 36864 [100.0%]
+[19:48:55] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:48:55] [Server thread/INFO]: [world_the_end] Filtering pre-generated: 15625 of 15625 [100.0%] with [318877.55 Chunks/s]
+[19:48:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:48:55] [Server thread/INFO]: [world_the_end] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:49:02] [Server thread/INFO]: kupec issued server command: /fcp start 1000 world_nether 0 0
+[19:49:02] [Server thread/INFO]: [world_nether] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:49:02] [Server thread/INFO]: [world_nether] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:49:02] [Server thread/INFO]: [world_nether] Fetching world chunks: 0 of 41984 [0.0%]
+[19:49:02] [Server thread/INFO]: [world_nether] Fetching world chunks: 41984 of 41984 [100.0%]
+[19:49:02] [Server thread/INFO]: [world_nether] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:49:02] [Server thread/INFO]: [world_nether] Filtering pre-generated: 15625 of 15625 [100.0%] with [312500.0 Chunks/s]
+[19:49:02] [Server thread/INFO]: [world_nether] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:49:02] [Server thread/INFO]: [world_nether] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:49:06] [Server thread/INFO]: kupec issued server command: /fcp start 1000 survival 0 0
+[19:49:06] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 15625 [0.0%]
+[19:49:06] [Server thread/INFO]: [survival] Fetching Coordinates: 15625 of 15625 [100.0%]
+[19:49:06] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 70656 [0.0%]
+[19:49:06] [Server thread/INFO]: [survival] Fetching world chunks: 70656 of 70656 [100.0%]
+[19:49:06] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 15625 [0.0%] with [0.0 Chunks/s]
+[19:49:09] [Server thread/INFO]: kupec lost connection: Disconnected
+[19:49:09] [Server thread/INFO]: kupec left the game
+[19:49:11] [Server thread/INFO]: [survival] Filtering pre-generated: 4012 of 15625 [25.67%] with [802.4 Chunks/s]
+[19:49:16] [Server thread/INFO]: [survival] Filtering pre-generated: 5221 of 15625 [33.41%] with [241.26 Chunks/s]
+[19:49:21] [Server thread/INFO]: [survival] Filtering pre-generated: 6776 of 15625 [43.36%] with [308.59 Chunks/s]
+[19:49:26] [Server thread/INFO]: [survival] Filtering pre-generated: 8480 of 15625 [54.27%] with [340.8 Chunks/s]
+[19:49:31] [Server thread/INFO]: [survival] Filtering pre-generated: 10202 of 15625 [65.29%] with [340.99 Chunks/s]
+[19:49:36] [Server thread/INFO]: [survival] Filtering pre-generated: 11897 of 15625 [76.14%] with [338.93 Chunks/s]
+[19:49:41] [Server thread/INFO]: [survival] Filtering pre-generated: 13602 of 15625 [87.05%] with [337.69 Chunks/s]
+[19:49:46] [Server thread/INFO]: [survival] Filtering pre-generated: 15332 of 15625 [98.12%] with [346.0 Chunks/s]
+[19:49:47] [Server thread/INFO]: [survival] Filtering pre-generated: 15625 of 15625 [100.0%] with [325.91 Chunks/s]
+[19:49:47] [Server thread/INFO]: [survival] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:49:47] [Server thread/INFO]: [survival] Generating Chunks: 0 of 0 [0.0%] with [0.0 Chunks/s]
+[19:50:30] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:50:30] [Server thread/INFO]: Saved the game
+[19:50:33] [Server thread/INFO]: Stopping the server
+[19:50:33] [Server thread/INFO]: Stopping server
+[19:50:33] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[19:50:33] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[19:50:33] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[19:50:33] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
+[19:50:33] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[19:50:33] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
+[19:50:33] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
+[19:50:33] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.3
+[19:50:33] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[19:50:34] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.3
+[19:50:34] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[19:50:34] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[19:50:34] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.2.1
+[19:50:34] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
+[19:50:34] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:50:34] [Server thread/INFO]: [LagMeter] Disabling LagMeter v1.17.0
+[19:50:34] [Server thread/INFO]: [LagMeter] Disabled!
+[19:50:34] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[19:50:34] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
+[19:50:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[19:50:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:50:34] [Server thread/INFO]: Saving players
+[19:50:34] [Server thread/INFO]: Saving worlds
+[19:50:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[19:50:35] [Server thread/INFO]: Flushing Chunk IO
+[19:50:35] [Server thread/INFO]: Closing Thread Pool
+[19:50:35] [Server thread/INFO]: Closing Server

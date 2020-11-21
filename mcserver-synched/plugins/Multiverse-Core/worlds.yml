@@ -2,7 +2,7 @@ worlds:
   world:
     ==: MVWorld
     hidden: 'false'
-    alias: world
+    alias: Creative
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -96,7 +96,7 @@ worlds:
   world_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: world_nether
+    alias: Nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -143,7 +143,7 @@ worlds:
   survival:
     ==: MVWorld
     hidden: 'false'
-    alias: survival
+    alias: Survival
     color: WHITE
     style: NORMAL
     pvp: 'true'
