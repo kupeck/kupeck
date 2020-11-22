@@ -9,3 +9,23 @@ portals:
     location: 134.0,64.0,85.0:138.0,67.0,85.0
     world: world
     destination: survival
+  Spawn_nether:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: kupec
+    location: 222.0,63.0,-187.0:225.0,64.0,-187.0
+    world: survival
+    destination: world_nether
+  Nether_spawn:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: kupec
+    location: 1.0,63.0,-1.0:1.0,65.0,1.0
+    world: world_nether
+    destination: survival
