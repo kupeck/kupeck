@@ -10,3 +10,6 @@ worlds:
   world_nether:
     portalgoesto:
       NETHER: survival
+  world_the_end:
+    portalgoesto:
+      ENDER: survival
