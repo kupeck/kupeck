@@ -625,6 +625,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-11-23 18:24:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2020-11-10 10:48:56 +0100"
@@ -1901,6 +1907,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-11-23 18:24:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2020-11-18 01:30:17 +0100"
@@ -2121,6 +2133,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-11-23 18:24:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-11-18 01:35:54 +0100"
@@ -2196,6 +2214,12 @@
   "minecraft:recipes/building_blocks/slabs/diorite_slab": {
     "criteria": {
       "has_block": "2020-11-18 10:12:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-11-23 18:24:35 +0100"
     },
     "done": true
   },

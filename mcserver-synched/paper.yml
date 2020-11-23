@@ -209,3 +209,9 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    wandering-trader:
+      spawn-minute-length: 1200
+      spawn-day-length: 24000
+      spawn-chance-failure-increment: 25
+      spawn-chance-min: 25
+      spawn-chance-max: 75
