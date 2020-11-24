@@ -1,1352 +1,720 @@
-[10:11:38] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c415081.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, cauldron concrete v2.0.3.zip, coordinates hud v1.2.0.zip, count mob deaths v1.1.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, redstone rotation wrench v1.1.0.zip, silence mobs v1.1.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager death messages v1.2.1.zip, back v1.2.0.zip, homes v1.4.1.zip, spawn v2.3.0.zip, tpa v2.3.0.zip, classic fishing loot v1.1.0.zip, wandering trades v1.4.0.zip
-[10:11:41] [Worker-Main-3/INFO]: Loaded 7 recipes
-[10:11:42] [Worker-Main-3/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[10:11:42] [Worker-Main-3/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[10:11:44] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[10:11:44] [Server thread/INFO]: Loading properties
-[10:11:44] [Server thread/INFO]: This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[10:11:45] [Server thread/INFO]: Debug logging is disabled
-[10:11:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:11:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:11:46] [Server thread/INFO]: Default game type: SURVIVAL
-[10:11:46] [Server thread/INFO]: Generating keypair
-[10:11:46] [Server thread/INFO]: Starting Minecraft server on *:33247
-[10:11:46] [Server thread/INFO]: Using default channel type
-[10:11:50] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[10:11:58] [Server thread/WARN]: Legacy plugin LagMeter v1.17.0 does not specify an api-version.
-[10:11:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
-[10:12:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@67374f44]
-[10:12:00] [Server thread/INFO]: [TWings] Loading TWings v1.5.0
-[10:12:00] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.3-SNAPSHOT
-[10:12:00] [Server thread/INFO]: [LagMeter] Loading LagMeter v1.17.0
-[10:12:00] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
-[10:12:00] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, injecting!
-[10:12:00] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[10:12:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[10:12:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[10:12:00] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[10:12:00] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.2.1
-[10:12:00] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
-[10:12:00] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
-[10:12:00] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[10:12:00] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.3
-[10:12:00] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.2
-[10:12:00] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
-[10:12:00] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
-[10:12:00] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
-[10:12:00] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
-[10:12:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:12:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
-[10:12:01] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[10:12:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:12:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[10:12:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[10:12:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
-[10:12:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:12:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[10:12:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
-[10:12:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
-[10:12:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
-[10:12:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
-[10:12:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
-[10:12:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
-[10:12:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.2
-[10:12:04] [Server thread/INFO]: Preparing level "world"
-[10:12:04] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:12:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:04] [Server thread/INFO]: View Distance: 16
-[10:12:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:04] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:04] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:12:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:04] [Server thread/INFO]: Mob Spawn Range: 8
-[10:12:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:12:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:12:04] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:12:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:04] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:12:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:12:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:05] [Server thread/INFO]: View Distance: 16
-[10:12:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:12:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:05] [Server thread/INFO]: Mob Spawn Range: 8
-[10:12:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:12:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:12:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:05] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:12:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:05] [Server thread/INFO]: View Distance: 16
-[10:12:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:12:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:05] [Server thread/INFO]: Mob Spawn Range: 8
-[10:12:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:12:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:12:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:12:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:05] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:12:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[10:12:06] [Server thread/INFO]: Preparing spawn area: 0%
-[10:12:06] [Server thread/INFO]: Preparing spawn area: 0%
-[10:12:06] [Server thread/INFO]: Time elapsed: 716 ms
-[10:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:12:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[10:12:06] [Server thread/INFO]: Time elapsed: 196 ms
-[10:12:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:12:06] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[10:12:06] [Server thread/INFO]: Time elapsed: 77 ms
-[10:12:06] [Server thread/INFO]: [TWings] Enabling TWings v1.5.0
-[10:12:06] [Server thread/INFO]: Getting content for URl : https://www.spigotmc.org/resources/82088/
-[10:12:10] [Server thread/INFO]: [PixelStrace's Twings] Enabled!
-[10:12:10] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.3-SNAPSHOT
-[10:12:10] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[10:12:10] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[10:12:10] [Server thread/INFO]: [LagMeter] Enabling LagMeter v1.17.0*
-[10:12:10] [Server thread/INFO]: [LagMeter] Not using logs folder.
-[10:12:10] [Server thread/INFO]: [LagMeter] Enabled! Polling every 40 server ticks. Logging to C:\Users\adama\OneDrive\Dokumenty\GitHub\kupeck\mcserver-synched\plugins\LagMeter\lag.log.
-[10:12:10] [Server thread/INFO]: [LagMeter] Chunks loaded:
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world": 1.
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
-[10:12:10] [Server thread/INFO]: [LagMeter] Total chunks loaded: 1
-[10:12:10] [Server thread/INFO]: [LagMeter] Entities:
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world": 0.
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
-[10:12:10] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
-[10:12:10] [Server thread/INFO]: [LagMeter] Total entities: 0
-[10:12:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
-[10:12:10] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.2.1
-[10:12:11] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
-[10:12:11] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
-[10:12:11] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
-[10:12:11] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[10:12:11] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[10:12:12] [Server thread/INFO]: -------- World Settings For [survival] --------
-[10:12:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:12:12] [Server thread/INFO]: View Distance: 16
-[10:12:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:12:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:12:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:12:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:12:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:12:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:12:12] [Server thread/INFO]: Mob Spawn Range: 8
-[10:12:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:12:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:12:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:12:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[10:12:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:12:12] [Server thread/INFO]: Max TNT Explosions: 100
-[10:12:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:12:12] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
-[10:12:12] [Server thread/INFO]: Loaded 0 spawn chunks for world survival
-[10:12:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:12:12] [Server thread/INFO]: Time elapsed: 352 ms
-[10:12:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[10:12:13] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[10:12:13] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.3
-[10:12:13] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
-[10:12:13] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[10:12:13] [Server thread/INFO]: --------------------
-[10:12:13] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[10:12:13] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[10:12:13] [Server thread/INFO]: --------------------
-[10:12:13] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
-[10:12:13] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
-[10:12:13] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
-[10:12:13] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
-[10:12:13] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
-[10:12:13] [Server thread/INFO]: [Multiverse-Portals] 3 - Portals(s) loaded
-[10:12:13] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[10:12:13] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
-[10:12:13] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
-[10:12:13] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
-[10:12:14] [Server thread/INFO]: Starting GS4 status listener
-[10:12:14] [Server thread/INFO]: Thread Query Listener started
-[10:12:14] [Server thread/INFO]: Running delayed init tasks
-[10:12:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
-[10:12:14] [Query Listener #1/INFO]: Query running on 0.0.0.0:33247
-[10:12:14] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[10:12:14] [Server thread/INFO]: [ViaVersion] Shutting down mapping loader executor!
-[10:12:14] [Server thread/INFO]: Done (29.860s)! For help, type "help"
-[10:12:14] [Server thread/INFO]: Timings Reset
-[10:12:15] [Craft Scheduler Thread - 3/INFO]: [TabTPS] You are running the latest version of TabTPS! :)
-[10:12:15] [Thread-26/INFO]: [CoreProtect] No donation key found. Please check config.yml.
-[10:17:27] [User Authenticator #1/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
-[10:17:27] [Server thread/INFO]: [Admin] kupec joined the game
-[10:17:27] [Server thread/INFO]: kupec[/26.102.57.185:61597] logged in with entity id 108 at ([world]49.70871314641018, 66.0, 16.570721800677628)
-[10:17:46] [Server thread/INFO]: kupec issued server command: /gamemode creative
-[10:17:46] [Server thread/INFO]: [[Admin] kupec: Set own game mode to Creative Mode]
-[10:17:54] [Server thread/INFO]: kupec issued server command: /ping
-[10:22:49] [Server thread/WARN]: kupec was kicked for floating too long!
-[10:22:49] [Server thread/INFO]: kupec lost connection: Flying is not enabled on this server
-[10:22:50] [Server thread/INFO]: kupec left the game
-[10:24:01] [User Authenticator #2/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
-[10:24:01] [Server thread/INFO]: [Admin] kupec joined the game
-[10:24:01] [Server thread/INFO]: kupec[/26.102.57.185:62430] logged in with entity id 1778 at ([survival]202.392190028857, 63.0, 43.859413654535196)
-[10:31:14] [Server thread/INFO]: kupec lost connection: Disconnected
-[10:31:15] [Server thread/INFO]: kupec left the game
-[10:42:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[11:12:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[11:42:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:12:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[12:42:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[13:12:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[13:42:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[13:43:41] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:43:41] [Server thread/INFO]: Saved the game
-[13:55:43] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:55:43] [Server thread/INFO]: Saved the game
-[13:56:05] [Server thread/INFO]: [FCP] World: survival
-[13:56:05] [Server thread/INFO]: [FCP] Using 0|0 as middle.
-[13:56:05] [Server thread/INFO]: [FCP] Generation task scheduled.
-[13:56:05] [Server thread/INFO]: [survival] Fetching Coordinates: 0 of 63001 [0.0%]
-[13:56:05] [Server thread/INFO]: [survival] Fetching Coordinates: 63001 of 63001 [100.0%]
-[13:56:05] [Server thread/INFO]: [survival] Fetching world chunks: 0 of 73728 [0.0%]
-[13:56:05] [Server thread/INFO]: [survival] Fetching world chunks: 73728 of 73728 [100.0%]
-[13:56:05] [Server thread/INFO]: [survival] Filtering pre-generated: 0 of 63001 [0.0%] with [0.0 Chunks/s]
-[13:56:10] [Server thread/INFO]: [survival] Filtering pre-generated: 3661 of 63001 [5.81%] with [732.2 Chunks/s]
-[13:56:15] [Server thread/INFO]: [survival] Filtering pre-generated: 5328 of 63001 [8.45%] with [333.33 Chunks/s]
-[13:56:20] [Server thread/INFO]: [survival] Filtering pre-generated: 6820 of 63001 [10.82%] with [295.5 Chunks/s]
-[13:56:25] [Server thread/INFO]: [survival] Filtering pre-generated: 8453 of 63001 [13.41%] with [326.53 Chunks/s]
-[13:56:31] [Server thread/INFO]: [survival] Filtering pre-generated: 10102 of 63001 [16.03%] with [326.53 Chunks/s]
-[13:56:36] [Server thread/INFO]: [survival] Filtering pre-generated: 11760 of 63001 [18.66%] with [328.31 Chunks/s]
-[13:56:41] [Server thread/INFO]: [survival] Filtering pre-generated: 13428 of 63001 [21.31%] with [333.6 Chunks/s]
-[13:56:46] [Server thread/INFO]: [survival] Filtering pre-generated: 15107 of 63001 [23.97%] with [335.66 Chunks/s]
-[13:56:51] [Server thread/INFO]: [survival] Filtering pre-generated: 16758 of 63001 [26.59%] with [327.18 Chunks/s]
-[13:56:56] [Server thread/INFO]: [survival] Filtering pre-generated: 18489 of 63001 [29.34%] with [346.2 Chunks/s]
-[13:57:01] [Server thread/INFO]: [survival] Filtering pre-generated: 20150 of 63001 [31.98%] with [332.13 Chunks/s]
-[13:57:06] [Server thread/INFO]: [survival] Filtering pre-generated: 21864 of 63001 [34.7%] with [342.8 Chunks/s]
-[13:57:11] [Server thread/INFO]: [survival] Filtering pre-generated: 23608 of 63001 [37.47%] with [348.73 Chunks/s]
-[13:57:16] [Server thread/INFO]: [survival] Filtering pre-generated: 25335 of 63001 [40.21%] with [345.4 Chunks/s]
-[13:57:21] [Server thread/INFO]: [survival] Filtering pre-generated: 27092 of 63001 [43.0%] with [347.98 Chunks/s]
-[13:57:26] [Server thread/INFO]: [survival] Filtering pre-generated: 28833 of 63001 [45.76%] with [348.2 Chunks/s]
-[13:57:31] [Server thread/INFO]: [survival] Filtering pre-generated: 30588 of 63001 [48.55%] with [351.0 Chunks/s]
-[13:57:36] [Server thread/INFO]: [survival] Filtering pre-generated: 32296 of 63001 [51.26%] with [341.53 Chunks/s]
-[13:57:41] [Server thread/INFO]: [survival] Filtering pre-generated: 34036 of 63001 [54.02%] with [348.0 Chunks/s]
-[13:57:46] [Server thread/INFO]: [survival] Filtering pre-generated: 35782 of 63001 [56.79%] with [349.2 Chunks/s]
-[13:57:51] [Server thread/INFO]: [survival] Filtering pre-generated: 37550 of 63001 [59.6%] with [350.16 Chunks/s]
-[13:57:56] [Server thread/INFO]: [survival] Filtering pre-generated: 39305 of 63001 [62.38%] with [351.0 Chunks/s]
-[13:58:01] [Server thread/INFO]: [survival] Filtering pre-generated: 41100 of 63001 [65.23%] with [359.0 Chunks/s]
-[13:58:06] [Server thread/INFO]: [survival] Filtering pre-generated: 42948 of 63001 [68.17%] with [369.52 Chunks/s]
-[13:58:11] [Server thread/INFO]: [survival] Filtering pre-generated: 49409 of 63001 [78.42%] with [1292.2 Chunks/s]
-[13:58:16] [Server thread/INFO]: [survival] Filtering pre-generated: 56493 of 63001 [89.67%] with [1403.05 Chunks/s]
-[13:58:20] [Server thread/INFO]: [survival] Filtering pre-generated: 63001 of 63001 [100.0%] with [1606.91 Chunks/s]
-[13:58:20] [Server thread/INFO]: [survival] Generating Chunks: 0 of 24763 [0.0%] with [0.0 Chunks/s]
-[13:58:25] [Server thread/INFO]: [survival] Generating Chunks: 87 of 24763 [0.35%] with [17.36 Chunks/s]
-[13:58:30] [Server thread/INFO]: [survival] Generating Chunks: 204 of 24763 [0.82%] with [22.67 Chunks/s]
-[13:58:35] [Server thread/INFO]: [survival] Generating Chunks: 316 of 24763 [1.27%] with [22.22 Chunks/s]
-[13:58:40] [Server thread/INFO]: [survival] Generating Chunks: 415 of 24763 [1.67%] with [19.77 Chunks/s]
-[13:58:45] [Server thread/INFO]: [survival] Generating Chunks: 522 of 24763 [2.1%] with [21.37 Chunks/s]
-[13:58:50] [Server thread/INFO]: [survival] Generating Chunks: 626 of 24763 [2.52%] with [20.25 Chunks/s]
-[13:58:55] [Server thread/INFO]: [survival] Generating Chunks: 731 of 24763 [2.95%] with [20.91 Chunks/s]
-[13:59:00] [Server thread/INFO]: [survival] Generating Chunks: 853 of 24763 [3.44%] with [24.2 Chunks/s]
-[13:59:05] [Server thread/INFO]: [survival] Generating Chunks: 960 of 24763 [3.87%] with [21.26 Chunks/s]
-[13:59:10] [Server thread/INFO]: [survival] Generating Chunks: 1070 of 24763 [4.32%] with [22.0 Chunks/s]
-[13:59:15] [Server thread/INFO]: [survival] Generating Chunks: 1176 of 24763 [4.74%] with [21.14 Chunks/s]
-[13:59:20] [Server thread/INFO]: [survival] Generating Chunks: 1278 of 24763 [5.16%] with [20.34 Chunks/s]
-[13:59:25] [Server thread/INFO]: [survival] Generating Chunks: 1389 of 24763 [5.6%] with [21.99 Chunks/s]
-[13:59:30] [Server thread/INFO]: [survival] Generating Chunks: 1500 of 24763 [6.05%] with [22.08 Chunks/s]
-[13:59:35] [Server thread/INFO]: [survival] Generating Chunks: 1606 of 24763 [6.48%] with [21.17 Chunks/s]
-[13:59:40] [Server thread/INFO]: [survival] Generating Chunks: 1716 of 24763 [6.92%] with [21.74 Chunks/s]
-[13:59:46] [Server thread/INFO]: [survival] Generating Chunks: 1822 of 24763 [7.35%] with [21.05 Chunks/s]
-[13:59:51] [Server thread/INFO]: [survival] Generating Chunks: 1927 of 24763 [7.78%] with [20.84 Chunks/s]
-[13:59:56] [Server thread/INFO]: [survival] Generating Chunks: 2038 of 24763 [8.23%] with [22.14 Chunks/s]
-[14:00:01] [Server thread/INFO]: [survival] Generating Chunks: 2148 of 24763 [8.67%] with [21.78 Chunks/s]
-[14:00:06] [Server thread/INFO]: [survival] Generating Chunks: 2252 of 24763 [9.09%] with [20.76 Chunks/s]
-[14:00:11] [Server thread/INFO]: [survival] Generating Chunks: 2363 of 24763 [9.54%] with [22.06 Chunks/s]
-[14:00:16] [Server thread/INFO]: [survival] Generating Chunks: 2469 of 24763 [9.97%] with [21.13 Chunks/s]
-[14:00:21] [Server thread/INFO]: [survival] Generating Chunks: 2572 of 24763 [10.38%] with [20.51 Chunks/s]
-[14:00:26] [Server thread/INFO]: [survival] Generating Chunks: 2673 of 24763 [10.79%] with [20.08 Chunks/s]
-[14:00:31] [Server thread/INFO]: [survival] Generating Chunks: 2792 of 24763 [11.27%] with [23.57 Chunks/s]
-[14:00:36] [Server thread/INFO]: [survival] Generating Chunks: 2894 of 24763 [11.68%] with [20.39 Chunks/s]
-[14:00:41] [Server thread/INFO]: [survival] Generating Chunks: 3006 of 24763 [12.13%] with [22.35 Chunks/s]
-[14:00:46] [Server thread/INFO]: [survival] Generating Chunks: 3111 of 24763 [12.56%] with [20.77 Chunks/s]
-[14:00:51] [Server thread/INFO]: [survival] Generating Chunks: 3217 of 24763 [12.99%] with [20.98 Chunks/s]
-[14:00:56] [Server thread/INFO]: [survival] Generating Chunks: 3326 of 24763 [13.43%] with [21.65 Chunks/s]
-[14:01:01] [Server thread/INFO]: [survival] Generating Chunks: 3439 of 24763 [13.88%] with [22.38 Chunks/s]
-[14:01:06] [Server thread/INFO]: [survival] Generating Chunks: 3549 of 24763 [14.33%] with [21.99 Chunks/s]
-[14:01:11] [Server thread/INFO]: [survival] Generating Chunks: 3658 of 24763 [14.77%] with [21.7 Chunks/s]
-[14:01:16] [Server thread/INFO]: [survival] Generating Chunks: 3760 of 24763 [15.18%] with [20.24 Chunks/s]
-[14:01:21] [Server thread/INFO]: [survival] Generating Chunks: 3866 of 24763 [15.61%] with [21.02 Chunks/s]
-[14:01:26] [Server thread/INFO]: [survival] Generating Chunks: 3974 of 24763 [16.04%] with [21.4 Chunks/s]
-[14:01:31] [Server thread/INFO]: [survival] Generating Chunks: 4080 of 24763 [16.47%] with [21.01 Chunks/s]
-[14:01:36] [Server thread/INFO]: [survival] Generating Chunks: 4191 of 24763 [16.92%] with [22.17 Chunks/s]
-[14:01:41] [Server thread/INFO]: [survival] Generating Chunks: 4293 of 24763 [17.33%] with [20.27 Chunks/s]
-[14:01:46] [Server thread/INFO]: [survival] Generating Chunks: 4405 of 24763 [17.78%] with [21.93 Chunks/s]
-[14:01:51] [Server thread/INFO]: [survival] Generating Chunks: 4509 of 24763 [18.2%] with [20.5 Chunks/s]
-[14:01:56] [Server thread/INFO]: [survival] Generating Chunks: 4615 of 24763 [18.63%] with [21.18 Chunks/s]
-[14:02:01] [Server thread/INFO]: [survival] Generating Chunks: 4724 of 24763 [19.07%] with [21.66 Chunks/s]
-[14:02:06] [Server thread/INFO]: [survival] Generating Chunks: 4834 of 24763 [19.52%] with [21.91 Chunks/s]
-[14:02:11] [Server thread/INFO]: [survival] Generating Chunks: 4932 of 24763 [19.91%] with [19.56 Chunks/s]
-[14:02:16] [Server thread/INFO]: [survival] Generating Chunks: 5047 of 24763 [20.38%] with [22.87 Chunks/s]
-[14:02:21] [Server thread/INFO]: [survival] Generating Chunks: 5151 of 24763 [20.8%] with [20.79 Chunks/s]
-[14:02:27] [Server thread/INFO]: [survival] Generating Chunks: 5250 of 24763 [21.2%] with [19.54 Chunks/s]
-[14:02:32] [Server thread/INFO]: [survival] Generating Chunks: 5366 of 24763 [21.66%] with [22.69 Chunks/s]
-[14:02:37] [Server thread/INFO]: [survival] Generating Chunks: 5476 of 24763 [22.11%] with [21.9 Chunks/s]
-[14:02:42] [Server thread/INFO]: [survival] Generating Chunks: 5585 of 24763 [22.55%] with [21.61 Chunks/s]
-[14:02:47] [Server thread/INFO]: [survival] Generating Chunks: 5696 of 24763 [23.0%] with [22.16 Chunks/s]
-[14:02:52] [Server thread/INFO]: [survival] Generating Chunks: 5804 of 24763 [23.43%] with [21.45 Chunks/s]
-[14:02:57] [Server thread/INFO]: [survival] Generating Chunks: 5906 of 24763 [23.85%] with [20.32 Chunks/s]
-[14:03:02] [Server thread/INFO]: [survival] Generating Chunks: 6018 of 24763 [24.3%] with [22.18 Chunks/s]
-[14:03:07] [Server thread/INFO]: [survival] Generating Chunks: 6128 of 24763 [24.74%] with [22.0 Chunks/s]
-[14:03:12] [Server thread/INFO]: [survival] Generating Chunks: 6231 of 24763 [25.16%] with [20.56 Chunks/s]
-[14:03:17] [Server thread/INFO]: [survival] Generating Chunks: 6338 of 24763 [25.59%] with [21.22 Chunks/s]
-[14:03:22] [Server thread/INFO]: [survival] Generating Chunks: 6447 of 24763 [26.03%] with [21.69 Chunks/s]
-[14:03:27] [Server thread/INFO]: [survival] Generating Chunks: 6542 of 24763 [26.41%] with [18.92 Chunks/s]
-[14:03:32] [Server thread/INFO]: [survival] Generating Chunks: 6644 of 24763 [26.83%] with [20.37 Chunks/s]
-[14:03:37] [Server thread/INFO]: [survival] Generating Chunks: 6762 of 24763 [27.3%] with [23.58 Chunks/s]
-[14:03:42] [Server thread/INFO]: [survival] Generating Chunks: 6875 of 24763 [27.76%] with [22.35 Chunks/s]
-[14:03:47] [Server thread/INFO]: [survival] Generating Chunks: 6973 of 24763 [28.15%] with [19.47 Chunks/s]
-[14:03:52] [Server thread/INFO]: [survival] Generating Chunks: 7088 of 24763 [28.62%] with [22.95 Chunks/s]
-[14:03:57] [Server thread/INFO]: [survival] Generating Chunks: 7197 of 24763 [29.06%] with [21.62 Chunks/s]
-[14:04:02] [Server thread/INFO]: [survival] Generating Chunks: 7299 of 24763 [29.47%] with [20.23 Chunks/s]
-[14:04:07] [Server thread/INFO]: [survival] Generating Chunks: 7413 of 24763 [29.93%] with [22.71 Chunks/s]
-[14:04:12] [Server thread/INFO]: [survival] Generating Chunks: 7520 of 24763 [30.36%] with [21.4 Chunks/s]
-[14:04:17] [Server thread/INFO]: [survival] Generating Chunks: 7627 of 24763 [30.79%] with [21.28 Chunks/s]
-[14:04:19] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 19.99, 20.0, 20.0
-[14:04:22] [Server thread/INFO]: [survival] Generating Chunks: 7730 of 24763 [31.21%] with [20.5 Chunks/s]
-[14:04:23] [Server thread/INFO]: [LagMeter] [###############_____] 4,041.82MB/5,435.00MB (74.37%) free
-[14:04:27] [Server thread/INFO]: [survival] Generating Chunks: 7837 of 24763 [31.64%] with [21.16 Chunks/s]
-[14:04:32] [Server thread/INFO]: [survival] Generating Chunks: 7938 of 24763 [32.05%] with [19.76 Chunks/s]
-[14:04:36] [Server thread/INFO]: [LagMeter] [####################] 20.00 TPS
-[14:04:36] [Server thread/INFO]: [LagMeter] [################____] 4,252.14MB/5,435.00MB (78.24%) free
-[14:04:37] [Server thread/INFO]: [survival] Generating Chunks: 8041 of 24763 [32.47%] with [20.5 Chunks/s]
-[14:04:40] [Server thread/INFO]: Server tick times (avg/min/max) from last 5s, 10s, 1m:
-[14:04:40] [Server thread/INFO]: ? 43.8/32.2/169.7, 47.4/32.2/169.7, 46.3/31.9/207.8
-[14:04:42] [Server thread/INFO]: [survival] Generating Chunks: 8149 of 24763 [32.9%] with [21.55 Chunks/s]
-[14:04:47] [Server thread/INFO]: [survival] Generating Chunks: 8256 of 24763 [33.34%] with [21.39 Chunks/s]
-[14:04:52] [Server thread/INFO]: [survival] Generating Chunks: 8362 of 24763 [33.76%] with [21.02 Chunks/s]
-[14:04:57] [Server thread/INFO]: [survival] Generating Chunks: 8468 of 24763 [34.19%] with [21.16 Chunks/s]
-[14:05:02] [Server thread/INFO]: [survival] Generating Chunks: 8574 of 24763 [34.62%] with [21.17 Chunks/s]
-[14:05:07] [Server thread/INFO]: [survival] Generating Chunks: 8679 of 24763 [35.04%] with [20.89 Chunks/s]
-[14:05:12] [Server thread/INFO]: [survival] Generating Chunks: 8783 of 24763 [35.46%] with [20.66 Chunks/s]
-[14:05:18] [Server thread/INFO]: [survival] Generating Chunks: 8884 of 24763 [35.87%] with [19.98 Chunks/s]
-[14:05:23] [Server thread/INFO]: [survival] Generating Chunks: 8994 of 24763 [36.32%] with [21.84 Chunks/s]
-[14:05:28] [Server thread/INFO]: [survival] Generating Chunks: 9096 of 24763 [36.73%] with [20.19 Chunks/s]
-[14:05:29] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:05:33] [Server thread/INFO]: [survival] Generating Chunks: 9205 of 24763 [37.17%] with [21.6 Chunks/s]
-[14:05:38] [Server thread/INFO]: [survival] Generating Chunks: 9313 of 24763 [37.6%] with [21.43 Chunks/s]
-[14:05:43] [Server thread/INFO]: [survival] Generating Chunks: 9412 of 24763 [38.0%] with [19.72 Chunks/s]
-[14:05:48] [Server thread/INFO]: [survival] Generating Chunks: 9519 of 24763 [38.44%] with [21.23 Chunks/s]
-[14:05:53] [Server thread/INFO]: [survival] Generating Chunks: 9624 of 24763 [38.86%] with [20.99 Chunks/s]
-[14:05:58] [Server thread/INFO]: [survival] Generating Chunks: 9733 of 24763 [39.3%] with [21.79 Chunks/s]
-[14:06:03] [Server thread/INFO]: [survival] Generating Chunks: 9836 of 24763 [39.72%] with [20.4 Chunks/s]
-[14:06:08] [Server thread/INFO]: [survival] Generating Chunks: 9948 of 24763 [40.17%] with [22.38 Chunks/s]
-[14:06:13] [Server thread/INFO]: [survival] Generating Chunks: 10055 of 24763 [40.6%] with [21.36 Chunks/s]
-[14:06:18] [Server thread/INFO]: [survival] Generating Chunks: 10154 of 24763 [41.0%] with [19.64 Chunks/s]
-[14:06:23] [Server thread/INFO]: [survival] Generating Chunks: 10261 of 24763 [41.43%] with [21.38 Chunks/s]
-[14:06:28] [Server thread/INFO]: [survival] Generating Chunks: 10368 of 24763 [41.86%] with [21.34 Chunks/s]
-[14:06:33] [Server thread/INFO]: [survival] Generating Chunks: 10481 of 24763 [42.32%] with [22.45 Chunks/s]
-[14:06:38] [Server thread/INFO]: [survival] Generating Chunks: 10580 of 24763 [42.72%] with [19.68 Chunks/s]
-[14:06:40] [Server thread/INFO]: --------- Help: Index ---------------------------
-[14:06:40] [Server thread/INFO]: Use /help [n] to get page n of help.
-[14:06:40] [Server thread/INFO]: Aliases: Lists command aliases
-[14:06:40] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[14:06:40] [Server thread/INFO]: CoreProtect: All commands for CoreProtect
-[14:06:40] [Server thread/INFO]: FastChunkPregenerator: All commands for FastChunkPregenerator
-[14:06:40] [Server thread/INFO]: LagMeter: All commands for LagMeter
-[14:06:40] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[14:06:40] [Server thread/INFO]: Multiverse-Core: All commands for Multiverse-Core
-[14:06:40] [Server thread/INFO]: Multiverse-Inventories: All commands for Multiverse-Inventories
-[14:06:40] [Server thread/INFO]: Multiverse-NetherPortals: All commands for Multiverse-NetherPortals
-[14:06:40] [Server thread/INFO]: Multiverse-Portals: All commands for Multiverse-Portals
-[14:06:40] [Server thread/INFO]: TabTPS: All commands for TabTPS
-[14:06:40] [Server thread/INFO]: TWings: All commands for TWings
-[14:06:40] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
-[14:06:40] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
-[14:06:40] [Server thread/INFO]: /.s: Execute last CraftScript
-[14:06:40] [Server thread/INFO]: //: Toggle the super pickaxe function
-[14:06:40] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
-[14:06:40] [Server thread/INFO]: //center: Set the center block(s)
-[14:06:40] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
-[14:06:40] [Server thread/INFO]: //contract: Contract the selection area
-[14:06:40] [Server thread/INFO]: //copy: Copy the selection to the clipboard
-[14:06:40] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
-[14:06:40] [Server thread/INFO]: //curve: Draws a spline through selected points
-[14:06:40] [Server thread/INFO]: //cut: Cut the selection to the clipboard
-[14:06:40] [Server thread/INFO]: //cyl: Generates a cylinder.
-[14:06:40] [Server thread/INFO]: //deform: Deforms a selected region with an expression
-[14:06:40] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
-[14:06:40] [Server thread/INFO]: //drain: Drain a pool
-[14:06:40] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
-[14:06:40] [Server thread/INFO]: //expand: Expand the selection area
-[14:06:40] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
-[14:06:40] [Server thread/INFO]: //fast: Toggle fast mode
-[14:06:40] [Server thread/INFO]: //fill: Fill a hole
-[14:06:40] [Server thread/INFO]: //fillr: Fill a hole recursively
-[14:06:40] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
-[14:06:40] [Server thread/INFO]: //flora: Make flora within the region
-[14:06:40] [Server thread/INFO]: //forest: Make a forest within the region
-[14:06:40] [Server thread/INFO]: //generate: Generates a shape according to a formula.
-[14:06:40] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
-[14:06:40] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
-[14:06:40] [Server thread/INFO]: //help: Displays help for WorldEdit commands
-[14:06:40] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
-[14:06:40] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
-[14:06:40] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
-[14:06:40] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
-[14:06:40] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
-[14:06:40] [Server thread/INFO]: //inset: Inset the selection area
-[14:06:40] [Server thread/INFO]: //limit: Modify block change limit
-[14:06:40] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
-[14:06:40] [Server thread/INFO]: //move: Move the contents of the selection
-[14:06:40] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
-[14:06:40] [Server thread/INFO]: //outset: Outset the selection area
-[14:06:40] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
-[14:06:40] [Server thread/INFO]: //paste: Paste the clipboard's contents
-[14:06:40] [Server thread/INFO]: //perf: Toggle side effects for performance
-[14:06:40] [Server thread/INFO]: //pos1: Set position 1
-[14:06:40] [Server thread/INFO]: //pos2: Set position 2
-[14:06:40] [Server thread/INFO]: //pyramid: Generate a filled pyramid
-[14:06:40] [Server thread/INFO]: //regen: Regenerates the contents of the selection
-[14:06:40] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
-[14:06:40] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
-[14:06:40] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
-[14:06:40] [Server thread/INFO]: //sel: Choose a region selector
-[14:06:40] [Server thread/INFO]: //set: Sets all the blocks in the region
-[14:06:40] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
-[14:06:40] [Server thread/INFO]: //shift: Shift the selection area
-[14:06:40] [Server thread/INFO]: //size: Get information about the selection
-[14:06:40] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
-[14:06:40] [Server thread/INFO]: //sphere: Generates a filled sphere.
-[14:06:40] [Server thread/INFO]: //stack: Repeat the contents of the selection
-[14:06:40] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
-[14:06:40] [Server thread/INFO]: //walls: Build the four sides of the selection
-[14:06:40] [Server thread/INFO]: //wand: Get the wand item
-[14:06:40] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
-[14:06:40] [Server thread/INFO]: //world: Sets the world override
-[14:06:40] [Server thread/INFO]: /advancement: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /ascend: Go up a floor
-[14:06:40] [Server thread/INFO]: /attribute: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /ban: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /banlist: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
-[14:06:40] [Server thread/INFO]: /biomelist: Gets all biomes available.
-[14:06:40] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /brush: Brushing commands
-[14:06:40] [Server thread/INFO]: /butcher: Kill all or nearby mobs
-[14:06:40] [Server thread/INFO]: /ceil: Go to the ceiling
-[14:06:40] [Server thread/INFO]: /chunkgen: 
-[14:06:40] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
-[14:06:40] [Server thread/INFO]: /clear: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /clearclipboard: Clear your clipboard
-[14:06:40] [Server thread/INFO]: /clearhistory: Clear your history
-[14:06:40] [Server thread/INFO]: /clone: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /co: Utilize the plugin
-[14:06:40] [Server thread/INFO]: /core: Utilize the plugin
-[14:06:40] [Server thread/INFO]: /coreprotect: Utilize the plugin
-[14:06:40] [Server thread/INFO]: /cs: Execute a CraftScript
-[14:06:40] [Server thread/INFO]: /cycler: Block data cycler tool
-[14:06:40] [Server thread/INFO]: /data: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /datapack: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /debug: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
-[14:06:40] [Server thread/INFO]: /deltree: Floating tree remover tool
-[14:06:40] [Server thread/INFO]: /deop: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /descend: Go down a floor
-[14:06:40] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /effect: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /enchant: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /execute: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /experience: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /extinguish: Extinguish nearby fire
-[14:06:40] [Server thread/INFO]: /farwand: Wand at a distance tool
-[14:06:40] [Server thread/INFO]: /fcp: 
-[14:06:40] [Server thread/INFO]: /fill: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /fixlava: Fix lava to be stationary
-[14:06:40] [Server thread/INFO]: /fixwater: Fix water to be stationary
-[14:06:40] [Server thread/INFO]: /floodfill: Flood fill tool
-[14:06:40] [Server thread/INFO]: /forceload: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /forestgen: Generate a forest
-[14:06:40] [Server thread/INFO]: /function: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /give: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /gmask: Set the global mask
-[14:06:40] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
-[14:06:40] [Server thread/INFO]: /gspawn: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /help: Shows the help menu
-[14:06:40] [Server thread/INFO]: /info: Block information tool
-[14:06:40] [Server thread/INFO]: /ispawn: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /jumpto: Teleport to a location
-[14:06:40] [Server thread/INFO]: /kick: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /kill: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /lag: Check current lag
-[14:06:40] [Server thread/INFO]: /lagmap: Changes the map in the player's hand to an automatically-updating lag and memory meter, or toggles the LagMap back to a normal map.
-[14:06:40] [Server thread/INFO]: /lagmem: Check both current memory usage and current lag
-[14:06:40] [Server thread/INFO]: /lagmeter: Shows the version. Sub-commands of help and reload have obvious functions.
-[14:06:40] [Server thread/INFO]: /lchunks: Shows chunks loaded per world, along with a combined total.
-[14:06:40] [Server thread/INFO]: /lentities: Shows entities per world, along with a combined total.
-[14:06:40] [Server thread/INFO]: /list: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /listchunks: List chunks that your selection includes
-[14:06:40] [Server thread/INFO]: /lm: Check both current memory usage and current lag. Shortcut of lagmem.
-[14:06:40] [Server thread/INFO]: /lmobs: Alternate command to /lentities. Shows entities per world, along with a combined total.
-[14:06:40] [Server thread/INFO]: /lmp: Shows TPS, memory, and players online.
-[14:06:40] [Server thread/INFO]: /locate: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /loot: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /lping: Pings the sender, or, if the console, google.com, from the server.
-[14:06:40] [Server thread/INFO]: /lrbuild: Long-range building tool
-[14:06:40] [Server thread/INFO]: /mask: Set the brush mask
-[14:06:40] [Server thread/INFO]: /material: Set the brush material
-[14:06:40] [Server thread/INFO]: /me: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /mem: Check current memory usage
-[14:06:40] [Server thread/INFO]: /memory: Displays the current memory pools of the server jvm. Output will vary greatly based on garbage collection settings.
-[14:06:40] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /msg: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /mspt: View server tick times
-[14:06:40] [Server thread/INFO]: /mv: Generic Multiverse Command
-[14:06:40] [Server thread/INFO]: /mvanchors: Creating and removing Anchors command
-[14:06:40] [Server thread/INFO]: /mvcheck: Validate your multiverse settings command
-[14:06:40] [Server thread/INFO]: /mvclone: World clone command
-[14:06:40] [Server thread/INFO]: /mvconfig: Configuration command
-[14:06:40] [Server thread/INFO]: /mvconfirm: Confirms sensitive decisions like deleting a world.
-[14:06:40] [Server thread/INFO]: /mvcoord: Display World, Coordinates, Direction & Compression for a world.
-[14:06:40] [Server thread/INFO]: /mvcreate: World create command
-[14:06:40] [Server thread/INFO]: /mvdebug: Turns on debugging.
-[14:06:40] [Server thread/INFO]: /mvdelete: Delete world from server folders command
-[14:06:40] [Server thread/INFO]: /mvenv: Tells the user all possible environment types.
-[14:06:40] [Server thread/INFO]: /mvgamerule: Sets a gamerule.
-[14:06:40] [Server thread/INFO]: /mvgamerules: Lists the gamerules
-[14:06:40] [Server thread/INFO]: /mvgenerators: Displays all found world generators.
-[14:06:40] [Server thread/INFO]: /mvhelp: Displays the Multiverse Help.
-[14:06:40] [Server thread/INFO]: /mvimport: World import command
-[14:06:40] [Server thread/INFO]: /mvinfo: Gets world info.
-[14:06:40] [Server thread/INFO]: /mvinv: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvadds: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvaddshares: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvaddw: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvaddword: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvas: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvaw: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvd: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvdebug: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvi: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvim: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvimport: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvinfo: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvl: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvlist: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvraddshare: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvreload: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvremoves: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvremoveshare: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvremoveshares: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvremovew: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvremoveworld: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrms: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrmshare: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrmshares: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrmw: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrmworld: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrs: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvrw: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvs: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvinvspawn: Generic Multiverse-Inventories Command
-[14:06:40] [Server thread/INFO]: /mvlist: Print list of loaded Worlds
-[14:06:40] [Server thread/INFO]: /mvload: Loads a world into Multiverse.
-[14:06:40] [Server thread/INFO]: /mvmadd: Modify the settings of an existing world
-[14:06:40] [Server thread/INFO]: /mvmclear: Modify the settings of an existing world
-[14:06:40] [Server thread/INFO]: /mvmodify: Modify the settings of an existing world
-[14:06:40] [Server thread/INFO]: /mvmremove: Modify the settings of an existing world
-[14:06:40] [Server thread/INFO]: /mvmset: Modify the settings of an existing world
-[14:06:40] [Server thread/INFO]: /mvnp: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnpl: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnpli: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnplink: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnplist: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnps: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnpshow: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnpu: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvnpunlink: Generic Multiverse-NetherPortals Command
-[14:06:40] [Server thread/INFO]: /mvp: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpc: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpcreate: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpl: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvplist: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpm: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpmodify: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpms: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpr: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpremove: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvps: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpselect: Generic Multiverse-Portals Command
-[14:06:40] [Server thread/INFO]: /mvpurge: Purge the targetted world of creatures.
-[14:06:40] [Server thread/INFO]: /mvregen: Regenerates a world Multiverse already knows about.
-[14:06:40] [Server thread/INFO]: /mvreload: Reload Configuration files.
-[14:06:40] [Server thread/INFO]: /mvremove: Remove world from multiverse command
-[14:06:40] [Server thread/INFO]: /mvscript: Runs a script from the Multiverse scripts directory.
-[14:06:40] [Server thread/INFO]: /mvsetspawn: Set the spawn area for a particular world
-[14:06:40] [Server thread/INFO]: /mvsilent: Reduces startup messages
-[14:06:40] [Server thread/INFO]: /mvspawn: Teleport to the spawn area
-[14:06:40] [Server thread/INFO]: /mvtp: Command to teleport between Worlds
-[14:06:40] [Server thread/INFO]: /mvunload: World unload command
-[14:06:40] [Server thread/INFO]: /mvversion: Prints out version info.
-[14:06:40] [Server thread/INFO]: /mvwho: Display online users per world.
-[14:06:40] [Server thread/INFO]: /navwand: Navigation wand tool
-[14:06:40] [Server thread/INFO]: /none: Unbind a bound tool from your current item
-[14:06:40] [Server thread/INFO]: /op: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /paper: Paper related commands
-[14:06:40] [Server thread/INFO]: /pardon: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /particle: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /ping: Pings or, if the console, google.com, from the server.
-[14:06:40] [Server thread/INFO]: /pingall: Displays the pings of connected players with an average.
-[14:06:40] [Server thread/INFO]: /playsound: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[14:06:40] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
-[14:06:40] [Server thread/INFO]: /range: Set the brush range
-[14:06:40] [Server thread/INFO]: /recipe: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /redo: Redoes the last action (from history)
-[14:06:40] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[14:06:40] [Server thread/INFO]: /remove: Remove all entities of a type
-[14:06:40] [Server thread/INFO]: /removeabove: Remove blocks above your head.
-[14:06:40] [Server thread/INFO]: /removebelow: Remove blocks below you.
-[14:06:40] [Server thread/INFO]: /removenear: Remove blocks near you.
-[14:06:40] [Server thread/INFO]: /repl: Block replacer tool
-[14:06:40] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /replacenear: Replace nearby blocks
-[14:06:40] [Server thread/INFO]: /restart: Restarts the server
-[14:06:40] [Server thread/INFO]: /restore: Restore the selection from a snapshot
-[14:06:40] [Server thread/INFO]: /save-all: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /save-off: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /save-on: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /say: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /schedule: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
-[14:06:40] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /searchitem: Search for an item
-[14:06:40] [Server thread/INFO]: /seed: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /selwand: Selection wand tool
-[14:06:40] [Server thread/INFO]: /setblock: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /size: Set the brush size
-[14:06:40] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
-[14:06:40] [Server thread/INFO]: /snow: Simulates snow
-[14:06:40] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /spectate: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /spigot: Spigot related commands
-[14:06:40] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /stop: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /summon: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
-[14:06:40] [Server thread/INFO]: /tabtps: Reloads the TabTPS config files.
-[14:06:40] [Server thread/INFO]: /tabtps:ping: Displays the targets ping to the server in milliseconds.
-[14:06:40] [Server thread/INFO]: /tag: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /team: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /teleport: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /tell: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /thaw: Thaws the area
-[14:06:40] [Server thread/INFO]: /thru: Pass through walls
-[14:06:40] [Server thread/INFO]: /tickinfo: Displays the current TPS and MSPT of the server.
-[14:06:40] [Server thread/INFO]: /time: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[14:06:40] [Server thread/INFO]: /title: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /tm: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
-[14:06:40] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
-[14:06:40] [Server thread/INFO]: /tool: Binds a tool to the item in your hand
-[14:06:40] [Server thread/INFO]: /tp: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[14:06:40] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
-[14:06:40] [Server thread/INFO]: /tree: Tree generator tool
-[14:06:40] [Server thread/INFO]: /trigger: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /undo: Undoes the last action (from history)
-[14:06:40] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
-[14:06:40] [Server thread/INFO]: /up: Go upwards some distance
-[14:06:40] [Server thread/INFO]: /uptime: Shows how long the server has been online.
-[14:06:40] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[14:06:40] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
-[14:06:40] [Server thread/INFO]: /w: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /weather: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /wings: 
-[14:06:40] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[14:06:40] [Server thread/INFO]: /worldedit: WorldEdit commands
-[14:06:40] [Server thread/INFO]: /xp: A Mojang provided command.
-[14:06:43] [Server thread/INFO]: [survival] Generating Chunks: 10695 of 24763 [43.18%] with [22.9 Chunks/s]
-[14:06:46] [Server thread/INFO]: /advancement (grant|revoke)
-[14:06:46] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
-[14:06:46] [Server thread/INFO]: /ban <targets> [<reason>]
-[14:06:46] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[14:06:46] [Server thread/INFO]: /banlist [ips|players]
-[14:06:46] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[14:06:46] [Server thread/INFO]: /clear [<targets>]
-[14:06:46] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[14:06:46] [Server thread/INFO]: /data (get|merge|modify|remove)
-[14:06:46] [Server thread/INFO]: /datapack (disable|enable|list)
-[14:06:46] [Server thread/INFO]: /debug (report|start|stop)
-[14:06:46] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[14:06:46] [Server thread/INFO]: /deop <targets>
-[14:06:46] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[14:06:46] [Server thread/INFO]: /effect (clear|give)
-[14:06:46] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[14:06:46] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[14:06:46] [Server thread/INFO]: /experience (add|query|set)
-[14:06:46] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[14:06:46] [Server thread/INFO]: /forceload (add|query|remove)
-[14:06:46] [Server thread/INFO]: /function <name>
-[14:06:46] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[14:06:46] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[14:06:46] [Server thread/INFO]: /give <targets> <item> [<count>]
-[14:06:46] [Server thread/INFO]: /help [<command>]
-[14:06:46] [Server thread/INFO]: /kick <targets> [<reason>]
-[14:06:46] [Server thread/INFO]: /kill [<targets>]
-[14:06:46] [Server thread/INFO]: /list [uuids]
-[14:06:46] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[14:06:46] [Server thread/INFO]: /locatebiome <biome>
-[14:06:46] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[14:06:46] [Server thread/INFO]: /me <action>
-[14:06:46] [Server thread/INFO]: /msg <targets> <message>
-[14:06:46] [Server thread/INFO]: /op <targets>
-[14:06:46] [Server thread/INFO]: /pardon <targets>
-[14:06:46] [Server thread/INFO]: /pardon-ip <target>
-[14:06:46] [Server thread/INFO]: /particle <name> [<pos>]
-[14:06:46] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[14:06:46] [Server thread/INFO]: /recipe (give|take)
-[14:06:46] [Server thread/INFO]: /reload
-[14:06:46] [Server thread/INFO]: /replaceitem (block|entity)
-[14:06:46] [Server thread/INFO]: /save-all [flush]
-[14:06:46] [Server thread/INFO]: /save-off
-[14:06:46] [Server thread/INFO]: /save-on
-[14:06:46] [Server thread/INFO]: /say <message>
-[14:06:46] [Server thread/INFO]: /schedule (clear|function)
-[14:06:46] [Server thread/INFO]: /scoreboard (objectives|players)
-[14:06:46] [Server thread/INFO]: /seed
-[14:06:46] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[14:06:46] [Server thread/INFO]: /setidletimeout <minutes>
-[14:06:46] [Server thread/INFO]: /setworldspawn [<pos>]
-[14:06:46] [Server thread/INFO]: /spawnpoint [<targets>]
-[14:06:46] [Server thread/INFO]: /spectate [<target>]
-[14:06:46] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[14:06:46] [Server thread/INFO]: /stop
-[14:06:46] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[14:06:46] [Server thread/INFO]: /summon <entity> [<pos>]
-[14:06:46] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[14:06:46] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[14:06:46] [Server thread/INFO]: /teammsg <message>
-[14:06:46] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[14:06:46] [Server thread/INFO]: /tell -> msg
-[14:06:46] [Server thread/INFO]: /tellraw <targets> <message>
-[14:06:46] [Server thread/INFO]: /time (add|query|set)
-[14:06:46] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[14:06:46] [Server thread/INFO]: /tm -> teammsg
-[14:06:46] [Server thread/INFO]: /tp -> teleport
-[14:06:46] [Server thread/INFO]: /trigger <objective> [add|set]
-[14:06:46] [Server thread/INFO]: /w -> msg
-[14:06:46] [Server thread/INFO]: /weather (clear|rain|thunder)
-[14:06:46] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[14:06:46] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[14:06:46] [Server thread/INFO]: /xp -> experience
-[14:06:48] [Server thread/INFO]: [survival] Generating Chunks: 10805 of 24763 [43.63%] with [21.99 Chunks/s]
-[14:06:53] [Server thread/INFO]: [survival] Generating Chunks: 10905 of 24763 [44.03%] with [19.9 Chunks/s]
-[14:06:58] [Server thread/INFO]: [survival] Generating Chunks: 11013 of 24763 [44.47%] with [21.44 Chunks/s]
-[14:07:03] [Server thread/INFO]: [survival] Generating Chunks: 11121 of 24763 [44.9%] with [21.43 Chunks/s]
-[14:07:08] [Server thread/INFO]: [survival] Generating Chunks: 11231 of 24763 [45.35%] with [22.0 Chunks/s]
-[14:07:12] [Server thread/INFO]: No player was found
-[14:07:13] [Server thread/INFO]: [survival] Generating Chunks: 11337 of 24763 [45.78%] with [21.13 Chunks/s]
-[14:07:18] [Server thread/INFO]: [survival] Generating Chunks: 11449 of 24763 [46.23%] with [22.31 Chunks/s]
-[14:07:23] [Server thread/INFO]: [survival] Generating Chunks: 11558 of 24763 [46.67%] with [21.18 Chunks/s]
-[14:07:27] [Server thread/INFO]: No player was found
-[14:07:28] [Server thread/INFO]: [survival] Generating Chunks: 11663 of 24763 [47.09%] with [20.87 Chunks/s]
-[14:07:32] [Server thread/INFO]: No player was found
-[14:07:33] [Server thread/INFO]: [survival] Generating Chunks: 11768 of 24763 [47.52%] with [20.8 Chunks/s]
-[14:07:38] [Server thread/INFO]: [survival] Generating Chunks: 11878 of 24763 [47.96%] with [21.8 Chunks/s]
-[14:07:43] [Server thread/INFO]: [survival] Generating Chunks: 11983 of 24763 [48.39%] with [21.0 Chunks/s]
-[14:07:47] [Server thread/INFO]: There are 7 whitelisted players: kupec, Mrtvolov, _Tessia_, _Xandra_, Rehab_CZ, miniluky, TheMartin03
-[14:07:48] [Server thread/INFO]: [survival] Generating Chunks: 12084 of 24763 [48.79%] with [20.2 Chunks/s]
-[14:07:53] [Server thread/INFO]: Server tick times (avg/min/max) from last 5s, 10s, 1m:
-[14:07:53] [Server thread/INFO]: ? 45.0/33.2/165.7, 44.8/32.9/165.7, 46.4/32.4/287.3
-[14:07:53] [Server thread/INFO]: [survival] Generating Chunks: 12191 of 24763 [49.23%] with [21.4 Chunks/s]
-[14:07:58] [Server thread/INFO]: [survival] Generating Chunks: 12294 of 24763 [49.64%] with [20.59 Chunks/s]
-[14:08:03] [Server thread/INFO]: [survival] Generating Chunks: 12405 of 24763 [50.09%] with [21.96 Chunks/s]
-[14:08:08] [Server thread/INFO]: [survival] Generating Chunks: 12498 of 24763 [50.47%] with [18.47 Chunks/s]
-[14:08:13] [Server thread/INFO]: [survival] Generating Chunks: 12591 of 24763 [50.84%] with [18.49 Chunks/s]
-[14:08:19] [Server thread/INFO]: [survival] Generating Chunks: 12701 of 24763 [51.29%] with [21.78 Chunks/s]
-[14:08:24] [Server thread/INFO]: [survival] Generating Chunks: 12800 of 24763 [51.69%] with [19.65 Chunks/s]
-[14:08:29] [Server thread/INFO]: [survival] Generating Chunks: 12891 of 24763 [52.05%] with [18.11 Chunks/s]
-[14:08:34] [Server thread/INFO]: [survival] Generating Chunks: 13012 of 24763 [52.54%] with [24.11 Chunks/s]
-[14:08:39] [Server thread/INFO]: [survival] Generating Chunks: 13134 of 24763 [53.03%] with [24.39 Chunks/s]
-[14:08:44] [Server thread/INFO]: [survival] Generating Chunks: 13234 of 24763 [53.44%] with [19.91 Chunks/s]
-[14:08:49] [Server thread/INFO]: [survival] Generating Chunks: 13335 of 24763 [53.85%] with [20.03 Chunks/s]
-[14:08:54] [Server thread/INFO]: [survival] Generating Chunks: 13447 of 24763 [54.3%] with [22.21 Chunks/s]
-[14:08:59] [Server thread/INFO]: [survival] Generating Chunks: 13551 of 24763 [54.72%] with [20.8 Chunks/s]
-[14:09:04] [Server thread/INFO]: [survival] Generating Chunks: 13651 of 24763 [55.12%] with [19.79 Chunks/s]
-[14:09:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:09:08] [Server thread/INFO]: --------- Help: Index ---------------------------
-[14:09:08] [Server thread/INFO]: Use /help [n] to get page n of help.
-[14:09:08] [Server thread/INFO]: Aliases: Lists command aliases
-[14:09:08] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[14:09:08] [Server thread/INFO]: CoreProtect: All commands for CoreProtect
-[14:09:08] [Server thread/INFO]: FastChunkPregenerator: All commands for FastChunkPregenerator
-[14:09:08] [Server thread/INFO]: LagMeter: All commands for LagMeter
-[14:09:08] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[14:09:08] [Server thread/INFO]: Multiverse-Core: All commands for Multiverse-Core
-[14:09:08] [Server thread/INFO]: Multiverse-Inventories: All commands for Multiverse-Inventories
-[14:09:08] [Server thread/INFO]: Multiverse-NetherPortals: All commands for Multiverse-NetherPortals
-[14:09:08] [Server thread/INFO]: Multiverse-Portals: All commands for Multiverse-Portals
-[14:09:08] [Server thread/INFO]: TabTPS: All commands for TabTPS
-[14:09:08] [Server thread/INFO]: TWings: All commands for TWings
-[14:09:08] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
-[14:09:08] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
-[14:09:08] [Server thread/INFO]: /.s: Execute last CraftScript
-[14:09:08] [Server thread/INFO]: //: Toggle the super pickaxe function
-[14:09:08] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
-[14:09:08] [Server thread/INFO]: //center: Set the center block(s)
-[14:09:08] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
-[14:09:08] [Server thread/INFO]: //contract: Contract the selection area
-[14:09:08] [Server thread/INFO]: //copy: Copy the selection to the clipboard
-[14:09:08] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
-[14:09:08] [Server thread/INFO]: //curve: Draws a spline through selected points
-[14:09:08] [Server thread/INFO]: //cut: Cut the selection to the clipboard
-[14:09:08] [Server thread/INFO]: //cyl: Generates a cylinder.
-[14:09:08] [Server thread/INFO]: //deform: Deforms a selected region with an expression
-[14:09:08] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
-[14:09:08] [Server thread/INFO]: //drain: Drain a pool
-[14:09:08] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
-[14:09:08] [Server thread/INFO]: //expand: Expand the selection area
-[14:09:08] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
-[14:09:08] [Server thread/INFO]: //fast: Toggle fast mode
-[14:09:08] [Server thread/INFO]: //fill: Fill a hole
-[14:09:08] [Server thread/INFO]: //fillr: Fill a hole recursively
-[14:09:08] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
-[14:09:08] [Server thread/INFO]: //flora: Make flora within the region
-[14:09:08] [Server thread/INFO]: //forest: Make a forest within the region
-[14:09:08] [Server thread/INFO]: //generate: Generates a shape according to a formula.
-[14:09:08] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
-[14:09:08] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
-[14:09:08] [Server thread/INFO]: //help: Displays help for WorldEdit commands
-[14:09:08] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
-[14:09:08] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
-[14:09:08] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
-[14:09:08] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
-[14:09:08] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
-[14:09:08] [Server thread/INFO]: //inset: Inset the selection area
-[14:09:08] [Server thread/INFO]: //limit: Modify block change limit
-[14:09:08] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
-[14:09:08] [Server thread/INFO]: //move: Move the contents of the selection
-[14:09:08] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
-[14:09:08] [Server thread/INFO]: //outset: Outset the selection area
-[14:09:08] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
-[14:09:08] [Server thread/INFO]: //paste: Paste the clipboard's contents
-[14:09:08] [Server thread/INFO]: //perf: Toggle side effects for performance
-[14:09:08] [Server thread/INFO]: //pos1: Set position 1
-[14:09:08] [Server thread/INFO]: //pos2: Set position 2
-[14:09:08] [Server thread/INFO]: //pyramid: Generate a filled pyramid
-[14:09:08] [Server thread/INFO]: //regen: Regenerates the contents of the selection
-[14:09:08] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
-[14:09:08] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
-[14:09:08] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
-[14:09:08] [Server thread/INFO]: //sel: Choose a region selector
-[14:09:08] [Server thread/INFO]: //set: Sets all the blocks in the region
-[14:09:08] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
-[14:09:08] [Server thread/INFO]: //shift: Shift the selection area
-[14:09:08] [Server thread/INFO]: //size: Get information about the selection
-[14:09:08] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
-[14:09:08] [Server thread/INFO]: //sphere: Generates a filled sphere.
-[14:09:08] [Server thread/INFO]: //stack: Repeat the contents of the selection
-[14:09:08] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
-[14:09:08] [Server thread/INFO]: //walls: Build the four sides of the selection
-[14:09:08] [Server thread/INFO]: //wand: Get the wand item
-[14:09:08] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
-[14:09:08] [Server thread/INFO]: //world: Sets the world override
-[14:09:08] [Server thread/INFO]: /advancement: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /ascend: Go up a floor
-[14:09:08] [Server thread/INFO]: /attribute: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /ban: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /banlist: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
-[14:09:08] [Server thread/INFO]: /biomelist: Gets all biomes available.
-[14:09:08] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /brush: Brushing commands
-[14:09:08] [Server thread/INFO]: /butcher: Kill all or nearby mobs
-[14:09:08] [Server thread/INFO]: /ceil: Go to the ceiling
-[14:09:08] [Server thread/INFO]: /chunkgen: 
-[14:09:08] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
-[14:09:08] [Server thread/INFO]: /clear: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /clearclipboard: Clear your clipboard
-[14:09:08] [Server thread/INFO]: /clearhistory: Clear your history
-[14:09:08] [Server thread/INFO]: /clone: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /co: Utilize the plugin
-[14:09:08] [Server thread/INFO]: /core: Utilize the plugin
-[14:09:08] [Server thread/INFO]: /coreprotect: Utilize the plugin
-[14:09:08] [Server thread/INFO]: /cs: Execute a CraftScript
-[14:09:08] [Server thread/INFO]: /cycler: Block data cycler tool
-[14:09:08] [Server thread/INFO]: /data: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /datapack: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /debug: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
-[14:09:08] [Server thread/INFO]: /deltree: Floating tree remover tool
-[14:09:08] [Server thread/INFO]: /deop: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /descend: Go down a floor
-[14:09:08] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /effect: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /enchant: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /execute: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /experience: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /extinguish: Extinguish nearby fire
-[14:09:08] [Server thread/INFO]: /farwand: Wand at a distance tool
-[14:09:08] [Server thread/INFO]: /fcp: 
-[14:09:08] [Server thread/INFO]: /fill: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /fixlava: Fix lava to be stationary
-[14:09:08] [Server thread/INFO]: /fixwater: Fix water to be stationary
-[14:09:08] [Server thread/INFO]: /floodfill: Flood fill tool
-[14:09:08] [Server thread/INFO]: /forceload: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /forestgen: Generate a forest
-[14:09:08] [Server thread/INFO]: /function: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /give: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /gmask: Set the global mask
-[14:09:08] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
-[14:09:08] [Server thread/INFO]: /gspawn: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /help: Shows the help menu
-[14:09:08] [Server thread/INFO]: /info: Block information tool
-[14:09:08] [Server thread/INFO]: /ispawn: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /jumpto: Teleport to a location
-[14:09:08] [Server thread/INFO]: /kick: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /kill: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /lag: Check current lag
-[14:09:08] [Server thread/INFO]: /lagmap: Changes the map in the player's hand to an automatically-updating lag and memory meter, or toggles the LagMap back to a normal map.
-[14:09:08] [Server thread/INFO]: /lagmem: Check both current memory usage and current lag
-[14:09:08] [Server thread/INFO]: /lagmeter: Shows the version. Sub-commands of help and reload have obvious functions.
-[14:09:08] [Server thread/INFO]: /lchunks: Shows chunks loaded per world, along with a combined total.
-[14:09:08] [Server thread/INFO]: /lentities: Shows entities per world, along with a combined total.
-[14:09:08] [Server thread/INFO]: /list: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /listchunks: List chunks that your selection includes
-[14:09:08] [Server thread/INFO]: /lm: Check both current memory usage and current lag. Shortcut of lagmem.
-[14:09:08] [Server thread/INFO]: /lmobs: Alternate command to /lentities. Shows entities per world, along with a combined total.
-[14:09:08] [Server thread/INFO]: /lmp: Shows TPS, memory, and players online.
-[14:09:08] [Server thread/INFO]: /locate: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /loot: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /lping: Pings the sender, or, if the console, google.com, from the server.
-[14:09:08] [Server thread/INFO]: /lrbuild: Long-range building tool
-[14:09:08] [Server thread/INFO]: /mask: Set the brush mask
-[14:09:08] [Server thread/INFO]: /material: Set the brush material
-[14:09:08] [Server thread/INFO]: /me: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /mem: Check current memory usage
-[14:09:08] [Server thread/INFO]: /memory: Displays the current memory pools of the server jvm. Output will vary greatly based on garbage collection settings.
-[14:09:08] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /msg: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /mspt: View server tick times
-[14:09:08] [Server thread/INFO]: /mv: Generic Multiverse Command
-[14:09:08] [Server thread/INFO]: /mvanchors: Creating and removing Anchors command
-[14:09:08] [Server thread/INFO]: /mvcheck: Validate your multiverse settings command
-[14:09:08] [Server thread/INFO]: /mvclone: World clone command
-[14:09:08] [Server thread/INFO]: /mvconfig: Configuration command
-[14:09:08] [Server thread/INFO]: /mvconfirm: Confirms sensitive decisions like deleting a world.
-[14:09:08] [Server thread/INFO]: /mvcoord: Display World, Coordinates, Direction & Compression for a world.
-[14:09:08] [Server thread/INFO]: /mvcreate: World create command
-[14:09:08] [Server thread/INFO]: /mvdebug: Turns on debugging.
-[14:09:08] [Server thread/INFO]: /mvdelete: Delete world from server folders command
-[14:09:08] [Server thread/INFO]: /mvenv: Tells the user all possible environment types.
-[14:09:08] [Server thread/INFO]: /mvgamerule: Sets a gamerule.
-[14:09:08] [Server thread/INFO]: /mvgamerules: Lists the gamerules
-[14:09:08] [Server thread/INFO]: /mvgenerators: Displays all found world generators.
-[14:09:08] [Server thread/INFO]: /mvhelp: Displays the Multiverse Help.
-[14:09:08] [Server thread/INFO]: /mvimport: World import command
-[14:09:08] [Server thread/INFO]: /mvinfo: Gets world info.
-[14:09:08] [Server thread/INFO]: /mvinv: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvadds: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvaddshares: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvaddw: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvaddword: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvas: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvaw: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvd: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvdebug: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvi: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvim: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvimport: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvinfo: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvl: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvlist: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvraddshare: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvreload: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvremoves: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvremoveshare: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvremoveshares: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvremovew: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvremoveworld: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrms: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrmshare: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrmshares: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrmw: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrmworld: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrs: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvrw: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvs: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvinvspawn: Generic Multiverse-Inventories Command
-[14:09:08] [Server thread/INFO]: /mvlist: Print list of loaded Worlds
-[14:09:08] [Server thread/INFO]: /mvload: Loads a world into Multiverse.
-[14:09:08] [Server thread/INFO]: /mvmadd: Modify the settings of an existing world
-[14:09:08] [Server thread/INFO]: /mvmclear: Modify the settings of an existing world
-[14:09:08] [Server thread/INFO]: /mvmodify: Modify the settings of an existing world
-[14:09:08] [Server thread/INFO]: /mvmremove: Modify the settings of an existing world
-[14:09:08] [Server thread/INFO]: /mvmset: Modify the settings of an existing world
-[14:09:08] [Server thread/INFO]: /mvnp: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnpl: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnpli: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnplink: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnplist: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnps: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnpshow: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnpu: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvnpunlink: Generic Multiverse-NetherPortals Command
-[14:09:08] [Server thread/INFO]: /mvp: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpc: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpcreate: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpl: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvplist: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpm: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpmodify: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpms: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpr: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpremove: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvps: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpselect: Generic Multiverse-Portals Command
-[14:09:08] [Server thread/INFO]: /mvpurge: Purge the targetted world of creatures.
-[14:09:08] [Server thread/INFO]: /mvregen: Regenerates a world Multiverse already knows about.
-[14:09:08] [Server thread/INFO]: /mvreload: Reload Configuration files.
-[14:09:08] [Server thread/INFO]: /mvremove: Remove world from multiverse command
-[14:09:08] [Server thread/INFO]: /mvscript: Runs a script from the Multiverse scripts directory.
-[14:09:08] [Server thread/INFO]: /mvsetspawn: Set the spawn area for a particular world
-[14:09:08] [Server thread/INFO]: /mvsilent: Reduces startup messages
-[14:09:08] [Server thread/INFO]: /mvspawn: Teleport to the spawn area
-[14:09:08] [Server thread/INFO]: /mvtp: Command to teleport between Worlds
-[14:09:08] [Server thread/INFO]: /mvunload: World unload command
-[14:09:08] [Server thread/INFO]: /mvversion: Prints out version info.
-[14:09:08] [Server thread/INFO]: /mvwho: Display online users per world.
-[14:09:08] [Server thread/INFO]: /navwand: Navigation wand tool
-[14:09:08] [Server thread/INFO]: /none: Unbind a bound tool from your current item
-[14:09:08] [Server thread/INFO]: /op: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /paper: Paper related commands
-[14:09:08] [Server thread/INFO]: /pardon: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /particle: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /ping: Pings or, if the console, google.com, from the server.
-[14:09:08] [Server thread/INFO]: /pingall: Displays the pings of connected players with an average.
-[14:09:08] [Server thread/INFO]: /playsound: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[14:09:08] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
-[14:09:08] [Server thread/INFO]: /range: Set the brush range
-[14:09:08] [Server thread/INFO]: /recipe: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /redo: Redoes the last action (from history)
-[14:09:08] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[14:09:08] [Server thread/INFO]: /remove: Remove all entities of a type
-[14:09:08] [Server thread/INFO]: /removeabove: Remove blocks above your head.
-[14:09:08] [Server thread/INFO]: /removebelow: Remove blocks below you.
-[14:09:08] [Server thread/INFO]: /removenear: Remove blocks near you.
-[14:09:08] [Server thread/INFO]: /repl: Block replacer tool
-[14:09:08] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /replacenear: Replace nearby blocks
-[14:09:08] [Server thread/INFO]: /restart: Restarts the server
-[14:09:08] [Server thread/INFO]: /restore: Restore the selection from a snapshot
-[14:09:08] [Server thread/INFO]: /save-all: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /save-off: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /save-on: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /say: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /schedule: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
-[14:09:08] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /searchitem: Search for an item
-[14:09:08] [Server thread/INFO]: /seed: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /selwand: Selection wand tool
-[14:09:08] [Server thread/INFO]: /setblock: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /size: Set the brush size
-[14:09:08] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
-[14:09:08] [Server thread/INFO]: /snow: Simulates snow
-[14:09:08] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /spectate: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /spigot: Spigot related commands
-[14:09:08] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /stop: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /summon: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
-[14:09:08] [Server thread/INFO]: /tabtps: Reloads the TabTPS config files.
-[14:09:08] [Server thread/INFO]: /tabtps:ping: Displays the targets ping to the server in milliseconds.
-[14:09:08] [Server thread/INFO]: /tag: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /team: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /teleport: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /tell: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /thaw: Thaws the area
-[14:09:08] [Server thread/INFO]: /thru: Pass through walls
-[14:09:08] [Server thread/INFO]: /tickinfo: Displays the current TPS and MSPT of the server.
-[14:09:08] [Server thread/INFO]: /time: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[14:09:08] [Server thread/INFO]: /title: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /tm: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
-[14:09:08] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
-[14:09:08] [Server thread/INFO]: /tool: Binds a tool to the item in your hand
-[14:09:08] [Server thread/INFO]: /tp: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[14:09:08] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
-[14:09:08] [Server thread/INFO]: /tree: Tree generator tool
-[14:09:08] [Server thread/INFO]: /trigger: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /undo: Undoes the last action (from history)
-[14:09:08] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
-[14:09:08] [Server thread/INFO]: /up: Go upwards some distance
-[14:09:08] [Server thread/INFO]: /uptime: Shows how long the server has been online.
-[14:09:08] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[14:09:08] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
-[14:09:08] [Server thread/INFO]: /w: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /weather: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /wings: 
-[14:09:08] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[14:09:08] [Server thread/INFO]: /worldedit: WorldEdit commands
-[14:09:08] [Server thread/INFO]: /xp: A Mojang provided command.
-[14:09:09] [Server thread/INFO]: [survival] Generating Chunks: 13757 of 24763 [55.55%] with [21.15 Chunks/s]
-[14:09:14] [Server thread/INFO]: [survival] Generating Chunks: 13867 of 24763 [55.99%] with [21.84 Chunks/s]
-[14:09:19] [Server thread/INFO]: [survival] Generating Chunks: 13977 of 24763 [56.44%] with [22.0 Chunks/s]
-[14:09:24] [Server thread/INFO]: [survival] Generating Chunks: 14078 of 24763 [56.85%] with [20.07 Chunks/s]
-[14:09:29] [Server thread/INFO]: [survival] Generating Chunks: 14181 of 24763 [57.26%] with [20.52 Chunks/s]
-[14:09:34] [Server thread/INFO]: [survival] Generating Chunks: 14293 of 24763 [57.71%] with [22.36 Chunks/s]
-[14:09:39] [Server thread/INFO]: [survival] Generating Chunks: 14396 of 24763 [58.13%] with [20.41 Chunks/s]
-[14:09:44] [Server thread/INFO]: [survival] Generating Chunks: 14496 of 24763 [58.53%] with [19.89 Chunks/s]
-[14:09:49] [Server thread/INFO]: [survival] Generating Chunks: 14609 of 24763 [58.99%] with [22.49 Chunks/s]
-[14:09:50] [Server thread/INFO]: There are 32 data packs enabled: [vanilla (built-in)], [file/bukkit (world)], [file/VanillaTweaks_c415081.zip (world)], [file/anti enderman grief v1.1.0.zip (world)], [file/armor statues v2.8.1.zip (world)], [file/armored elytra v1.0.3.zip (world)], [file/cauldron concrete v2.0.3.zip (world)], [file/coordinates hud v1.2.0.zip (world)], [file/count mob deaths v1.1.0.zip (world)], [file/double shulker shells v1.3.0.zip (world)], [file/durability ping v1.1.0.zip (world)], [file/fast leaf decay v2.0.3.zip (world)], [file/graves v2.8.0.zip (world)], [file/more mob heads v2.8.1.zip (world)], [file/multiplayer sleep v2.5.2.zip (world)], [file/nether portal coords v1.1.0.zip (world)], [file/player head drops v1.1.0.zip (world)], [file/redstone rotation wrench v1.1.0.zip (world)], [file/silence mobs v1.1.0.zip (world)], [file/spectator conduit power v1.1.0.zip (world)], [file/spectator night vision v1.1.0.zip (world)], [file/terracotta rotation wrench v1.1.0.zip (world)], [file/track raw statistics v1.4.0.zip (world)], [file/track statistics v1.1.0.zip (world)], [file/treasure gems v1.2.0.zip (world)], [file/villager death messages v1.2.1.zip (world)], [file/back v1.2.0.zip (world)], [file/homes v1.4.1.zip (world)], [file/spawn v2.3.0.zip (world)], [file/tpa v2.3.0.zip (world)], [file/classic fishing loot v1.1.0.zip (world)], [file/wandering trades v1.4.0.zip (world)]
-[14:09:50] [Server thread/INFO]: There are 2 data packs available: [file/afk display v1.1.0.zip (world)], [file/custom nether portals v2.3.2.zip (world)]
-[14:09:54] [Server thread/INFO]: [survival] Generating Chunks: 14712 of 24763 [59.41%] with [20.39 Chunks/s]
-[14:09:59] [Server thread/INFO]: [survival] Generating Chunks: 14820 of 24763 [59.84%] with [21.58 Chunks/s]
-[14:10:04] [Server thread/INFO]: [survival] Generating Chunks: 14919 of 24763 [60.24%] with [19.63 Chunks/s]
-[14:10:09] [Server thread/INFO]: [survival] Generating Chunks: 15025 of 24763 [60.67%] with [21.18 Chunks/s]
-[14:10:14] [Server thread/INFO]: [survival] Generating Chunks: 15135 of 24763 [61.11%] with [21.79 Chunks/s]
-[14:10:19] [Server thread/INFO]: [survival] Generating Chunks: 15245 of 24763 [61.56%] with [21.89 Chunks/s]
-[14:10:24] [Server thread/INFO]: [survival] Generating Chunks: 15347 of 24763 [61.97%] with [20.28 Chunks/s]
-[14:10:29] [Server thread/INFO]: [survival] Generating Chunks: 15458 of 24763 [62.42%] with [22.19 Chunks/s]
-[14:10:34] [Server thread/INFO]: [survival] Generating Chunks: 15569 of 24763 [62.87%] with [22.05 Chunks/s]
-[14:10:39] [Server thread/INFO]: [survival] Generating Chunks: 15670 of 24763 [63.27%] with [20.16 Chunks/s]
-[14:10:44] [Server thread/INFO]: [survival] Generating Chunks: 15771 of 24763 [63.68%] with [20.08 Chunks/s]
-[14:10:49] [Server thread/INFO]: [survival] Generating Chunks: 15880 of 24763 [64.12%] with [21.67 Chunks/s]
-[14:10:54] [Server thread/INFO]: [survival] Generating Chunks: 15985 of 24763 [64.55%] with [20.84 Chunks/s]
-[14:10:59] [Server thread/INFO]: [survival] Generating Chunks: 16099 of 24763 [65.01%] with [22.73 Chunks/s]
-[14:11:04] [Server thread/INFO]: [survival] Generating Chunks: 16211 of 24763 [65.46%] with [22.29 Chunks/s]
-[14:11:09] [Server thread/INFO]: [survival] Generating Chunks: 16323 of 24763 [65.91%] with [22.28 Chunks/s]
-[14:11:14] [Server thread/INFO]: [survival] Generating Chunks: 16429 of 24763 [66.34%] with [21.09 Chunks/s]
-[14:11:19] [Server thread/INFO]: [survival] Generating Chunks: 16535 of 24763 [66.77%] with [20.87 Chunks/s]
-[14:11:25] [Server thread/INFO]: [survival] Generating Chunks: 16641 of 24763 [67.2%] with [21.0 Chunks/s]
-[14:11:30] [Server thread/INFO]: [survival] Generating Chunks: 16754 of 24763 [67.65%] with [22.59 Chunks/s]
-[14:11:35] [Server thread/INFO]: [survival] Generating Chunks: 16856 of 24763 [68.06%] with [20.2 Chunks/s]
-[14:11:40] [Server thread/INFO]: [survival] Generating Chunks: 16969 of 24763 [68.52%] with [22.59 Chunks/s]
-[14:11:45] [Server thread/INFO]: [survival] Generating Chunks: 17077 of 24763 [68.96%] with [21.33 Chunks/s]
-[14:11:50] [Server thread/INFO]: [survival] Generating Chunks: 17184 of 24763 [69.39%] with [21.23 Chunks/s]
-[14:11:55] [Server thread/INFO]: [survival] Generating Chunks: 17286 of 24763 [69.8%] with [20.32 Chunks/s]
-[14:11:59] [Server thread/INFO]: Server tick times (avg/min/max) from last 5s, 10s, 1m:
-[14:11:59] [Server thread/INFO]: ? 47.8/35.3/76.0, 45.5/33.3/76.0, 44.8/32.2/147.7
-[14:12:00] [Server thread/INFO]: [survival] Generating Chunks: 17386 of 24763 [70.2%] with [19.85 Chunks/s]
-[14:12:05] [Server thread/INFO]: [survival] Generating Chunks: 17493 of 24763 [70.64%] with [21.2 Chunks/s]
-[14:12:10] [Server thread/INFO]: [survival] Generating Chunks: 17602 of 24763 [71.08%] with [21.76 Chunks/s]
-[14:12:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:12:15] [Server thread/INFO]: [survival] Generating Chunks: 17710 of 24763 [71.51%] with [21.41 Chunks/s]
-[14:12:20] [Server thread/INFO]: [survival] Generating Chunks: 17820 of 24763 [71.96%] with [21.58 Chunks/s]
-[14:12:25] [Server thread/INFO]: [survival] Generating Chunks: 17923 of 24763 [72.37%] with [20.58 Chunks/s]
-[14:12:30] [Server thread/INFO]: [survival] Generating Chunks: 18035 of 24763 [72.83%] with [22.18 Chunks/s]
-[14:12:35] [Server thread/INFO]: [survival] Generating Chunks: 18137 of 24763 [73.24%] with [20.35 Chunks/s]
-[14:12:40] [Server thread/INFO]: [survival] Generating Chunks: 18235 of 24763 [73.63%] with [19.4 Chunks/s]
-[14:12:43] [Server thread/INFO]: Saving the game (this may take a moment!)
-[14:12:43] [Server thread/INFO]: Saved the game
-[14:12:45] [Server thread/INFO]: [survival] Generating Chunks: 18335 of 24763 [74.04%] with [19.94 Chunks/s]
-[14:12:50] [Server thread/INFO]: [survival] Generating Chunks: 18447 of 24763 [74.49%] with [22.28 Chunks/s]
-[14:12:51] [Server thread/INFO]: * Server test
-[14:12:53] [Server thread/INFO]: [Server] test
-[14:12:55] [Server thread/INFO]: [survival] Generating Chunks: 18546 of 24763 [74.89%] with [19.69 Chunks/s]
-[14:13:00] [Server thread/INFO]: [survival] Generating Chunks: 18667 of 24763 [75.38%] with [24.08 Chunks/s]
-[14:13:05] [Server thread/INFO]: [survival] Generating Chunks: 18771 of 24763 [75.8%] with [20.8 Chunks/s]
-[14:13:10] [Server thread/INFO]: [survival] Generating Chunks: 18876 of 24763 [76.22%] with [20.99 Chunks/s]
-[14:13:15] [Server thread/INFO]: [survival] Generating Chunks: 18984 of 24763 [76.66%] with [21.6 Chunks/s]
-[14:13:20] [Server thread/INFO]: [survival] Generating Chunks: 19087 of 24763 [77.07%] with [20.39 Chunks/s]
-[14:13:25] [Server thread/INFO]: [survival] Generating Chunks: 19185 of 24763 [77.47%] with [19.44 Chunks/s]
-[14:13:30] [Server thread/INFO]: [survival] Generating Chunks: 19301 of 24763 [77.94%] with [23.14 Chunks/s]
-[14:13:35] [Server thread/INFO]: [survival] Generating Chunks: 19407 of 24763 [78.37%] with [21.18 Chunks/s]
-[14:13:40] [Server thread/INFO]: [survival] Generating Chunks: 19537 of 24763 [78.89%] with [25.75 Chunks/s]
-[14:13:45] [Server thread/INFO]: [survival] Generating Chunks: 19635 of 24763 [79.29%] with [19.47 Chunks/s]
-[14:13:50] [Server thread/INFO]: [survival] Generating Chunks: 19729 of 24763 [79.67%] with [18.65 Chunks/s]
-[14:13:55] [Server thread/INFO]: [survival] Generating Chunks: 19847 of 24763 [80.14%] with [23.47 Chunks/s]
-[14:14:00] [Server thread/INFO]: [survival] Generating Chunks: 19949 of 24763 [80.55%] with [20.37 Chunks/s]
-[14:14:05] [Server thread/INFO]: [survival] Generating Chunks: 20048 of 24763 [80.95%] with [19.3 Chunks/s]
-[14:14:11] [Server thread/INFO]: [survival] Generating Chunks: 20146 of 24763 [81.35%] with [19.45 Chunks/s]
-[14:14:16] [Server thread/INFO]: [survival] Generating Chunks: 20232 of 24763 [81.7%] with [17.14 Chunks/s]
-[14:14:21] [Server thread/INFO]: [survival] Generating Chunks: 20322 of 24763 [82.06%] with [17.94 Chunks/s]
-[14:14:26] [Server thread/INFO]: [survival] Generating Chunks: 20441 of 24763 [82.54%] with [23.63 Chunks/s]
-[14:14:31] [Server thread/INFO]: [survival] Generating Chunks: 20553 of 24763 [82.99%] with [22.2 Chunks/s]
-[14:14:36] [Server thread/INFO]: [survival] Generating Chunks: 20665 of 24763 [83.45%] with [22.35 Chunks/s]
-[14:14:41] [Server thread/INFO]: [survival] Generating Chunks: 20776 of 24763 [83.89%] with [22.15 Chunks/s]
-[14:14:46] [Server thread/INFO]: [survival] Generating Chunks: 20880 of 24763 [84.31%] with [20.8 Chunks/s]
-[14:14:51] [Server thread/INFO]: [survival] Generating Chunks: 20981 of 24763 [84.72%] with [20.07 Chunks/s]
-[14:14:56] [Server thread/INFO]: [survival] Generating Chunks: 21088 of 24763 [85.15%] with [21.21 Chunks/s]
-[14:15:01] [Server thread/INFO]: [survival] Generating Chunks: 21196 of 24763 [85.59%] with [21.41 Chunks/s]
-[14:15:06] [Server thread/INFO]: [survival] Generating Chunks: 21298 of 24763 [86.0%] with [20.26 Chunks/s]
-[14:15:11] [Server thread/INFO]: [survival] Generating Chunks: 21410 of 24763 [86.45%] with [22.18 Chunks/s]
-[14:15:16] [Server thread/INFO]: [survival] Generating Chunks: 21515 of 24763 [86.88%] with [20.92 Chunks/s]
-[14:15:21] [Server thread/INFO]: [survival] Generating Chunks: 21619 of 24763 [87.3%] with [20.67 Chunks/s]
-[14:15:26] [Server thread/INFO]: [survival] Generating Chunks: 21725 of 24763 [87.73%] with [21.19 Chunks/s]
-[14:15:31] [Server thread/INFO]: [survival] Generating Chunks: 21833 of 24763 [88.16%] with [21.59 Chunks/s]
-[14:15:36] [Server thread/INFO]: [survival] Generating Chunks: 21933 of 24763 [88.57%] with [19.92 Chunks/s]
-[14:15:41] [Server thread/INFO]: [survival] Generating Chunks: 22036 of 24763 [88.98%] with [20.54 Chunks/s]
-[14:15:46] [Server thread/INFO]: [survival] Generating Chunks: 22148 of 24763 [89.43%] with [22.32 Chunks/s]
-[14:15:51] [Server thread/INFO]: [survival] Generating Chunks: 22253 of 24763 [89.86%] with [21.0 Chunks/s]
-[14:15:56] [Server thread/INFO]: [survival] Generating Chunks: 22356 of 24763 [90.27%] with [20.59 Chunks/s]
-[14:16:01] [Server thread/INFO]: [survival] Generating Chunks: 22457 of 24763 [90.68%] with [20.0 Chunks/s]
-[14:16:06] [Server thread/INFO]: [survival] Generating Chunks: 22562 of 24763 [91.11%] with [21.0 Chunks/s]
-[14:16:11] [Server thread/INFO]: [survival] Generating Chunks: 22667 of 24763 [91.53%] with [20.99 Chunks/s]
-[14:16:16] [Server thread/INFO]: [survival] Generating Chunks: 22770 of 24763 [91.95%] with [20.58 Chunks/s]
-[14:16:21] [Server thread/INFO]: [survival] Generating Chunks: 22868 of 24763 [92.34%] with [19.58 Chunks/s]
-[14:16:26] [Server thread/INFO]: [survival] Generating Chunks: 22963 of 24763 [92.73%] with [18.95 Chunks/s]
-[14:16:31] [Server thread/INFO]: [survival] Generating Chunks: 23075 of 24763 [93.18%] with [22.38 Chunks/s]
-[14:16:36] [Server thread/INFO]: [survival] Generating Chunks: 23187 of 24763 [93.63%] with [22.24 Chunks/s]
-[14:16:41] [Server thread/INFO]: [survival] Generating Chunks: 23298 of 24763 [94.08%] with [22.02 Chunks/s]
-[14:16:46] [Server thread/INFO]: [survival] Generating Chunks: 23399 of 24763 [94.49%] with [20.2 Chunks/s]
-[14:16:51] [Server thread/INFO]: [survival] Generating Chunks: 23504 of 24763 [94.91%] with [20.76 Chunks/s]
-[14:16:56] [Server thread/INFO]: [survival] Generating Chunks: 23615 of 24763 [95.36%] with [22.01 Chunks/s]
-[14:17:01] [Server thread/INFO]: [survival] Generating Chunks: 23718 of 24763 [95.77%] with [20.55 Chunks/s]
-[14:17:06] [Server thread/INFO]: [survival] Generating Chunks: 23824 of 24763 [96.2%] with [21.12 Chunks/s]
-[14:17:11] [Server thread/INFO]: [survival] Generating Chunks: 23927 of 24763 [96.62%] with [20.5 Chunks/s]
-[14:17:16] [Server thread/INFO]: [survival] Generating Chunks: 24033 of 24763 [97.05%] with [21.14 Chunks/s]
-[14:17:21] [Server thread/INFO]: [survival] Generating Chunks: 24145 of 24763 [97.5%] with [22.18 Chunks/s]
-[14:17:26] [Server thread/INFO]: [survival] Generating Chunks: 24255 of 24763 [97.94%] with [21.82 Chunks/s]
-[14:17:31] [Server thread/INFO]: [survival] Generating Chunks: 24356 of 24763 [98.35%] with [20.19 Chunks/s]
-[14:17:36] [Server thread/INFO]: [survival] Generating Chunks: 24462 of 24763 [98.78%] with [20.98 Chunks/s]
-[14:17:41] [Server thread/INFO]: [survival] Generating Chunks: 24573 of 24763 [99.23%] with [21.99 Chunks/s]
-[14:17:46] [Server thread/INFO]: [survival] Generating Chunks: 24676 of 24763 [99.64%] with [20.6 Chunks/s]
-[14:17:51] [Server thread/INFO]: [survival] Generating Chunks: 24763 of 24763 [100.0%] with [20.53 Chunks/s]
-[14:17:55] [Server thread/INFO]: Saving the game (this may take a moment!)
-[14:17:55] [Server thread/INFO]: Saved the game
-[14:17:58] [Server thread/INFO]: Stopping the server
-[14:17:58] [Server thread/INFO]: Stopping server
-[14:17:58] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
-[14:17:58] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[14:17:58] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
-[14:17:58] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
-[14:17:58] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
-[14:17:58] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
-[14:17:59] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
-[14:17:59] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.3
-[14:17:59] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[14:17:59] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.3
-[14:17:59] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
-[14:17:59] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
-[14:17:59] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.2.1
-[14:17:59] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
-[14:17:59] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[14:17:59] [Server thread/INFO]: [LagMeter] Disabling LagMeter v1.17.0
-[14:17:59] [Server thread/INFO]: [LagMeter] Disabled!
-[14:17:59] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
-[14:17:59] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
-[14:18:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
-[14:18:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:18:00] [Server thread/INFO]: Saving players
-[14:18:00] [Server thread/INFO]: Saving worlds
-[14:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:18:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:18:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
-[14:18:00] [Server thread/INFO]: Flushing Chunk IO
-[14:18:00] [Server thread/INFO]: Closing Thread Pool
-[14:18:00] [Server thread/INFO]: Closing Server
+[17:05:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:05:45] [main/INFO]: Reloading ResourceManager: Default, bukkit, VanillaTweaks_c415081.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, cauldron concrete v2.0.3.zip, coordinates hud v1.2.0.zip, count mob deaths v1.1.0.zip, double shulker shells v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, redstone rotation wrench v1.1.0.zip, silence mobs v1.1.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, terracotta rotation wrench v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager death messages v1.2.1.zip, back v1.2.0.zip, homes v1.4.1.zip, spawn v2.3.0.zip, tpa v2.3.0.zip, classic fishing loot v1.1.0.zip, wandering trades v1.4.0.zip
+[17:05:47] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:05:48] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[17:05:48] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[17:05:49] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[17:05:49] [Server thread/INFO]: Loading properties
+[17:05:49] [Server thread/INFO]: This server is running Paper version git-Paper-288 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[17:05:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:05:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:05:50] [Server thread/INFO]: Debug logging is disabled
+[17:05:50] [Server thread/INFO]: Default game type: SURVIVAL
+[17:05:50] [Server thread/INFO]: Generating keypair
+[17:05:50] [Server thread/INFO]: Starting Minecraft server on *:33247
+[17:05:50] [Server thread/INFO]: Using default channel type
+[17:05:55] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:06:01] [Server thread/WARN]: Legacy plugin LagMeter v1.17.0 does not specify an api-version.
+[17:06:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
+[17:06:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@785794b]
+[17:06:02] [Server thread/INFO]: [TWings] Loading TWings v1.5.0
+[17:06:02] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.3-SNAPSHOT
+[17:06:02] [Server thread/INFO]: [LagMeter] Loading LagMeter v1.17.0
+[17:06:02] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
+[17:06:02] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, injecting!
+[17:06:03] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[17:06:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[17:06:03] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.2.1
+[17:06:03] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[17:06:03] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[17:06:03] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.3
+[17:06:03] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.2
+[17:06:03] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
+[17:06:03] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v4.2.0-b762
+[17:06:03] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.1-b834
+[17:06:03] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v4.2.1-b786
+[17:06:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:06:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
+[17:06:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[17:06:03] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[17:06:03] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[17:06:03] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[17:06:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:06:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:06:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[17:06:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[17:06:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:06:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:06:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[17:06:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[17:06:05] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[17:06:05] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[17:06:05] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[17:06:05] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[17:06:05] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.2
+[17:06:06] [Server thread/INFO]: Preparing level "world"
+[17:06:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:06:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:06:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:06:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:06:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:06:06] [Server thread/INFO]: View Distance: 16
+[17:06:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:06:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:06:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:06:06] [Server thread/INFO]: Mob Spawn Range: 8
+[17:06:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:06:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:06:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:06:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:06:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:06:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:06:06] [Server thread/INFO]: Max TNT Explosions: 100
+[17:06:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:06:07] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:06:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:06:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:06:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:06:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:06:07] [Server thread/INFO]: View Distance: 16
+[17:06:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:06:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:06:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:06:07] [Server thread/INFO]: Mob Spawn Range: 8
+[17:06:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:06:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:06:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:06:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:06:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:06:07] [Server thread/INFO]: Max TNT Explosions: 100
+[17:06:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:06:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:06:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:06:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:06:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:06:07] [Server thread/INFO]: View Distance: 16
+[17:06:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:06:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:06:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:06:07] [Server thread/INFO]: Mob Spawn Range: 8
+[17:06:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:06:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:06:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:06:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:06:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:06:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:06:07] [Server thread/INFO]: Max TNT Explosions: 100
+[17:06:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:06:09] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[17:06:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:06:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:06:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:06:09] [Server thread/INFO]: Preparing spawn area: 0%
+[17:06:09] [Server thread/INFO]: Time elapsed: 1583 ms
+[17:06:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:06:10] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[17:06:11] [Server thread/INFO]: Time elapsed: 1592 ms
+[17:06:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:06:12] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[17:06:22] [Server thread/INFO]: Time elapsed: 10963 ms
+[17:06:22] [Server thread/INFO]: [TWings] Enabling TWings v1.5.0
+[17:06:22] [Server thread/INFO]: Getting content for URl : https://www.spigotmc.org/resources/82088/
+[17:06:28] [Server thread/INFO]: [PixelStrace's Twings] Enabled!
+[17:06:28] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[17:06:28] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[17:06:28] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[17:06:28] [Server thread/INFO]: [LagMeter] Enabling LagMeter v1.17.0*
+[17:06:28] [Server thread/INFO]: [LagMeter] Not using logs folder.
+[17:06:28] [Server thread/INFO]: [LagMeter] Enabled! Polling every 40 server ticks. Logging to C:\Users\adama\OneDrive\Dokumenty\GitHub\kupeck\mcserver-synched\plugins\LagMeter\lag.log.
+[17:06:28] [Server thread/INFO]: [LagMeter] Chunks loaded:
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world": 1.
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
+[17:06:28] [Server thread/INFO]: [LagMeter] Total chunks loaded: 1
+[17:06:28] [Server thread/INFO]: [LagMeter] Entities:
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world": 0.
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world_nether": 0.
+[17:06:28] [Server thread/INFO]: [LagMeter] World "world_the_end": 0.
+[17:06:28] [Server thread/INFO]: [LagMeter] Total entities: 0
+[17:06:28] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
+[17:06:28] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.2.1
+[17:06:29] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
+[17:06:29] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
+[17:06:29] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[17:06:29] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:06:29] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:06:30] [Server thread/INFO]: -------- World Settings For [survival] --------
+[17:06:30] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:06:30] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:06:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:06:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:06:30] [Server thread/INFO]: View Distance: 16
+[17:06:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:06:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:06:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:06:30] [Server thread/INFO]: Mob Spawn Range: 8
+[17:06:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:06:30] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:06:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:06:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:06:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:06:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:06:30] [Server thread/INFO]: Max TNT Explosions: 100
+[17:06:30] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[17:06:30] [Server thread/INFO]: Loaded 0 spawn chunks for world survival
+[17:06:31] [Server thread/INFO]: Time elapsed: 637 ms
+[17:06:31] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[17:06:32] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:06:32] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.3
+[17:06:34] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[17:06:34] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[17:06:34] [Server thread/INFO]: --------------------
+[17:06:34] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[17:06:34] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[17:06:34] [Server thread/INFO]: --------------------
+[17:06:34] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
+[17:06:34] [Server thread/INFO]: [Multiverse-Inventories 4.2.1-b490] enabled.
+[17:06:34] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v4.2.0-b762
+[17:06:34] [Server thread/INFO]: [Multiverse-SignPortals 4.2.0-b762]  Enabled - By Rigby and fernferret
+[17:06:34] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.1-b834
+[17:06:34] [Server thread/INFO]: [Multiverse-Portals] 3 - Portals(s) loaded
+[17:06:34] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[17:06:34] [Server thread/INFO]: [Multiverse-Portals 4.2.1-b834]  Enabled - By Rigby and fernferret
+[17:06:34] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v4.2.1-b786
+[17:06:34] [Server thread/INFO]: [Multiverse-NetherPortals 4.2.1-b786]  Enabled - By Rigby and fernferret
+[17:06:34] [Server thread/INFO]: Starting GS4 status listener
+[17:06:34] [Server thread/INFO]: Thread Query Listener started
+[17:06:34] [Query Listener #1/INFO]: Query running on 0.0.0.0:33247
+[17:06:34] [Server thread/INFO]: Running delayed init tasks
+[17:06:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[17:06:35] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[17:06:35] [Server thread/INFO]: [ViaVersion] Shutting down mapping loader executor!
+[17:06:35] [Server thread/INFO]: Done (46.153s)! For help, type "help"
+[17:06:35] [Server thread/INFO]: Timings Reset
+[17:06:37] [Craft Scheduler Thread - 6/INFO]: [TabTPS] You are running the latest version of TabTPS! :)
+[17:06:37] [Thread-24/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[17:06:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-288 (MC: 1.16.4) ---
+[17:06:46] [Paper Watchdog Thread/ERROR]: The server has not responded for 11 seconds! Creating thread dump
+[17:06:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:46] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk wait task info below: 
+[17:06:46] [Paper Watchdog Thread/ERROR]: 1379305,-261593 in 'world:
+[17:06:46] [Paper Watchdog Thread/ERROR]: Load Task - none
+[17:06:46] [Paper Watchdog Thread/ERROR]: Save Task - none
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Holder Priority - 2
+[17:06:46] [Paper Watchdog Thread/ERROR]: Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379307,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379308,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379308,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379308,-261593 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379303,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379304,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379303,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379304,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379304,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379303,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379305,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379306,-261593 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379305,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379304,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379303,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379304,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379306,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379306,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379304,-261593 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379304,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379303,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379304,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379303,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379303,-261593 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379305,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379304,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379305,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379304,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379306,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261593 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Neighbors: (Can't show, too deeply nested)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379307,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379307,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379306,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - minecraft:heightmaps
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379307,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261590 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:         Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379306,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379307,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379307,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379306,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379307,-261592 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261591 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379308,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379305,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379305,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:       1379305,-261591 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:       Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379304,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379305,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:         1379306,-261590 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379307,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379305,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379306,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379305,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379304,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379305,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379306,-261591 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379307,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379306,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379307,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379305,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379303,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379306,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379303,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379305,-261591 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379307,-261591 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379304,-261594 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379304,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379306,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379304,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379307,-261595 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379303,-261593 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379305,-261592 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:   1379303,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Ticket Status - minecraft:full
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Holder Priority - 3
+[17:06:46] [Paper Watchdog Thread/ERROR]:   Chunk Neighbors: 
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379303,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379304,-261596 in world (CIRCULAR)
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261596 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261595 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]:     1379302,-261594 in world:
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder - non-null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Status - null chunk
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Ticket Status - minecraft:features
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Status - null
+[17:06:46] [Paper Watchdog Thread/ERROR]:     Chunk Holder Priority - 4
+[17:06:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:46] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:06:46] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: TIMED_WAITING
+[17:06:46] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.IAsyncTaskHandler.bm(IAsyncTaskHandler.java:131)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:120)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:512)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.World.getChunkAt(World.java:347)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.addEntity0(WorldServer.java:1191)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.addEntity(WorldServer.java:1088)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldAccess.lambda$addAllEntities$0(WorldAccess.java:13)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldAccess$$Lambda$5121/1624160632.accept(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldAccess.addAllEntities(WorldAccess.java:13)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.addAllEntitiesSafely(WorldServer.java:1272)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.WorldServer.addAllEntitiesSafely(WorldServer.java:1264)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CommandSummon.a(SourceFile:77)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CommandSummon.a(SourceFile:48)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CommandSummon$$Lambda$2719/93396334.run(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CustomFunction$b.a(CustomFunction.java:152)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CustomFunctionData$a.a(CustomFunctionData.java:163)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CustomFunctionData.a(CustomFunctionData.java:91)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CustomFunctionData.a(CustomFunctionData.java:54)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.CustomFunctionData.tick(CustomFunctionData.java:42)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1302)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:377)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1212)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1000)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3133/1438946226.run(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[17:06:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:06:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:06:48] [Server thread/ERROR]: Overwrote an existing entity EntityArmorStand['Armor Stand'/3, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[world]', x=22068880.50, y=1000.00, z=-4185487.50, cx=1379305, cz=-261593, tl=294466, v=true, d=false] with EntityArmorStand['Armor Stand'/1, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[world]', x=22068880.50, y=1000.00, z=-4185487.50, cx=1379305, cz=-261593, tl=0, v=false, d=false]
+[17:06:48] [Server thread/ERROR]: Overwrote an existing entity EntityArmorStand['Armor Stand'/5, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[world]', x=16562064.50, y=1000.00, z=-22242911.50, cx=1035129, cz=-1390182, tl=294380, v=true, d=false] with EntityArmorStand['Armor Stand'/4, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[world]', x=16562064.50, y=1000.00, z=-22242911.50, cx=1035129, cz=-1390182, tl=0, v=false, d=false]
+[17:06:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13618ms or 272 ticks behind
+[17:07:20] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 16.52, 19.19, 19.72
+[17:15:01] [Server thread/INFO]: Server tick times (avg/min/max) from last 5s, 10s, 1m:
+[17:15:01] [Server thread/INFO]: ? 2.7/2.0/4.1, 2.7/2.0/4.4, 3.2/2.0/10.3
+[17:15:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:15:07] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 19.72
+[17:28:33] [User Authenticator #1/INFO]: UUID of player kupec is 0c813ce4-f563-4317-a7fc-3249d8ca02f4
+[17:28:34] [Server thread/INFO]: [Admin] kupec joined the game
+[17:28:34] [Server thread/INFO]: kupec[/26.102.57.185:49259] logged in with entity id 123 at ([survival]202.392190028857, 63.0, 43.859413654535196)
+[17:36:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[17:42:46] [Server thread/INFO]: kupec lost connection: Disconnected
+[17:42:46] [Server thread/INFO]: kupec left the game
+[17:53:02] [Server thread/INFO]: Stopping the server
+[17:53:02] [Server thread/INFO]: Stopping server
+[17:53:02] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v4.2.1-b786
+[17:53:02] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[17:53:02] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.1-b834
+[17:53:02] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v4.2.0-b762
+[17:53:02] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[17:53:02] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
+[17:53:02] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.2
+[17:53:02] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.3
+[17:53:02] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[17:53:03] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.3
+[17:53:03] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[17:53:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[17:53:03] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.2.1
+[17:53:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
+[17:53:03] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[17:53:03] [Server thread/INFO]: [LagMeter] Disabling LagMeter v1.17.0
+[17:53:03] [Server thread/INFO]: [LagMeter] Disabled!
+[17:53:03] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.3-SNAPSHOT
+[17:53:03] [Server thread/INFO]: [TWings] Disabling TWings v1.5.0
+[17:53:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[17:53:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:53:03] [Server thread/INFO]: Saving players
+[17:53:03] [Server thread/INFO]: Saving worlds
+[17:53:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:53:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:53:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:53:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:53:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:53:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[17:53:04] [Server thread/INFO]: Flushing Chunk IO
+[17:53:04] [Server thread/INFO]: Closing Thread Pool
+[17:53:04] [Server thread/INFO]: Closing Server
