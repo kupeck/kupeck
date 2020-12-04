@@ -1,5 +1,7 @@
 @echo off
 cls
+ start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+cls
 echo [30m .
 echo [92m                   * 
 echo [92m                 *****
