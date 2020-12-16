@@ -2,17 +2,25 @@
 * {
     font-family: 'Lexend Deca', sans-serif;
 }
+table {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 body {
     text-align: center;
 }
 p {
     font-size: x-large;
 }
+.spacer {
+    color: rgba(0, 0, 0, 0)
+}
 input {
     background-color: white;
     color: black;
     border-color: black;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 5px 5px;
 }
 .out {
@@ -20,4 +28,7 @@ input {
 }
 button {
     margin: 5px 5px;
+    background-color: lightblue;
+    border-width: 0;
+    border-radius: 20px;
 }
