@@ -17,6 +17,19 @@ h1 {
 p {
     font-size: 25px;
 }
+.twitch {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: #9146FF;
+    background-color: #ffffff11;
+    width: 180px;
+    font-size: 55px;
+    text-decoration: underline;
+}
+.twitch:visited {
+    color: #9146FF;
+}
 p a#r:nth-child(1){
     color: red;
 }
