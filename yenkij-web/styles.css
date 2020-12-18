@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #3a3a3a;
+    color: #c2cbcd;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+}
+p {
+    font-size: 25px;
+}
+p a#r:nth-child(1){
+    color: red;
+}
+p a#r:nth-child(2){
+    color: orangered;
+}
+p a#r:nth-child(3){
+    color: yellow;
+}
+p a#r:nth-child(4){
+    color: green;
+}
+p a#r:nth-child(5){
+    color: cyan;
+}
+p a#r:nth-child(6){
+    color: blue;
+}
+p a#r:nth-child(7){
+    color: blueviolet;
+}
+p a#r:nth-child(8){
+    color: red;
+}
+p a#r:nth-child(9){
+    color: orangered;
+}
+p a#r:nth-child(10){
+    color: yellow;
+}
+p a#r:nth-child(11){
+    color: green;
+}
+p a#r:nth-child(12){
+    color: cyan;
+}
+p a#r:nth-child(13){
+    color: blue;
+}
+p a#r:nth-child(14){
+    color: blueviolet;
+}
+p a#r:nth-child(15){
+    color: red;
+}
+p a#r:nth-child(16){
+    color: orangered;
+}
+p a#r:nth-child(17){
+    color: yellow;
+}
+p a#r:nth-child(18){
+    color: green;
+}
+p a#r:nth-child(19){
+    color: cyan;
+}
+p a#r:nth-child(20){
+    color: blue;
+}
+p a#r:nth-child(21){
+    color: blueviolet;
+}
+/*split*/
+h1 a#r:nth-child(1){
+    color: red;
+}
+h1 a#r:nth-child(2){
+    color: orangered;
+}
+h1 a#r:nth-child(3){
+    color: yellow;
+}
+h1 a#r:nth-child(4){
+    color: green;
+}
+h1 a#r:nth-child(5){
+    color: cyan;
+}
+h1 a#r:nth-child(6){
+    color: blue;
+}
+h1 a#r:nth-child(7){
+    color: blueviolet;
+}
+h1 a#r:nth-child(8){
+    color: red;
+}
+h1 a#r:nth-child(9){
+    color: orangered;
+}
+h1 a#r:nth-child(10){
+    color: yellow;
+}
+h1 a#r:nth-child(11){
+    color: green;
+}
+h1 a#r:nth-child(12){
+    color: cyan;
+}
+h1 a#r:nth-child(13){
+    color: blue;
+}
+h1 a#r:nth-child(14){
+    color: blueviolet;
+}
+h1 a#r:nth-child(15){
+    color: red;
+}
+h1 a#r:nth-child(16){
+    color: orangered;
+}
+h1 a#r:nth-child(17){
+    color: yellow;
+}
+h1 a#r:nth-child(18){
+    color: green;
+}
+h1 a#r:nth-child(19){
+    color: cyan;
+}
+h1 a#r:nth-child(20){
+    color: blue;
+}
+h1 a#r:nth-child(21){
+    color: blueviolet;
+}
