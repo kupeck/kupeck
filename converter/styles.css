@@ -9,6 +9,8 @@ table {
 }
 body {
     text-align: center;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
 }
 p {
     font-size: x-large;
@@ -17,14 +19,15 @@ p {
     color: rgba(0, 0, 0, 0)
 }
 input {
-    background-color: white;
+    background-color: rgb(192, 192, 192);
     color: black;
-    border-color: black;
+    border-color: white;
+    border-style: solid;
     border-radius: 20px;
     padding: 5px 5px;
 }
 .out {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(134, 134, 134);
 }
 button {
     margin: 5px 5px;
