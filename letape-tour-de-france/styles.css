@@ -2,7 +2,6 @@
 :root {
     --h5: 1vw;
     --h6: 0.7vw;
-    --mi: 1.4vw;
 }
 * {
     font-family: 'Poppins', sans-serif;
@@ -65,7 +64,6 @@ button {
     :root {
         --h5: 2vw;
         --h6: 1.4vw;
-        --mi: 2.8vw;
     }
     #stuff {
         position: absolute;
