@@ -1,0 +1,92 @@
+@import url('fonts.css');
+:root {
+    --h5: 1vw;
+    --h6: 0.7vw;
+    --mi: 1.4vw;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+}
+video {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#stuff {
+    position: absolute;
+    top: 20%;
+    bottom: 18%;
+    left: 10%;
+    right: 50%;
+    background-color: rgba(255, 255, 0, 0.8);
+    transition: all ease-in-out 0.5s;
+}
+#around {
+    position: relative;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-emphasis: none;
+    text-decoration: none;
+}
+h1 {
+    font-size: 2.7vw;
+}
+h2 {
+    font-size: 2vw;
+}
+h3 {
+    font-size: 1.6vw;
+}
+h4 {
+    font-size: 1.4vw;
+}
+button {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.1vw;
+}
+@media (max-width: 600px), (max-height: 600px) {
+    :root {
+        --h5: 2vw;
+        --h6: 1.4vw;
+        --mi: 2.8vw;
+    }
+    #stuff {
+        position: absolute;
+        top: 5%;
+        bottom: 10%;
+        left: 5%;
+        right: 10%;
+    }
+    h1 {
+        font-size: 5.4vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    h3 {
+        font-size: 3.2vw;
+    }
+    h4 {
+        font-size: 2.8vw;
+    }
+    button {
+        font-size: 2.2vw;
+    }
+}
