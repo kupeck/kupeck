@@ -1,4 +1,31 @@
 body {
     background-color: rgb(2, 0, 20);
     font-family: 'Lexend Deca', sans-serif;
+    z-index: -1;
+}
+#main {
+    z-index: 0;
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
+}
+#to-sd {
+    z-index: 1;
+    position: relative;
+    top: 0;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#from-sd {
+    z-index: 1;
+    position: relative;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
