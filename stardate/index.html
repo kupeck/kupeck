@@ -11,14 +11,16 @@
 <script src="script.js"></script>
 <!--brwoser tab-->
 <title>Stardate Calculator</title>
-    <!--no favicon-->
+    <!--no favicon - yet-->
 </head><body>
+    <h1><br>Stardate Calculator</h1>
+    <p>by kupeck</p>
     <div id="main">
         <div id="to-sd">
-            <input type="y" placeholder="" >
+            <input id="to-sd-date" type="date" placeholder="yyy-mm-dd" value><input id="to-sd-time" type="time" step=1 placeholder="hh:mm:ss" value><button id="to-sd-button" onclick="tosd()">Convert!</button><input id="to-sd-sd" class="readonly" type="text" placeholder="Stardate" readonly>
         </div>
         <div id="from-sd">
-
+            <input id="from-sd-sd" type="text" placeholder="Stardate" value><button id="from-sd-button">Convert!</button><input id="from-sd-time" class="readonly" type="text" placeholder="Time" readonly value>
         </div>
     </div>
 </body></html>

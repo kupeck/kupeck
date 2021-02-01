@@ -1,31 +1,47 @@
+:root {
+    --font-size: 18px;
+}
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
 body {
     background-color: rgb(2, 0, 20);
-    font-family: 'Lexend Deca', sans-serif;
     z-index: -1;
 }
 #main {
     z-index: 0;
-    position: relative;
-    top: 20%;
-    bottom: 20%;
-    left: 30%;
-    right: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #to-sd {
-    z-index: 1;
-    position: relative;
-    top: 0;
-    bottom: 50%;
-    left: 0;
-    right: 0;
-    text-align: center;
+    margin-bottom: 1vw;
 }
-#from-sd {
-    z-index: 1;
-    position: relative;
-    top: 50%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+}
+p {
+    font-size: var(--font-size);
+    color: #ffffff;
+}
+input {
+    background-color: rgb(0, 222, 222);
+    border-width: 0;
+    border-radius: 0;
+    padding: 1vw 1vw;
+    font-size: var(--font-size);
+}
+button {
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1vw;
+    border-radius: 0;
+    font-size: var(--font-size);
+}
+#to-sd-date, #to-sd-time, #from-sd-sd, #to-sd-button, #from-sd-button{
+    margin-right: 1vw;
 }
