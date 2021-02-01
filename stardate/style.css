@@ -44,9 +44,14 @@ button {
 }
 #to-sd-date, #to-sd-time, #from-sd-sd, #to-sd-button, #from-sd-button{
     margin-right: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 #warning {
     position: absolute;
     bottom: 2vw;
     left: 2vw;
+}
+#from-sd-time {
+    width: 40%;
 }
