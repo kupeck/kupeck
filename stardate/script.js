@@ -7,7 +7,7 @@ function tosd() {
     document.getElementById("to-sd-sd").value = tstardate;
 }
 function fromsd() {
-    var fstardate = document.getElementById('from-sd-sd');
+    var fstardate = document.getElementById('from-sd-sd').value;
     var fmiliunix = (fstardate * 1000 * 31536) + 11139552000000;
     var ftime = new Date(fmiliunix);
     console.log("Stardate: " + fstardate + " miliUnix: " + fmiliunix + " Time: " + ftime);
