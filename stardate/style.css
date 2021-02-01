@@ -42,7 +42,8 @@ button {
     border-radius: 0;
     font-size: var(--font-size);
 }
-#to-sd-date, #to-sd-time, #from-sd-sd, #to-sd-button, #from-sd-button{
+#to-sd-date, #to-sd-time, #from-sd-sd, 
+#to-sd-button, #from-sd-button{
     margin-right: 1vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;

@@ -6,7 +6,7 @@ function tosd() {
     console.log("Time: " + ttime + " miliUnix: " + tmiliunix + " Stardate: " + tstardate);
     document.getElementById("to-sd-sd").value = tstardate;
     if (document.getElementById("to-sd-sd").value = "NaN") {
-        alert("You may have to specify AM/PM if that does not work, contact me at: kupeck#9974 on discord")
+        alert("You may have to specify AM/PM and if that doesn't work, contact me at: kupeck#9974 on discord")
     }
 }
 function fromsd() {
