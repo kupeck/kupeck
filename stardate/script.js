@@ -12,4 +12,5 @@ function fromsd() {
     var ftime = new Date(fmiliunix);
     console.log("Stardate: " + fstardate + " miliUnix: " + fmiliunix + " Time: " + ftime);
     document.getElementById('from-sd-time').value = ftime;
+    document.getElementById('warning').innerHTML = "Time is currently displayed in wrong format, it will be fixed, but is completely usable untel then."
 }

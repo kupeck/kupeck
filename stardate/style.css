@@ -45,3 +45,8 @@ button {
 #to-sd-date, #to-sd-time, #from-sd-sd, #to-sd-button, #from-sd-button{
     margin-right: 1vw;
 }
+#warning {
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+}
