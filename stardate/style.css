@@ -54,5 +54,13 @@ button {
     left: 2vw;
 }
 #from-sd-time {
-    width: 43%;
+    width: 43.25%;
 }
+@media screen and (max-width: 1550px) {
+    #to-sd-sd {
+        margin-bottom: 3vw;
+    }
+    #from-sd-sd {
+        margin-top: 3vw;
+    }
+  }
