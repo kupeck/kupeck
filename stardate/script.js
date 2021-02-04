@@ -33,7 +33,6 @@ function tosd() {
     document.getElementById("to-sd-sd").value = tstardate;
     /*if (document.getElementById("to-sd-sd").value = "NaN") {
         warning("You have to fill out all fields, also you may have to specify AM/PM.\n\nIf that doesn't work, contact me at: kupeck#9974 on discord");
-        document.getElementById("to-sd-sd").value = ""
     }*/
 }
 function fromsd() {
