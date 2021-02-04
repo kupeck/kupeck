@@ -1,4 +1,4 @@
-console.log("Loading...")
+console.log("Loading...");
 function warning(text) {
     document.getElementById("warning").innerHTML = (text);
     window.alert(text);
@@ -40,8 +40,8 @@ function tosd() {
 function fromsd() {
     var fstardate = document.getElementById('from-sd-sd').value;
     var fmiliunix = (fstardate * 1000 * 31536) + 11139552000000;
-    var ftime = toUTCtime(fmiliunix)
+    var ftime = toUTCtime(fmiliunix);
     console.log("Stardate: " + fstardate + " miliUnix: " + fmiliunix + " Time: " + ftime);
     document.getElementById('from-sd-time').value = ftime;
 }
-console.log("Loaded.")
+console.log("Loaded.");
