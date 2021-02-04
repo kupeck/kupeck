@@ -16,13 +16,15 @@ function toUTCtime(input) {
     var h = t.getUTCHours();
     var i = t.getUTCMinutes();
     var s = t.getUTCSeconds();
+    var l = t.getUTCMilliseconds();
     var py = padLeadingZeros(y,4);
     var pm = padLeadingZeros(m,2);
     var pd = padLeadingZeros(d,2);
     var ph = padLeadingZeros(h,2);
     var pi = padLeadingZeros(i,2);
     var ps = padLeadingZeros(s,2);
-    return(py + "-" + pm + "-" + pd + "T" + ph + ":" + pi + ":" + ps);
+    var pl = padLeadingZeros(l,3);
+    return(py + "-" + pm + "-" + pd + "T" + ph + ":" + pi + ":" + ps + "+" + pl);
 }
 function tosd() {
     var ttime = document.getElementById('to-sd-date').value + "T" + document.getElementById('to-sd-time').value + "+0000" ;
