@@ -1,3 +1,4 @@
+console.log("Loading...")
 function warning(text) {
     document.getElementById("warning").innerHTML = (text);
     window.alert(text);
@@ -42,3 +43,4 @@ function fromsd() {
     console.log("Stardate: " + fstardate + " miliUnix: " + fmiliunix + " Time: " + ftime);
     document.getElementById('from-sd-time').value = ftime;
 }
+console.log("Loaded.")
