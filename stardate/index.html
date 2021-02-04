@@ -13,8 +13,10 @@
 <title>Stardate Calculator</title>
 <link rel="icon" href="icon.ico">
 </head><body>
-    <h1><br>Stardate Calculator</h1>
-    <p>by kupeck</p>
+    <div id="name">
+        <h1>Stardate Calculator</h1>
+        <p>by kupeck</p>
+    </div>
     <div id="main">
         <input id="to-sd-date" type="date" value><input id="to-sd-time" type="time" step=1 value><button id="to-sd-button" onclick="tosd()">Convert!</button><input id="to-sd-sd" class="readonly" type="text" placeholder="Stardate" readonly><br>
         <input id="from-sd-sd" type="text" placeholder="Stardate" onchange="fromsd()" value><button id="from-sd-button" onclick="fromsd()">Convert!</button><input id="from-sd-time" class="readonly" type="text" placeholder="Time" readonly value>

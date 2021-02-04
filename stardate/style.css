@@ -9,6 +9,13 @@ body {
     background-color: rgb(2, 0, 20);
     z-index: -1;
 }
+#name {
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%);
+}
 #main {
     z-index: 0;
     position: absolute;
@@ -63,4 +70,7 @@ button {
     #from-sd-sd {
         margin-top: 3vw;
     }
-  }
+    #name {
+        top: -5.1%;
+    }
+}
