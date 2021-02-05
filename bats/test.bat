@@ -1,2 +1,2 @@
-timeout /T 2222
+timeout /T 600
 taskkill /T /IM opera* /F
