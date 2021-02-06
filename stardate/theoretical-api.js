@@ -60,3 +60,12 @@ async function handleRequest(request) {
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request))
 })
+/*
+https://api.kupeck.net/stardate?sd=42609.1
+
+{time: ,unix: }
+
+https://api.kupeck.net/stardate?sd=42609.1&ez=true
+
+time
+*/
