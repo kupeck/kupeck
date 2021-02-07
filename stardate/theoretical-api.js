@@ -31,34 +31,36 @@ console.log(output) //later replace with propper response, http code 200
 
 async function handleRequest(request) {
     try {
-        const querystring = request.url.split('?')[1]
+        const querystring = request.url.split('?')[1];
         if (querystring) {
-            const params = querystring.split('&')
-            const sdParam = params.find(y => y.includes('sd'))
-            const tmParam = params.find(y => y.includes('tm'))
-            const uxParam = params.find(y => y.includes('ux'))
-            const ezParam = params.find(y => y.includes('ez'))
-            if (sdParam) {
-                const sd = sdParam.split('=')[1]
-            } else if (tmParam) {
-                const tm = tmParam.split('=')[1]
-            } else if (uxParam) {
-                const ux = uxParam.split('=')[1]
+            const params = querystring.split('&');
+            if (params.find(y => y.includes('sd'))) {
+                const sdParam = params.find(y => y.includes('sd'));
+                const sd = sdParam.split('=')[1];
+            } else if (params.find(y => y.includes('tm'))) {
+                const tmParam = params.find(y => y.includes('tm'));
+                const tm = tmParam.split('=')[1];
+            } else if (params.find(y => y.includes('ux'))) {
+                const uxParam = params.find(y => y.includes('ux'));
+                const ux = uxParam.split('=')[1];
+            } else {
+                return new Response('Wrong or missing syntax', {status: 400})
             }
-            if (ezParam) {
-                const ez = ezParam.split('=')[1]
+            if (params.find(y => y.includes('ez'))) {
+                const ezParam = params.find(y => y.includes('ez'));
+                const ez = ezParam.split('=')[1];
             }
         }
-      
-  
-        return new Response(`Username ${username} has ${repos} repos`, {/*http code*/})
+        
+        
+        return new Response(response, {status: 200})
     } catch (err) {
         console.log(err)
     }
 }
   
 addEventListener('fetch', event => {
-    event.respondWith(handleRequest(event.request))
+    event.respondWith(handleRequest(event.request));
 })
 /*
 https://api.kupeck.net/stardate?sd=42609.1
