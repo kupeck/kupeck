@@ -30,27 +30,28 @@ console.log(output) //later replace with propper response, http code 200
 "=========================================================================================================="
 
 async function handleRequest(request) {
+    var sd, tm, ux = undefined, undefined, undefined
     try {
         const querystring = request.url.split('?')[1];
         if (querystring) {
             const params = querystring.split('&');
             if (params.find(y => y.includes('sd'))) {
                 const sdParam = params.find(y => y.includes('sd'));
-                const sd = sdParam.split('=')[1];
+                var sd = sdParam.split('=')[1];
                 var active = "sd";
             } else if (params.find(y => y.includes('tm'))) {
                 const tmParam = params.find(y => y.includes('tm'));
-                const tm = tmParam.split('=')[1];
+                var tm = tmParam.split('=')[1];
                 var active = "tm";
             } else if (params.find(y => y.includes('ux'))) {
                 const uxParam = params.find(y => y.includes('ux'));
-                const ux = uxParam.split('=')[1];
+                var ux = uxParam.split('=')[1];
                 var active = "ux";
             } else {
                 return new Response('Wrong or missing syntax', {status: 400})
             }
         }
-        if (active == sd) {
+        if (active == "sd") {
             var sdunix = (sd * 1000 * 31536) + 11139552000000;
             function padLeadingZeros(num, size) {
                 var s = num+"";
@@ -76,15 +77,17 @@ async function handleRequest(request) {
                 return(py + "-" + pm + "-" + pd + "T" + ph + ":" + pi + ":" + ps + "+" + pl);
             }
             var output = toUTCtime(sdunix);
-        } else if (tm == active) {
+        } else if (active == "tm") {
             var tmdate = new Date(tm);
             var tmunix = tmdate.getTime();
             var output = ((tmunix - 11139552000000) / 1000) / 31536;
-        } else if (ux == active) {
-            var output = (((ux * 1000) - 11139552000000) / 1000) / 31536
+            console.log(tm + " | " + tmdate + " | " + tmunix)
+        } else if (active == "ux") {
+            var output = (((ux * 1000) - 11139552000000) / 1000) / 31536;
         } else {
-            return new Response('Server error', {status: 400})
+            return new Response('Server error', {status: 500})
         }
+        console.log(output);
         return new Response(output, {status: 200})
     } catch (err) {
         console.log(err)
