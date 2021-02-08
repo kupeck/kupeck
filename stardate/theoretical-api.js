@@ -37,23 +37,55 @@ async function handleRequest(request) {
             if (params.find(y => y.includes('sd'))) {
                 const sdParam = params.find(y => y.includes('sd'));
                 const sd = sdParam.split('=')[1];
+                var active = "sd";
             } else if (params.find(y => y.includes('tm'))) {
                 const tmParam = params.find(y => y.includes('tm'));
                 const tm = tmParam.split('=')[1];
+                var active = "tm";
             } else if (params.find(y => y.includes('ux'))) {
                 const uxParam = params.find(y => y.includes('ux'));
                 const ux = uxParam.split('=')[1];
+                var active = "ux";
             } else {
                 return new Response('Wrong or missing syntax', {status: 400})
             }
-            if (params.find(y => y.includes('ez'))) {
-                const ezParam = params.find(y => y.includes('ez'));
-                const ez = ezParam.split('=')[1];
-            }
         }
-        
-        
-        return new Response(response, {status: 200})
+        if (active == sd) {
+            var sdunix = (sd * 1000 * 31536) + 11139552000000;
+            function padLeadingZeros(num, size) {
+                var s = num+"";
+                while (s.length < size) {s = "0" + s}
+                return s;
+            }
+            function toUTCtime(input) {
+                var t = new Date(input);
+                var y = t.getUTCFullYear();
+                var m = t.getUTCMonth() + 1;
+                var d = t.getUTCDate();
+                var h = t.getUTCHours();
+                var i = t.getUTCMinutes();
+                var s = t.getUTCSeconds();
+                var l = t.getUTCMilliseconds();
+                var py = padLeadingZeros(y,4);
+                var pm = padLeadingZeros(m,2);
+                var pd = padLeadingZeros(d,2);
+                var ph = padLeadingZeros(h,2);
+                var pi = padLeadingZeros(i,2);
+                var ps = padLeadingZeros(s,2);
+                var pl = padLeadingZeros(l,3);
+                return(py + "-" + pm + "-" + pd + "T" + ph + ":" + pi + ":" + ps + "+" + pl);
+            }
+            var output = toUTCtime(sdunix);
+        } else if (tm == active) {
+            var tmdate = new Date(tm);
+            var tmunix = tmdate.getTime();
+            var output = ((tmunix - 11139552000000) / 1000) / 31536;
+        } else if (ux == active) {
+            var output = (((ux * 1000) - 11139552000000) / 1000) / 31536
+        } else {
+            return new Response('Server error', {status: 400})
+        }
+        return new Response(output, {status: 200})
     } catch (err) {
         console.log(err)
     }
@@ -62,12 +94,3 @@ async function handleRequest(request) {
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request));
 })
-/*
-https://api.kupeck.net/stardate?sd=42609.1
-
-{time: ,unix: }
-
-https://api.kupeck.net/stardate?sd=42609.1&ez=true
-
-time
-*/
