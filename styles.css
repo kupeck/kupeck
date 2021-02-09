@@ -19,3 +19,8 @@ button {
     padding: 5px 5px;
     margin-bottom: 5px;
 }
+#bottom {
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+}
