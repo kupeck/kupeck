@@ -21,6 +21,9 @@ button {
 }
 #bottom {
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     height: 5%;
+    right: 0;
+    left: 0;
+    width: 100%;
 }
