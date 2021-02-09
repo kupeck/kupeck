@@ -64,12 +64,13 @@ button {
     width: 350px;
 }
 #bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     height: 5%;
     right: 0;
     left: 0;
     width: 100%;
+    display: block;
 }
 @media screen and (max-width: 1550px) {
     #to-sd-sd {
