@@ -1,0 +1,26 @@
+@import url('../fonts/stylesheet.css');
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+table {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    table-layout: fixed;
+    width: 1000px;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+td {
+    text-align: center;
+}
+.i {
+    color: coral;
+}
+.ii {
+    color: rgb(255, 68, 0);
+}
