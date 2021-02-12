@@ -19,12 +19,3 @@ button {
     padding: 5px 5px;
     margin-bottom: 5px;
 }
-#bottom {
-    position: fixed;
-    bottom: 0%;
-    height: 5%;
-    right: 0;
-    left: 0;
-    width: 100%;
-    display: block;
-}
