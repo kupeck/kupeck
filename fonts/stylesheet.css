@@ -24,3 +24,16 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Material Icons';
+    src: url('fonts/MaterialIcons-Regular.eot');
+    src: url('fonts/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MaterialIcons-Regular.woff2') format('woff2'),
+        url('fonts/MaterialIcons-Regular.woff') format('woff'),
+        url('fonts/MaterialIcons-Regular.ttf') format('truetype'),
+        url('fonts/MaterialIcons-Regular.svg#MaterialIcons-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
