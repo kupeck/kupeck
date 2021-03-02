@@ -1,10 +1,8 @@
 function vyber(vyber) {
     if(vyber % 100 == 0) {
-        if(vyber == 200 || vyber == 400) {
-            var output = "yaa";
-        } else if(vyber == 300) {
-            var output = "na";
-        } else if(vyber >= 500) {
+        if(vyber == 200) {
+            var output = "ya";
+        } else if(vyber >= 400) {
             var output = "ya";
         } else {
             var output = "na";
