@@ -8,5 +8,5 @@ while i < 1001:
         print("FizzBuzz")
     else:
         print(str(i))
-    i = i + 1
+    i += 1
 print("done.")
