@@ -1,0 +1,24 @@
+body {
+    background-color: #1D1E22;
+}
+#r1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 33%;
+}
+#r2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 33%;
+    left: 33%
+}
+#rc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 67%;
+    left: 0;
+}
