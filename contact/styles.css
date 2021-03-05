@@ -1,0 +1,43 @@
+@import url('../fonts/stylesheet.css');
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+body {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+a {
+    color: #aaa;
+}
+a:visited {
+    color: #aaa;
+}
+button {
+    border-radius: 20px;
+    border-width: 0;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    height: 15px;
+}
+input {
+    border-radius: 20px;
+    border-width: 0;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    height: 15px;
+}
+textarea {
+    border-radius: 20px;
+    border-width: 0;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 300px;
+}
