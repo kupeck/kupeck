@@ -44,3 +44,6 @@ textarea {
     height: 40px;
     width: 300px;
 }
+.bigger {
+    font-size: x-large;
+}
