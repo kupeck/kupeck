@@ -13,11 +13,12 @@
     <div class="center">
         <h1>kupeck | contact</h1>
         <p>Email: <a href="mailto:kupeck@kupeck.net">kupeck@kupeck.net</a></p><br>
-        <form name="contact" id="contact" netlify>
+        <form name="contact" id="contact" data-netlify-recaptcha="true" netlify>
                 <label>Jméno: </label><br><input type="text" name="Jméno" placeholder="John Smith"/><br><br>
                 <label>E-Mail: </label><br><input type="email" name="E-Mail" placeholder="vy@example.com"/><br><br>
                 <label>Vaše zpráva: </label><br><textarea form="contact" name="Zpráva" placeholder="Vaše zpráva..."></textarea><br><br>
-                <input type="submit" value="Odeslat" class="formsubmit">
+                <input type="submit" value="Odeslat" class="formsubmit"><br>
+                <div data-netlify-recaptcha="true"></div>
         </form>
     </div>
 </body></html>
