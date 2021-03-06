@@ -1,9 +1,13 @@
 <!DOCTYPE html><html><head>
 <script>
+var i = 0;
 while(true) {
-    var box = prompt("WOOOOOOOOOOOOOOOOOOOOOOOO",box)
+    document.getElementById('count').innerHTML = i;
+    var box = prompt("WOOOOOOOOOOOOOOOOOOOOOOOO",box);
+    var i = i + 1;
 }
 </script>
 </head><body>
-<h1>Test</h1>
+<h1>Count:</h1>
+<p id="count"></p>
 </body></html>
