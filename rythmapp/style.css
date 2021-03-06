@@ -6,14 +6,18 @@ body {
     top: 0;
     bottom: 0;
     right: 0;
-    left: 33%;
+    left: 67%;
+    padding: 0 0;
+    border-width: 0;
 }
 #r2 {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 33%;
-    left: 33%
+    left: 33%;
+    padding: 0 0;
+    border-width: 0;
 }
 #rc {
     position: absolute;
@@ -21,4 +25,6 @@ body {
     bottom: 0;
     right: 67%;
     left: 0;
+    padding: 0 0;
+    border-width: 0;
 }
