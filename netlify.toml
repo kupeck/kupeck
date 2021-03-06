@@ -6,48 +6,48 @@
 [[redirects]]
     from = "/index.html"
     to = "/"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/alerts/index.html"
     to = "/alerts"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/bats/index.html"
     to = "/bats"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/contact/index.html"
     to = "/contact"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/contact/success/index.html"
     to = "/contact/success"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/converter/index.html"
     to = "/converter"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/rythmapp/index.html"
     to = "/rythmapp"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
 [[redirects]]
     from = "/yenkij-web/index.html"
     to = "/yenkij-web"
-    status = 200
+    status = 302
     force = true
     query = {path = ":path"}
